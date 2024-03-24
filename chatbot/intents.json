@@ -1,52 +1,197 @@
 {
     "intents": [
-        {"tag": "greeting",
-        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
-        "responses": ["Hi! I am CentBot, How can I help you?"]
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you?",
+                "Is anyone there?",
+                "Hey",
+                "Hello",
+                "Good day",
+                "Hey, CentBot",
+                "Hi, can you help me?",
+                "Hola",
+                "Ekse, what's up?",
+                "Hi",
+                "Ekse"
+            ],
+            "responses": ["Hi! I am CentBot, How can I help you?"]
         },
-        {"tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
-        "responses": ["See you!", "Have a nice day", "Sure Bye"]
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Ok, bye",
+                "Bye-bye",
+                "Take care",
+                "Until next time",
+                "Catch you later",
+                "I'm off, goodbye",
+                "Farewell"
+            ],
+            "responses": ["See you!", "Have a nice day", "Sure Bye"]
         },
-        {"tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks a lot",
+                "I appreciate it",
+                "Thanks for your assistance",
+                "You've been very helpful, thank you",
+                "Thanks a bunch",
+                "I'm grateful, thank you"
+            ],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
         },
-        {"tag": "noanswer",
-        "patterns": [],
-        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
         },
-        {"tag": "programs_info",
-        "patterns": ["What kind of programs does Centennial College offer?", "Programs offered at Centennial College?"],
-        "responses": ["Centennial College offers almost 200 full-time and about 150 part-time programs in various fields including business, communications, community and health studies, general arts, English language studies, engineering technology, hospitality, tourism, and transportation."]
+        {
+            "tag": "programs_info",
+            "patterns": [
+                "Tell me about Centennial's programs",
+                "What programs are available?",
+                "Give me info on the courses",
+                "I want to know about the programs",
+                "Can you list the available programs?",
+                "What degrees can I pursue?",
+                "Give me details on the courses offered",
+                "Information about academic programs",
+                "Tell me what I can study at Centennial",
+                "Courses and programs overview"
+            ],
+            "responses": ["Centennial College offers almost 200 full-time and about 150 part-time programs in various fields including business, communications, community and health studies, general arts, English language studies, engineering technology, hospitality, tourism, and transportation."]
         },
-        {"tag": "application_deadline",
-        "patterns": ["When should I apply?", "Application deadline for Centennial College?"],
-        "responses": ["You should apply as soon as possible once you know that Centennial College is an option for you. While there is no deadline for applications, many programs fill up months before their start time, so apply early for your best chances of admission."]
+        {
+            "tag": "application_deadline",
+            "patterns": [
+                "When is the application deadline?",
+                "When should I apply?",
+                "Application deadline for Centennial College",
+                "What's the deadline for applying?",
+                "By when should I submit my application?",
+                "When do applications close?",
+                "Last date to apply?",
+                "What's the cutoff for applications?",
+                "When's the final application date?",
+                "Deadline to apply for admission?",
+                "Application cutoff date?",
+                "When's the last chance to apply?"
+            ],
+            "responses": ["You should apply as soon as possible once you know that Centennial College is an option for you. While there is no deadline for applications, many programs fill up months before their start time, so apply early for your best chances of admission."]
         },
-        {"tag": "application_process",
-        "patterns": ["How do I apply?", "Application process for Centennial College?"],
-        "responses": ["For full-time programs (except apprenticeships), please apply online at www.ontariocolleges.ca. For part-time programs, please register by phone, fax, or online."]
+         {
+            "tag": "application_process",
+            "patterns": [
+                "How do I apply?",
+                "Application process for Centennial College",
+                "Application process",
+                "What's the application procedure?",
+                "Guide me through the application process",
+                "Steps to apply?",
+                "How can I submit my application?",
+                "Explain the application steps",
+                "Process for applying?",
+                "What's involved in applying?",
+                "Application submission process?",
+                "Walk me through applying"
+            ],
+            "responses": ["For full-time programs (except apprenticeships), please apply online at www.ontariocolleges.ca. For part-time programs, please register by phone, fax, or online."]
         },
-        {"tag": "after_application",
-        "patterns": ["What happens after I have applied?", "After applying to Centennial College?"],
-        "responses": ["Once our Admissions Department receives your application, you will receive an acknowledgement letter and further instructions if needed. Successful candidates will receive an offer of admission along with a fee statement."]
+        {
+            "tag": "after_application",
+            "patterns": [
+                "What happens post-application?",
+                "What happens after I have applied?",
+                "After applying to Centennial College?",
+                "After application",
+                "After applying, what's next?",
+                "I've applied, what now?",
+                "What's the next step after application?",
+                "What to expect after submitting my application?",
+                "Post-application procedures?",
+                "After applying, what should I do?",
+                "Process after submitting application?",
+                "I've sent"
+            ],
+            "responses": ["Once our Admissions Department receives your application, you will receive an acknowledgment letter and further instructions if needed. Successful candidates will receive an offer of admission along with a fee statement."]
         },
-        {"tag": "acceptance_info",
-        "patterns": ["I have been accepted! What happens next?", "Next steps after acceptance to Centennial College?"],
-        "responses": ["After accepting your offer, you will receive a package from Centennial College containing information on assessment testing, fee payment, making your timetable, etc."]
+        {
+            "tag": "acceptance_info",
+            "patterns": [
+                "I have been accepted! What happens next?",
+                "Next steps after acceptance to Centennial College?",
+                "Next steps after acceptance",
+                "After acceptance",
+                "Got accepted, now what?",
+                "Accepted! What's the process now?",
+                "Accepted my offer, what's next?",
+                "I received an acceptance letter. What's next?",
+                "After acceptance, what should I do?",
+                "Offered admission. What are the next steps?",
+                "Accepted to Centennial College. What now?",
+                "I got in! What's the procedure?"
+            ],
+            "responses": ["After accepting your offer, you will receive a package from Centennial College containing information on assessment testing, fee payment, making your timetable, etc."]
         },
-        {"tag": "waitlist_process",
-        "patterns": ["How does the waitlist process work?", "Centennial College waitlist process?"],
-        "responses": ["After May 1, if spaces become available, additional offers are sent to the highest qualified waitlisted applicants based on an average of the required subjects."]
+        {
+            "tag": "waitlist_process",
+            "patterns": [
+                "How does the waitlist process work?",
+                "Centennial College waitlist process?",
+                "What happens if I'm waitlisted?",
+                "On the waitlist. Now what?",
+                "Waitlist process",
+                "Waitlisted at Centennial. What to expect?",
+                "Waitlist status. What's next?",
+                "Understanding the waitlist at Centennial College",
+                "What does it mean to be on the waitlist?",
+                "How long is the waitlist?",
+                "Can I check my position on the waitlist?"
+            ],
+            "responses": ["After May 1, if spaces become available, additional offers are sent to the highest qualified waitlisted applicants based on an average of the required subjects."]
         },
-        {"tag": "last_day_apply",
-        "patterns": ["When is the last day that I can apply for a program that starts in the Fall?", "Application deadline for Fall programs at Centennial College?"],
-        "responses": ["Applicants are strongly encouraged to apply by February 1 for equal consideration. Applications received after this date will still be accepted if space is available."]
+        {
+            "tag": "last_day_apply_fall_semester",
+            "patterns": [
+                "When is the last day that I can apply for a program that starts in the Fall?",
+                "Application deadline for Fall programs at Centennial College?",
+                "Deadline to apply for Fall semester?",
+                "Last date to submit Fall program applications?",
+                "When's the cutoff for Fall admissions?",
+                "Final day to apply for Fall intake?",
+                "Can I still apply for Fall programs?",
+                "Is it too late to apply for Fall semester?",
+                "Deadline for Fall program applications?",
+                "Closing date for Fall admissions?"
+            ],
+            "responses": ["Applicants are strongly encouraged to apply by February 1 for equal consideration. Applications received after this date will still be accepted if space is available."]
         },
-        {"tag": "defer_application",
-        "patterns": ["Can I defer my application to a different intake?", "Deferring admission at Centennial College?"],
-        "responses": ["Centennial College does not defer admissions decisions, but you can apply for a different intake through ontariocolleges.ca."]
+        {
+            "tag": "defer_application",
+            "patterns": [
+                "Can I defer my application to a different intake?",
+                "Deferring admission at Centennial College?",
+                "Defer application",
+                "Is it possible to delay my application?",
+                "Can I postpone my admission to another semester?",
+                "Delaying my application to a later intake",
+                "Requesting a deferral for my application",
+                "Is deferring admission allowed?",
+                "How do I apply for admission deferral?",
+                "Can I defer my acceptance to next year?",
+                "Deferment of admission to a later date?"
+            ],
+            "responses": ["Centennial College does not defer admissions decisions, but you can apply for a different intake through ontariocolleges.ca."]
         },
         {"tag": "transcript_evaluation",
         "patterns": ["Will you accept transcripts and diplomas from private colleges?", "Transcript evaluation at Centennial College?"],
