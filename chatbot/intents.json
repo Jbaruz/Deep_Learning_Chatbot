@@ -390,7 +390,7 @@
                 "What about part-time education at Centennial College?"
             ],
             "responses": ["Yes, Centennial College offers part-time programs for students who prefer a flexible schedule."]
-        }
+        },
         {
             "tag": "intl_admission_requirements",
             "patterns": [
