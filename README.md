@@ -4,9 +4,10 @@ Welcome to the Chatbot Project! This guide covers everything you need to know ab
 ## Project Structure Overview
 The project is structured as follows:
 
+```
 chatbot_project/
 │
-├── app/                      # Flask application
+├── app/
 │   ├── static/
 │   │   └── js/
 │   │       └── jquery.min.js
@@ -15,26 +16,30 @@ chatbot_project/
 │   ├── __init__.py
 │   └── routes.py
 │
-├── chatbot/                  # Chatbot logic and model
+├── chatbot/
 │   ├── __init__.py
 │   ├── model.py
 │   ├── processing.py
 │   └── intents.json
 │
-├── notebooks/                # Jupyter notebooks for analysis and testing
+├── notebooks/
 │   ├── data_exploration.ipynb
 │   ├── model_training.ipynb
 │   ├── performance_evaluation.ipynb
 │   └── feature_testing.ipynb
 │
-├── tests/                    # Unit tests
+├── tests/
 │   ├── __init__.py
 │   └── test_processing.py
 │
-├── Pipfile                   # Project dependencies
+├── Pipfile
 ├── Pipfile.lock
-├── .gitignore                # Specifies intentionally untracked files to ignore
-└── run.py                    # Entry point to run the Flask app
+├── .gitignore
+└── run.py
+
+
+```
+
 
 
 ## Getting Started
