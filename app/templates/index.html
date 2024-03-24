@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>CentBot</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url("https://macleans.ca/wp-content/uploads/2023/09/27-Centennial-A-Block-Expansion-16.07.23.jpg"); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      min-height: 80vh; 
+    }
+    #chatbot-container {
+      background-color: #DFE86F;
+      padding: 10px;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 50px;
+      height: 50px; 
+      overflow: hidden;
+      transition: all 0.5s ease;
+    }
+    #logo {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 45%;
+      transform: translate(-30%, -30%);
+    }
+    #logo-img {
+      width: 80%;
+      height: 80%;
+      object-fit: contain; 
+    }
+    #chatbot-container.expanded {
+      width: 200px;
+      height: auto;
+      padding: 15px;
+      width: 250px;
+      overflow: auto;
+      min-height: 20vh;
+      border-radius: 20px; //before 10
+    }
+    #chatbot-container:not(.expanded) #logo {
+      display: block;
+   }
+    #response {
+      height: 100px;
+      overflow-y: auto;
+      margin: 12px; 
+    }
+    .content {
+      display: none;
+    }
+    #chatbot-container.expanded .content {
+      display: flex;
+      flex-direction: column; 
+      justify-content: space-between;
+    }
+    #title {
+      display: none;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    #title-row {
+      display: block; 
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    #chatbot-container.expanded #title {
+      display: block;
+    }
+    #submit-button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      font-size: 9px;
+      border-radius: 30px;
+      box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+    #submit-button:hover {
+      background-color: #464648;
+    }
+    #close-button {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      cursor: pointer;  
+      display: none;
+      padding: 10px;
+    }
+    #chatbot-container.expanded #close-button {
+      display: block;
+    }
+    .input-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin-bottom: 10px; /* Space between input row and bottom of the chat container */
+    }
+        
+    .input-row .form-control {
+      flex-grow: 1; /* Input field takes up the maximum width */
+      border-radius: 15px; /* Rounded corners */
+      padding: 10px 15px; /* Padding inside the input field */
+      margin-right: 10px; /* Space between input field and button */
+      border: 1px solid #ced4da; /* Similar to Bootstrap's default border color */
+    }
+    
+    .input-row .btn-block {
+      width: auto; /* Allow button width to shrink */
+      padding: 6px 18px; /* Adjust padding to make button less wide */
+    }
+    .user-question {
+      background-color: #007bff; 
+      font-size: 9px;
+      color: #fff;
+    }  
+    .bot-response {
+      background-color: #e9ecef;
+      font-size: 9px;
+    }
+    .chat-bubble {
+      padding: 5px 20px 5px;
+      border-radius: 25px;
+      max-width: calc(100% - 40px);
+      word-wrap: break-word;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatbot-container">
+    <div id="logo"><img src="https://cdn-icons-png.flaticon.com/512/4712/4712038.png" 
+        alt="Logo"
+        id="logo-img"></div>
+
+    <div class="content">
+    <div id="title-row"> 
+        <div id="title"><strong>CentBot</strong></div>
+        <div id="close-button">⨉</div>
+    </div>
+      <div class="row">
+        <div class="col">
+          <p id="response"></p>
+        </div>
+      </div>
+    <div class="row input-row">
+      <div class="col-xs-9">
+        <input class="form-control" type="text" name="question" id="question">
+      </div>
+      <div class="col-xg-3">
+        <button class="btn btn-success" id="submit-button">Send</button> <!-- Removed btn-block class -->
+      </div>
+    </div>
+    </div>
+  </div>
+
+ <!-- <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+  jQuery(document).ready(function() {
+    // Define a function to update the chat with a new message and auto-scroll
+    function updateChat(question, response) {
+      // Initialize an empty string to build the HTML
+      var chatHtml = "";
+      // Check if the question is not empty, append the user's question
+      if(question !== "") {
+        chatHtml += "<div class='user-question chat-bubble'><span>Me:</span> " + question + "</div>";
+      }
+      // Append the bot's response
+      chatHtml += "<div class='bot-response chat-bubble'><span>CentBot: </span>" + response + "</div>";
+      
+      $("#response").append(chatHtml);
+      // Auto-scroll to the bottom of the chat to show the latest message
+      $("#response").scrollTop($("#response")[0].scrollHeight);
+    }
+
+    // Show a welcome message when the chatbot is expanded
+    function showWelcomeMessage() {
+      var welcomeMessage = "Hi! I am CentBot, How can I help you?";
+      // Only append the welcome message if it's not already there
+      if ($("#response").is(":empty")) {
+        updateChat("", welcomeMessage); // Pass an empty string for the question
+      }
+    }
+
+    // Open and expand the chatbot container
+    $("#chatbot-container").click(function(e) {
+      if (!$(this).hasClass("expanded")) {
+        $(this).addClass("expanded");
+        // Call the function to show a welcome message
+        showWelcomeMessage();
+        e.stopPropagation();
+      }
+    });
+
+    // Close and collapse the chatbot container
+    $("#close-button").click(function(e) {
+      $("#chatbot-container").removeClass("expanded");
+      e.stopPropagation();
+    });
+
+    // Send message when the submit button is clicked or when Enter is pressed
+    function sendMessage(e) {
+      e.preventDefault();
+      var questionData = $("#question").val().trim();
+      if (questionData === "") return; // Don't send empty messages
+      
+      $.ajax({
+        type: "POST",
+        url: "/chatbot",
+        contentType: 'application/json;charset=UTF-8',
+        dataType: 'json',
+        data: JSON.stringify({ question: questionData }),
+        success: function(result) {
+          // Update the chat with the response and auto-scroll
+          updateChat(questionData, result.response);
+          $("#question").val(""); // Clear the input field
+        },
+        error: function(xhr) {
+          console.error("Error:", xhr.responseText); // Log the error to the console
+          alert('Error - ' + xhr.responseText);
+        }
+      });
+    }
+
+    // Attach the sendMessage function to the submit button click event
+    $("#submit-button").click(sendMessage);
+
+    // Attach the sendMessage function to the Enter keypress event for the input field
+    $("#question").keypress(function(e) {
+      if (e.which == 13) { // Enter key has a keycode of 13
+        sendMessage(e);
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>
