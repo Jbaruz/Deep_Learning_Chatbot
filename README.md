@@ -74,7 +74,7 @@ It's a good practice to ensure your pip is up-to-date:
 python -m pip install --upgrade pip
 
 ```
-Installation pipenv gloabally windows
+Installation pipenv globally windows
 
 ```bash
 pip install pipenv
@@ -105,6 +105,8 @@ pipenv shell
 
 ## Running the Application
 
+- Create chatbot_model.h5, words.pkl, classes.pkl running model.py
+
 ### Flask Application
 
 Set the `FLASK_APP` environment variable to `run.py` and start the Flask application:
@@ -114,7 +116,17 @@ export FLASK_APP=run.py  # Unix/macOS
 set FLASK_APP=run.py  # Windows
 
 flask run
+
+# or
+
+pipenv run python run.py
+
+# or
+
+pipenv run.py
 ```
+
+
 
 Access the application at `http://127.0.0.1:5000/`.
 
