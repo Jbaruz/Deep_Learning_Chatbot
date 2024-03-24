@@ -485,7 +485,7 @@
                 "Do you have any programs to help with tuition costs?",
                 "Are there opportunities for financial assistance for students?"
             ],
-            "responses": ["Yes, Centennial College offers scholarships, awards, and financial aid options to eligible students]
+            "responses": ["Yes, Centennial College offers scholarships, awards, and financial aid options to eligible students"]
         },
         {
             "tag": "student_support_services",
