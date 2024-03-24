@@ -81,7 +81,7 @@ pip install pipenv
 
 ```
 
-#### Choose the python version
+#### Choose the python version into your folder project
 ```
 pipenv --python 3.11
 
@@ -89,7 +89,7 @@ pipenv --python 3.11
 
 ### Installing Dependencies
 
-Use pipenv to create a virtual environment and install the required dependencies:
+Use pipenv to create a virtual environment and install the required dependencies into your folder project:
 
 ```bash
 pipenv install flask keras numpy nltk scikit-learn seaborn
