@@ -72,6 +72,19 @@ It's a good practice to ensure your pip is up-to-date:
 
 ```bash
 python -m pip install --upgrade pip
+
+```
+Installation pipenv gloabally windows
+
+```bash
+pip install pipenv
+
+```
+
+#### Choose the python version
+```
+pipenv --python 3.11
+
 ```
 
 ### Installing Dependencies
