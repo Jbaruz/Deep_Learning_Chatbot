@@ -193,228 +193,743 @@
             ],
             "responses": ["Centennial College does not defer admissions decisions, but you can apply for a different intake through ontariocolleges.ca."]
         },
-        {"tag": "transcript_evaluation",
-        "patterns": ["Will you accept transcripts and diplomas from private colleges?", "Transcript evaluation at Centennial College?"],
-        "responses": ["Most private college courses and credentials are not acceptable for Centennial College programs. Please contact admissions@centennialcollege.ca for more information."]
-        },        
-        {"tag": "eligibility_decision",
-        "patterns": ["On myApplication, it states that I have met eligibility, but no decision has been made. If I am meeting eligibility, why is there no offer?",
-              "Eligibility status on myApplication but no offer from Centennial College?"],
-        "responses": ["If you have applied to a competitive program, it is possible that a decision has yet to be made or that you have been added to the waitlist."]
+        {
+            "tag": "transcript_evaluation",
+            "patterns": [
+                "Will you accept transcripts and diplomas from private colleges?",
+                "Transcript evaluation at Centennial College?",
+                "Transcript evaluation",
+                "Can I submit transcripts from a private college?",
+                "How are transcripts from private colleges evaluated?",
+                "What about diplomas from private institutions?",
+                "Do private college transcripts count for admission?",
+                "Can I transfer credits from a private college?",
+                "Are transcripts from private institutions recognized?",
+                "Do I need to provide transcripts from a private college?",
+                "Are private college diplomas accepted for admission?"
+            ],
+            "responses": ["Most private college courses and credentials are not acceptable for Centennial College programs. Please contact admissions@centennialcollege.ca for more information."]
+        },      
+        {
+            "tag": "eligibility_decision",
+            "patterns": [
+                "On myApplication, it states that I have met eligibility, but no decision has been made. If I am meeting eligibility, why is there no offer?",
+                "Eligibility status on myApplication but no offer from Centennial College?",
+                "What does it mean if I'm eligible but haven't received an offer?",
+                "Eligibility confirmed but no offer received?",
+                "I meet the eligibility criteria but haven't received an offer, why?",
+                "Eligibility met but no admission decision yet?",
+                "Eligibility check complete but no offer, why?",
+                "Why am I eligible but haven't received an admission decision?",
+                "Eligibility confirmed but no admission offer, what now?",
+                "Eligibility status says met, but no offer, what does this mean?"
+            ],
+            "responses": ["If you have applied to a competitive program, it is possible that a decision has yet to be made or that you have been added to the waitlist."]
         },
-        {"tag": "late_payment_reinstatement",
-        "patterns": ["I missed my deadline to pay and my acceptance is expired. Can I be placed back in the program?",
-              "Missed payment deadline for Centennial College acceptance. Can I still be enrolled?"],
-        "responses": ["If you have missed the deadline to pay, but still wish to pay and enroll, please contact admissions@centennialcollege.ca."]
+        {
+            "tag": "late_payment_reinstatement",
+            "patterns": [
+                "I missed my deadline to pay and my acceptance is expired. Can I be placed back in the program?",
+                "Missed payment deadline for Centennial College acceptance. Can I still be enrolled?",
+                "Can I still enroll if I missed the payment deadline for acceptance?",
+                "Payment deadline missed, can I still join the program?",
+                "Is it possible to reinstate my acceptance after missing the payment deadline?",
+                "I missed the acceptance payment deadline, can I still enroll?",
+                "My acceptance expired due to missed payment deadline, can I reapply?",
+                "Can I pay late and still be accepted into the program?",
+                "What happens if I miss the deadline for acceptance payment?",
+                "I forgot to pay on time, can I still get into the program?"
+            ],
+            "responses": ["If you have missed the deadline to pay, but still wish to pay and enroll, please contact admissions@centennialcollege.ca."]
         },
-        {"tag": "international_transcript_evaluation",
-        "patterns": ["Do my international transcripts have to be evaluated?",
-              "International transcript evaluation for Centennial College admission?"],
-        "responses": ["If you have previously attended an education institution outside of Canada, you must have the transcripts assessed by an independent credential assessment agency."]
+        {
+            "tag": "international_transcript_evaluation",
+            "patterns": [
+                "Do my international transcripts have to be evaluated?",
+                "International transcript evaluation for Centennial College admission?",
+                "Are international transcripts assessed for admission?",
+                "What is the process for evaluating international transcripts?",
+                "Do I need to get my foreign transcripts evaluated?",
+                "Are transcripts from outside Canada accepted?",
+                "How are international transcripts reviewed for admission?",
+                "What about transcripts from universities abroad?",
+                "Are foreign transcripts considered for admission?",
+                "Do I need to submit my foreign education documents?"
+            ],
+            "responses": ["If you have previously attended an education institution outside of Canada, you must have the transcripts assessed by an independent credential assessment agency."]
         },
-        {"tag": "high_school_transcripts_for_grad_cert",
-        "patterns": ["Do I have to submit my high school transcripts for a graduate certificate program?",
-              "High school transcripts required for graduate certificate program at Centennial College?"],
-        "responses": ["Graduate certificate programs require a college diploma or a university degree. It is not necessary to submit your high school transcripts for admission into these programs."]
+        {
+            "tag": "high_school_transcripts_for_grad_cert",
+            "patterns": [
+                "Do I have to submit my high school transcripts for a graduate certificate program?",
+                "High school transcripts required for graduate certificate program at Centennial College?",
+                "Are high school transcripts needed for grad certificate program?",
+                "Do I need to provide high school transcripts for grad certificate?",
+                "Are high school grades necessary for grad certificate admission?",
+                "High school records needed for grad certificate?",
+                "Should I send my high school transcripts for grad certificate admission?",
+                "Do grad certificate programs require high school grades?",
+                "Are high school marks necessary for grad certificate admission?",
+                "Do I need to include high school transcripts for grad certificate application?"
+            ],
+            "responses": ["Graduate certificate programs require a college diploma or a university degree. It is not necessary to submit your high school transcripts for admission into these programs."]
         },
-        {"tag": "admission_test_for_under_19",
-        "patterns": ["I am under 19 years old and do not have the academic credits to meet the admission requirements. Can I write the admission test?",
-              "Admission test for applicants under 19 at Centennial College?"],
-        "responses": ["Most programs permit applicants to complete an admission test."]
+        {
+            "tag": "admission_test_for_under_19",
+            "patterns": [
+                "I am under 19 years old and do not have the academic credits to meet the admission requirements. Can I write the admission test?",
+                "Admission test for applicants under 19 at Centennial College?",
+                "Can I take an admission test if I'm under 19?",
+                "Is there an admission exam for students under 19?",
+                "Do applicants under 19 have to take an admission test?",
+                "Are there tests available for under 19 applicants?",
+                "Can I write an entrance exam if I'm younger than 19?",
+                "Is there a test option for those under 19?",
+                "Are there admission exams for students below 19?",
+                "Do I need to take an entrance exam if I'm not yet 19?"
+            ],
+            "responses": ["Most programs permit applicants to complete an admission test."]
         },
-        {"tag": "skills_assessments_for_admission",
-        "patterns": ["Can I take your skills assessments to meet the admission requirements for all of your programs?",
-              "Skills assessments for admission to Centennial College programs?"],
-        "responses": ["Canadian students can take our skills assessments to meet the academic requirements for most college diploma programs."]
+        {
+            "tag": "skills_assessments_for_admission",
+            "patterns": [
+                "Can I take your skills assessments to meet the admission requirements for all of your programs?",
+                "Skills assessments for admission to Centennial College programs?",
+                "Do all programs require skills assessments for admission?",
+                "Can I fulfill admission requirements with skills assessments?",
+                "Are skills assessments mandatory for all program admissions?",
+                "Can I use skills assessments for all programs?",
+                "Do skills assessments apply to all admissions?",
+                "Are there skill tests for admission to all programs?",
+                "Can I meet program requirements with skills assessments?",
+                "Do I need to pass skills assessments for all admissions?"
+            ],
+            "responses": ["Canadian students can take our skills assessments to meet the academic requirements for most college diploma programs."]
         },
-        {"tag": "missed_offer_acceptance_deadline",
-        "patterns": ["I missed my deadline to accept my offer and the offer has expired. Can I still accept the offer?",
-              "Missed offer acceptance deadline at Centennial College. Can the offer be extended?"],
-        "responses": ["If you missed the deadline to accept your offer, and still wish to accept it, please contact us."]
+        {
+            "tag": "missed_offer_acceptance_deadline",
+            "patterns": [
+                "I missed my deadline to accept my offer and the offer has expired. Can I still accept the offer?",
+                "Missed offer acceptance deadline at Centennial College. Can the offer be extended?",
+                "Can I still accept my offer after missing the deadline?",
+                "Missed offer acceptance deadline",
+                "Offer acceptance deadline passed, can I still enroll?",
+                "Expired offer due to missed acceptance deadline, can I still join?",
+                "Missed the deadline to accept my offer, can I still get in?",
+                "Can I extend the offer acceptance deadline?",
+                "What if I miss the deadline to accept my offer?",
+                "Can I accept my offer late?",
+                "Offer acceptance period over, can I still accept?"
+            ],
+            "responses": ["If you missed the deadline to accept your offer, and still wish to accept it, please contact us."]
         },
-        {"tag": "timetable_with_conditional_offer",
-        "patterns": ["Can I build a timetable and register for classes with a conditional offer?",
-              "Timetable and class registration with conditional offer at Centennial College?"],
-        "responses": ["Applicants with Conditional Offers of Admission must fulfill all conditions listed in their Offer of Admission letter before building their timetable and registering for classes."]
+        {
+            "tag": "timetable_with_conditional_offer",
+            "patterns": [
+                "Can I build a timetable and register for classes with a conditional offer?",
+                "Timetable and class registration with conditional offer at Centennial College?",
+                "Is it possible to create a timetable with a conditional offer?",
+                "Can I register for classes if I have a conditional offer?",
+                "Timetable with conditional offer",
+                "Building a timetable with a conditional admission offer?",
+                "Can I plan my classes with a conditional acceptance?",
+                "Is timetable creation allowed with a conditional offer?",
+                "Conditional offer and class scheduling, what's the process?",
+                "Can I select classes with a conditional admission?",
+                "Registering for courses with a conditional acceptance?"
+            ],
+            "responses": ["Applicants with Conditional Offers of Admission must fulfill all conditions listed in their Offer of Admission letter before building their timetable and registering for classes."]
         },
-        {"tag": "programs_list",
-        "patterns": ["What programs does Centennial College offer?",
-              "List of programs available at Centennial College?"],
-        "responses": ["Centennial College offers a wide range of programs including business, health sciences, engineering, arts, and technology."]
+        {
+            "tag": "programs_list",
+            "patterns": [
+                "What programs does Centennial College offer?",
+                "List of programs available at Centennial College?",
+                "Can you provide a list of programs offered?",
+                "What are the available programs at Centennial College?",
+                "Which programs can I apply for at Centennial College?",
+                "Program options at Centennial College?",
+                "I want to know about the programs available.",
+                "Can you tell me about the programs offered?",
+                "What kind of programs does Centennial College have?",
+                "Where can I find a list of Centennial College programs?"
+            ],
+            "responses": ["Centennial College offers a wide range of programs including business, health sciences, engineering, arts, and technology."]
         },
-        {"tag": "campus_number",
-        "patterns": ["How many campuses does Centennial College have?", "Number of campuses at Centennial College?"],
-        "responses": ["Centennial College has multiple campuses located across Toronto, including Progress Campus, Morningside Campus, and Ashtonbee Campus."]
+        {
+            "tag": "campus_number",
+            "patterns": [
+                "How many campuses does Centennial College have?",
+                "Number of campuses at Centennial College?",
+                "Number of campuses",
+                "Campus number",
+                "How many locations does Centennial College have?",
+                "Can you tell me about the campuses of Centennial College?",
+                "How many Centennial College campuses are there?",
+                "What's the count of Centennial College campuses?",
+                "I'm curious about the campuses of Centennial College.",
+                "Where are Centennial College campuses located?",
+                "Centennial College campus count?",
+                "Tell me about the campus locations of Centennial College."
+            ],
+            "responses": ["Centennial College has multiple campuses located across Toronto, including Progress Campus, Morningside Campus, and Ashtonbee Campus."]
         },
-        {"tag": "part_time_study",
-        "patterns": ["Can I study part-time at Centennial College?",
-              "Part-time study options at Centennial College?"],
-        "responses": ["Yes, Centennial College offers part-time programs for students who prefer a flexible schedule."]
+        {
+            "tag": "part_time_study",
+            "patterns": [
+                "Can I study part-time at Centennial College?",
+                "Part-time study options at Centennial College?",
+                "Part-time study",
+                "Is part-time enrollment available at Centennial College?",
+                "Can I enroll in part-time courses at Centennial College?",
+                "Do you offer part-time study programs?",
+                "I'm interested in part-time studies, is it possible?",
+                "Are there part-time learning opportunities at Centennial College?",
+                "Can I pursue my studies part-time?",
+                "Is there a part-time study option?",
+                "What about part-time education at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers part-time programs for students who prefer a flexible schedule."]
+        }
+        {
+            "tag": "intl_admission_requirements",
+            "patterns": [
+                "What are the admission requirements for international students?",
+                "International student admission requirements at Centennial College?",
+                "What are the requirements for international students?",
+                "What do international students need for admission?",
+                "Can you explain the admission criteria for international students?",
+                "What qualifications are needed for international student admission?",
+                "Requirements for international students at Centennial College?",
+                "What are the prerequisites for international students?",
+                "Could you outline the admission standards for international students?",
+                "What are the criteria for international student admissions?"
+            ],
+            "responses": ["International students must meet specific admission requirements, including English language proficiency and academic qualifications."]
         },
-        {"tag": "intl_admission_requirements",
-        "patterns": ["What are the admission requirements for international students?",
-              "International student admission requirements at Centennial College?"],
-        "responses": ["International students must meet specific admission requirements, including English language proficiency and academic qualifications."]
+        {
+            "tag": "application_deadline_intl",
+            "patterns": [
+                "Is there a deadline for applying to Centennial College for international students?",
+                "Application deadline for international students at Centennial College?",
+                "When is the application deadline for international students?",
+                "What is the deadline for international student applications?",
+                "Can you tell me the application deadline for international students?",
+                "When do international students need to apply by?",
+                "Is there a specific date for international student applications?",
+                "What's the cutoff date for international student applications?",
+                "When should international students submit their applications?",
+                "What's the last day for international students to apply?"
+            ],
+            "responses": ["Yes, Centennial College has application deadlines for each intake. It's essential to check the specific deadlines for your program of interest."]
         },
-        {"tag": "application_deadline_intl",
-        "patterns": ["Is there a deadline for applying to Centennial College for international students?",
-              "Application deadline for international students at Centennial College?"],
-        "responses": ["Yes, Centennial College has application deadlines for each intake. It's essential to check the specific deadlines for your program of interest."]
+        {
+            "tag": "apply_intl",
+            "patterns": [
+                "How can I apply for admission to Centennial College as an international student?",
+                "Application process for international students at Centennial College?",
+                "What's the procedure for international students to apply to Centennial College?",
+                "Can you guide me through the application process for international students?",
+                "How do international students submit their applications to Centennial College?",
+                "What are the steps for international students to apply to Centennial College?",
+                "I'm an international student. How do I start my application to Centennial College?",
+                "Where do international students begin the application process for Centennial College?",
+                "What's involved in applying to Centennial College as an international student?",
+                "Do you have instructions for international students on applying to Centennial College?"
+            ],
+            "responses": ["You can apply for admission online through the Centennial College website or through the Ontario Colleges application system."]
         },
-        {"tag": "apply_intl",
-        "patterns": ["How can I apply for admission to Centennial College as an international student?",
-              "Application process for international students at Centennial College?"],
-        "responses": ["You can apply for admission online through the Centennial College website or through the Ontario Colleges application system."]
+        {
+            "tag": "intl_tuition_fees",
+            "patterns": [
+                "What are the tuition fees for international students at Centennial College?",
+                "Tuition fees for international students at Centennial College?",
+                "How much does it cost for international students to attend Centennial College?",
+                "Can you provide information about the fees for international students?",
+                "What is the fee structure for international students at Centennial College?",
+                "What are the expenses for international students at Centennial College?",
+                "Are there specific fees for international students?",
+                "How expensive is it for international students to study at Centennial College?",
+                "What's the tuition rate for international students?",
+                "Do international students have to pay higher fees?"
+            ],
+            "responses": ["Tuition fees for international students vary depending on the program and the number of courses taken. It's best to check the specific fees for your program of interest."]
         },
-        {"tag": "intl_tuition_fees",
-        "patterns": ["What are the tuition fees for international students at Centennial College?",
-              "Tuition fees for international students at Centennial College?"],
-        "responses": ["Tuition fees for international students vary depending on the program and the number of courses taken. It's best to check the specific fees for your program of interest."]
+        {
+            "tag": "transfer_credits",
+            "patterns": [
+                "Can I transfer credits from another institution to Centennial College?",
+                "Transfer credit policy at Centennial College?",
+                "How can I transfer credits to Centennial College?",
+                "Are transfer credits accepted at Centennial College?",
+                "What is Centennial College's policy on transferring credits?",
+                "Can I bring credits from my previous college to Centennial College?",
+                "Is there a process for transferring credits to Centennial College?",
+                "Do you allow credit transfers from other universities or colleges?",
+                "Can I use my existing credits towards a program at Centennial College?",
+                "Are there limitations on transferring credits to Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College accepts transfer credits from other institutions, subject to evaluation and approval."]
         },
-        {"tag": "transfer_credits",
-        "patterns": ["Can I transfer credits from another institution to Centennial College?",
-              "Transfer credit policy at Centennial College?"],
-        "responses": ["Yes, Centennial College accepts transfer credits from other institutions, subject to evaluation and approval."]
+        {
+            "tag": "scholarships_financial_aid",
+            "patterns": [
+                "Does Centennial College offer scholarships or financial aid?",
+                "Scholarships and financial aid options at Centennial College?",
+                "What financial support does Centennial College provide?",
+                "Are there scholarships available at Centennial College?",
+                "How can students get financial assistance at Centennial College?",
+                "Is there any aid or funding available for students at Centennial College?",
+                "Can you tell me about the scholarships offered by Centennial College?",
+                "What types of financial aid are available for students at Centennial College?",
+                "Do you have any programs to help with tuition costs?",
+                "Are there opportunities for financial assistance for students?"
+            ],
+            "responses": ["Yes, Centennial College offers scholarships, awards, and financial aid options to eligible students
         },
-        {"tag": "scholarships_financial_aid",
-        "patterns": ["Does Centennial College offer scholarships or financial aid?",
-              "Scholarships and financial aid options at Centennial College?"],
-        "responses": ["Yes, Centennial College offers scholarships, awards, and financial aid options to eligible students."]
+        {
+            "tag": "student_support_services",
+            "patterns": [
+                "What support services are available for students at Centennial College?",
+                "Student support services at Centennial College?",
+                "Student support services",
+                "Support services",
+                "Can you tell me about the support services for students?",
+                "I need assistance, what services does Centennial College provide?",
+                "Where can students get support at Centennial College?",
+                "Are there any resources available to help students?",
+                "What kind of help can students receive at Centennial College?",
+                "Tell me about the student support system at Centennial College.",
+                "How does Centennial College support its students?",
+                "Are there advisors available for students at Centennial College?"
+            ],
+            "responses": ["Centennial College provides various support services for students, including academic advising, career services, counseling, and accessibility services."]
         },
-        {"tag": "student_support_services",
-        "patterns": ["What support services are available for students at Centennial College?",
-              "Student support services at Centennial College?"],
-        "responses": ["Centennial College provides various support services for students, including academic advising, career services, counseling, and accessibility services."]
+        {
+            "tag": "on_campus_housing",
+            "patterns": [
+                "Are there on-campus housing options available at Centennial College?",
+                "On-campus housing options at Centennial College?",
+                "On-campus housing",
+                "Does Centennial College offer dormitories or residence halls?",
+                "Where can students live on campus at Centennial College?",
+                "Can students stay on campus at Centennial College?",
+                "What are the accommodation choices at Centennial College?",
+                "Is there student housing provided by Centennial College?",
+                "I'm looking for on-campus housing, does Centennial College offer it?",
+                "Are there apartments available for students on campus at Centennial College?",
+                "Tell me about the housing facilities at Centennial College."
+            ],
+            "responses": ["Yes, Centennial College offers on-campus housing options for students, including residence halls and apartment-style accommodations."]
         },
-        {"tag": "on_campus_housing",
-        "patterns": ["Are there on-campus housing options available at Centennial College?",
-              "On-campus housing options at Centennial College?"],
-          "responses": ["Yes, Centennial College offers on-campus housing options for students, including residence halls and apartment-style accommodations."]
+        {
+            "tag": "extracurricular_activities",
+            "patterns": [
+                "What extracurricular activities are available for students at Centennial College?",
+                "Student extracurricular activities at Centennial College?",
+                "Extracurricular activities",
+                "Are there clubs or organizations for students to join at Centennial College?",
+                "Tell me about the extracurricular opportunities at Centennial College.",
+                "Can you list some of the extracurricular activities at Centennial College?",
+                "How can students get involved in extracurriculars at Centennial College?",
+                "Do students participate in any non-academic activities at Centennial College?",
+                "I'm interested in joining clubs, what options are there at Centennial College?",
+                "What recreational activities are available for students at Centennial College?",
+                "Are there any sports teams for students at Centennial College?"
+            ],
+            "responses": ["Centennial College offers a variety of extracurricular activities, including student clubs, sports teams, volunteer opportunities, and cultural events."]
         },
-        {"tag": "extracurricular_activities",
-        "patterns": ["What extracurricular activities are available for students at Centennial College?",
-              "Student extracurricular activities at Centennial College?"],
-        "responses": ["Centennial College offers a variety of extracurricular activities, including student clubs, sports teams, volunteer opportunities, and cultural events."]
+        {
+            "tag": "campus_tour",
+            "patterns": [
+                "How can I schedule a campus tour of Centennial College?",
+                "Campus tour scheduling at Centennial College?",
+                "Can I visit the campus of Centennial College?",
+                "Campus tour",
+                "I want to have a campus tour",
+                "I need a campus tour",
+                "I want to take a tour of Centennial College, how do I arrange it?",
+                "When are the campus tours available at Centennial College?",
+                "Do you offer guided tours of Centennial College?",
+                "What's the procedure for arranging a campus visit to Centennial College?",
+                "Are there specific times for campus tours at Centennial College?",
+                "Where do I sign up for a campus tour of Centennial College?",
+                "Can I get a tour of the facilities at Centennial College?"
+            ],
+            "responses": ["You can schedule a campus tour of Centennial College through the admissions office or by visiting the college's website to see available tour dates and times."]
         },
-        {"tag": "campus_tour",
-        "patterns": ["How can I schedule a campus tour of Centennial College?",
-              "Campus tour scheduling at Centennial College?"],
-        "responses": ["You can schedule a campus tour of Centennial College through the admissions office or by visiting the college's website to see available tour dates and times."]
+        {
+            "tag": "co_op_internship_opportunities",
+            "patterns": [
+                "Does Centennial College offer co-op or internship opportunities?",
+                "Co-op and internship opportunities at Centennial College?",
+                "Co-op internship opportunities?"
+                "Are there any work placement programs at Centennial College?",
+                "Tell me about the co-op options at Centennial College.",
+                "Can students gain practical experience through internships at Centennial College?",
+                "How can I find co-op placements at Centennial College?",
+                "Do students have opportunities for real-world experience at Centennial College?",
+                "What's the process for securing internships at Centennial College?",
+                "Can you provide information on work-integrated learning at Centennial College?",
+                "Are there any industry partnerships for internships at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers co-op and internship opportunities for students in various programs to gain hands-on experience in their field of study."]
         },
-        {"tag": "co_op_internship_opportunities",
-        "patterns": ["Does Centennial College offer co-op or internship opportunities?",
-              "Co-op and internship opportunities at Centennial College?"],
-        "responses": ["Yes, Centennial College offers co-op and internship opportunities for students in various programs to gain hands-on experience in their field of study."]
+        {
+            "tag": "job_prospects",
+            "patterns": [
+                "What are the job prospects for graduates of Centennial College?",
+                "Employment prospects for Centennial College graduates?",
+                "Do Centennial College graduates find jobs easily?",
+                "Job prospects after college",
+                "carrer opportunities",
+                "Are there good career opportunities for graduates of Centennial College?",
+                "How successful are Centennial College graduates in finding employment?",
+                "What types of jobs do Centennial College graduates get?",
+                "Do employers value degrees from Centennial College?",
+                "Are Centennial College alumni successful in their careers?",
+                "Can you provide statistics on the employment rate of Centennial College graduates?",
+                "How does Centennial College prepare students for the job market?"
+            ],
+            "responses": ["Graduates of Centennial College have excellent job prospects in various industries, with many alumni securing positions in their chosen field shortly after graduation."]
         },
-        {"tag": "job_prospects",
-        "patterns": ["What are the job prospects for graduates of Centennial College?",
-              "Employment prospects for Centennial College graduates?"],
-        "responses": ["Graduates of Centennial College have excellent job prospects in various industries, with many alumni securing positions in their chosen field shortly after graduation."]
+        {
+            "tag": "study_abroad",
+            "patterns": [
+                "Can I study abroad as part of my program at Centennial College?",
+                "Study abroad opportunities at Centennial College?",
+                "Study abroad",
+                "Are there any international study options at Centennial College?",
+                "Tell me about the study abroad programs at Centennial College.",
+                "Can students participate in exchange programs at Centennial College?",
+                "How can I study overseas while enrolled at Centennial College?",
+                "Do you have partnerships with universities abroad for study opportunities?",
+                "Can I gain international experience through Centennial College?",
+                "Are there scholarships available for studying abroad through Centennial College?",
+                "What countries can I study in through Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers study abroad opportunities for students in certain programs to gain international experience and broaden their cultural horizons."]
         },
-        {"tag": "study_abroad",
-        "patterns": ["Can I study abroad as part of my program at Centennial College?",
-              "Study abroad opportunities at Centennial College?"],
-        "responses": ["Yes, Centennial College offers study abroad opportunities for students in certain programs to gain international experience and broaden their cultural horizons."]
+        {
+            "tag": "campus_facilities",
+            "patterns": [
+                "What facilities does Centennial College have for students?",
+                "Student facilities at Centennial College?",
+                "Campus facilities",
+                "Where can students access facilities at Centennial College?",
+                "Tell me about the amenities available to students at Centennial College.",
+                "Are there any recreational facilities for students at Centennial College?",
+                "Can you list some of the facilities available on campus at Centennial College?",
+                "What resources are available to students outside of class at Centennial College?",
+                "Do you have a gym or fitness center for students at Centennial College?",
+                "Are there dining options on campus at Centennial College?",
+                "Can students use the library and other academic resources at Centennial College?"
+            ],
+            "responses": ["Centennial College has state-of-the-art facilities for students, including libraries, labs, fitness centers, dining options, and recreational spaces."]
         },
-        {"tag": "campus_facilities",
-        "patterns": ["What facilities does Centennial College have for students?",
-              "Student facilities at Centennial College?"],
-        "responses": ["Centennial College has state-of-the-art facilities for students, including libraries, labs, fitness centers, dining options, and recreational spaces."]
+        {
+            "tag": "research_opportunities",
+            "patterns": [
+                "Are there opportunities for research or academic projects at Centennial College?",
+                "Research opportunities at Centennial College?",
+                "Can students engage in research activities at Centennial College?",
+                "Tell me about the research projects available to students at Centennial College.",
+                "Do you have any undergraduate research programs at Centennial College?",
+                "How can students get involved in research at Centennial College?",
+                "Are there faculty-led research initiatives at Centennial College?",
+                "Can students publish their research findings at Centennial College?",
+                "What resources are available for student research at Centennial College?",
+                "Are there any funding opportunities for student research at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers research opportunities and academic projects for students in various disciplines, allowing them to explore their interests and contribute to their fields."]
         },
-        {"tag": "research_opportunities",
-        "patterns": ["Are there opportunities for research or academic projects at Centennial College?",
-              "Research opportunities at Centennial College?"],
-        "responses": ["Yes, Centennial College offers research opportunities and academic projects for students in various disciplines, allowing them to explore their interests and contribute to their fields."]
+        {
+            "tag": "class_sizes",
+            "patterns": [
+                "What are the class sizes like at Centennial College?",
+                "Class sizes at Centennial College?",
+                "How many students are typically in a class at Centennial College?",
+                "Are classes small or large at Centennial College?",
+                "Can you tell me about the student-to-faculty ratio at Centennial College?",
+                "Do students receive personalized attention in class at Centennial College?",
+                "What's the average class size at Centennial College?",
+                "Are there any limitations on class sizes at Centennial College?",
+                "How does Centennial College manage class sizes?",
+                "Can students expect interactive learning environments at Centennial College?"
+            ],
+            "responses": ["Class sizes at Centennial College vary depending on the program and course, but generally, they are small to facilitate interactive learning and personalized attention from instructors."]
         },
-        {"tag": "class_sizes",
-        "patterns": ["What are the class sizes like at Centennial College?",
-              "Class sizes at Centennial College?"],
-        "responses": ["Class sizes at Centennial College vary depending on the program and course, but generally, they are small to facilitate interactive learning and personalized attention from instructors."]
+        {
+            "tag": "resume_job_search_help",
+            "patterns": [
+                "Can I get help with my resume or job search at Centennial College?",
+                "Resume and job search assistance at Centennial College?",
+                "How can Centennial College assist me with my job search?",
+                "Are there resources available at Centennial College to improve my resume?",
+                "Can I receive guidance on job hunting from Centennial College?",
+                "Does Centennial College offer workshops on resume writing and job searching?",
+                "Where can I find support for job applications at Centennial College?",
+                "What career services are available to students at Centennial College?",
+                "Can Centennial College help me prepare for job interviews?",
+                "What services does Centennial College offer to enhance my employability?"
+            ],
+            "responses": ["Yes, Centennial College provides career services to help students with resume writing, job search strategies, interview preparation, and career exploration."]
         },
-        {"tag": "resume_job_search_help",
-        "patterns": ["Can I get help with my resume or job search at Centennial College?",
-              "Resume and job search assistance at Centennial College?"],
-        "responses": ["Yes, Centennial College provides career services to help students with resume writing, job search strategies, interview preparation, and career exploration."]
+        {
+            "tag": "online_distance_learning",
+            "patterns": [
+                "Does Centennial College offer online or distance learning programs?",
+                "Online and distance learning options at Centennial College?",
+                "Can I study remotely at Centennial College?",
+                "How do online courses work at Centennial College?",
+                "Are there virtual learning opportunities at Centennial College?",
+                "Can I complete my degree online through Centennial College?",
+                "Do you have hybrid learning programs at Centennial College?",
+                "What technology is used for online learning at Centennial College?",
+                "Is there a difference between online and on-campus programs at Centennial College?",
+                "Can I access support services as an online student at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers online and distance learning programs for students who prefer a flexible study schedule or cannot attend classes on campus."]
         },
-        {"tag": "online_distance_learning",
-        "patterns": ["Does Centennial College offer online or distance learning programs?",
-              "Online and distance learning options at Centennial College?"],
-        "responses": ["Yes, Centennial College offers online and distance learning programs for students who prefer a flexible study schedule or cannot attend classes on campus."]
+        {
+            "tag": "work_while_studying_intl",
+            "patterns": [
+                "Are there opportunities for international students to work while studying at Centennial College?",
+                "Work options for international students at Centennial College?",
+                "Can international students hold part-time jobs while studying at Centennial College?",
+                "How can international students support themselves financially while studying at Centennial College?",
+                "Is there a limit on the number of hours international students can work while studying at Centennial College?",
+                "Are there any restrictions on international students working during their studies at Centennial College?",
+                "Do international students need a work permit to work while studying at Centennial College?",
+                "Are there on-campus job opportunities for international students at Centennial College?",
+                "Can international students work off-campus while enrolled at Centennial College?",
+                "Are there any support services for international students seeking employment at Centennial College?"
+            ],
+            "responses": ["Yes, international students at Centennial College may be eligible to work part-time during their studies, subject to certain conditions and regulations."]
         },
-        {"tag": "work_while_studying_intl",
-        "patterns": ["Are there opportunities for international students to work while studying at Centennial College?",
-              "Work options for international students at Centennial College?"],
-        "responses": ["Yes, international students at Centennial College may be eligible to work part-time during their studies, subject to certain conditions and regulations."]
+        {
+            "tag": "english_language_courses",
+            "patterns": [
+                "Does Centennial College offer English language proficiency courses for international students?",
+                "English language courses for international students at Centennial College?",
+                "Can I improve my English language skills at Centennial College?",
+                "Are there ESL programs available at Centennial College?",
+                "How can international students enhance their English proficiency at Centennial College?",
+                "Do you offer language support services for non-native English speakers at Centennial College?",
+                "Are there any prerequisites for English language courses at Centennial College?",
+                "What levels of English proficiency are required for admission to Centennial College?",
+                "Can I take English courses before starting my program at Centennial College?",
+                "Are English language courses included in the curriculum at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers English language proficiency courses and support services for international students to improve their language skills and succeed in their studies."]
         },
-        {"tag": "english_language_courses",
-        "patterns": ["Does Centennial College offer English language proficiency courses for international students?",
-              "English language courses for international students at Centennial College?"],
-        "responses": ["Yes, Centennial College offers English language proficiency courses and support services for international students to improve their language skills and succeed in their studies."]
+        {
+            "tag": "contact_admissions_office",
+            "patterns": [
+                "How can I contact the admissions office at Centennial College?",
+                "Contacting the admissions office at Centennial College?",
+                "What is the best way to reach the admissions office at Centennial College?",
+                "Can I speak to someone from admissions at Centennial College?",
+                "Where can I find contact information for the admissions office at Centennial College?",
+                "Is there a phone number for the admissions office at Centennial College?",
+                "Can I email the admissions office at Centennial College?",
+                "Are there specific office hours for the admissions office at Centennial College?",
+                "How do I make an appointment with the admissions office at Centennial College?",
+                "Is there a physical location for the admissions office at Centennial College?"
+            ],
+            "responses": ["You can contact the admissions office at Centennial College by phone, email, or visiting the campus in person. Contact information is available on the college's website."]
         },
-        {"tag": "contact_admissions_office",
-        "patterns": ["How can I contact the admissions office at Centennial College?",
-              "Contacting the admissions office at Centennial College?"],
-        "responses": ["You can contact the admissions office at Centennial College by phone, email, or visiting the campus in person. Contact information is available on the college's website."]
+        {
+            "tag": "student_visa_application",
+            "patterns": [
+                "What steps should I follow to apply for a student visa to study at Centennial College?",
+                "Student visa application process for Centennial College?",
+                "How do I obtain a student visa to study at Centennial College?",
+                "Can you provide guidance on the student visa application process for Centennial College?",
+                "What documents are required for a student visa application to Centennial College?",
+                "Is there a specific procedure for international students to apply for a study permit at Centennial College?",
+                "Where can I find information about the student visa application requirements for Centennial College?",
+                "Are there any deadlines for the student visa application process for Centennial College?",
+                "Do I need to have an acceptance letter from Centennial College before applying for a student visa?",
+                "Can Centennial College assist with the student visa application process?"
+            ],
+            "responses": ["To apply for a student visa to study at Centennial College, you'll need to follow specific steps, including obtaining an acceptance letter, paying tuition fees, and applying for a study permit from the Canadian government."]
         },
-        {"tag": "student_visa_application",
-        "patterns": ["What steps should I follow to apply for a student visa to study at Centennial College?",
-              "Student visa application process for Centennial College?"],
-        "responses": ["To apply for a student visa to study at Centennial College, you'll need to follow specific steps, including obtaining an acceptance letter, paying tuition fees, and applying for a study permit from the Canadian government."]
+        {
+            "tag": "transfer_between_programs",
+            "patterns": [
+                "Can I transfer between programs at Centennial College?",
+                "Program transfer options at Centennial College?",
+                "Is it possible to change my program of study at Centennial College?",
+                "How do I transfer to a different program at Centennial College?",
+                "Are there any restrictions on transferring between programs at Centennial College?",
+                "Can I switch majors at Centennial College?",
+                "What is the process for transferring programs at Centennial College?",
+                "Are there any prerequisites for transferring between programs at Centennial College?",
+                "Is there a deadline for requesting a program transfer at Centennial College?",
+                "Will my credits transfer if I change programs at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College allows students to transfer between programs under certain circumstances, subject to approval and meeting specific requirements."]
         },
-        {"tag": "transfer_between_programs",
-        "patterns": ["Can I transfer between programs at Centennial College?",
-              "Program transfer options at Centennial College?"],
-        "responses": ["Yes, Centennial College allows students to transfer between programs under certain circumstances, subject to approval and meeting specific requirements."]
+        {
+            "tag": "networking_professional_development",
+            "patterns": [
+                "Are there opportunities for networking at Centennial College?",
+                "Can I participate in professional development activities at Centennial College?",
+                "How can I enhance my career prospects through networking at Centennial College?",
+                "What events are organized for professional development at Centennial College?",
+                "Are there workshops available for networking skills improvement at Centennial College?",
+                "Can I attend seminars to network with industry professionals at Centennial College?",
+                "How does Centennial College support students in networking?",
+                "What resources does Centennial College provide for professional networking?",
+                "Can I join industry-related clubs for networking purposes at Centennial College?",
+                "Does Centennial College offer mentorship programs for professional development?"
+            ],
+            "responses": ["Yes, Centennial College provides opportunities for students to network with industry professionals, attend workshops and seminars, and participate in professional development activities to enhance their skills and career prospects."]
         },
-        {"tag": "networking_professional_development",
-        "patterns": ["Are there opportunities for networking and professional development at Centennial College?",
-              "Networking and professional development options at Centennial College?"],
-        "responses": ["Yes, Centennial College provides opportunities for students to network with industry professionals, attend workshops and seminars, and participate in professional development activities to enhance their skills and career prospects."]
+        {
+            "tag": "student_support_disabilities",
+            "patterns": [
+                "What support services are available for students with disabilities at Centennial College?",
+                "How does Centennial College assist students with disabilities?",
+                "Are there accommodations provided for students with disabilities at Centennial College?",
+                "Can students with disabilities access assistive technologies at Centennial College?",
+                "What accessibility resources are offered to students with disabilities at Centennial College?",
+                "Does Centennial College provide equal access to education for students with disabilities?",
+                "What types of disabilities does Centennial College support?",
+                "Are there specialized advisors for students with disabilities at Centennial College?",
+                "How can students with disabilities request accommodations at Centennial College?",
+                "Is there a disability services office at Centennial College?"
+            ],
+            "responses": ["Centennial College offers a range of support services for students with disabilities, including accommodations, assistive technologies, and accessibility resources to ensure equal access to education and campus facilities."]
         },
-        {"tag": "student_support_disabilities",
-        "patterns": ["What types of student support services are available for students with disabilities at Centennial College?",
-              "Support services for students with disabilities at Centennial College?"],
-        "responses": ["Centennial College offers a range of support services for students with disabilities, including accommodations, assistive technologies, and accessibility resources to ensure equal access to education and campus facilities."]
+        {
+            "tag": "mature_students_support",
+            "patterns": [
+                "Do programs exist for mature students at Centennial College?",
+                "How does Centennial College support mature students?",
+                "Can mature students receive academic advising at Centennial College?",
+                "Are there flexible study options for mature students at Centennial College?",
+                "Does Centennial College offer programs for returning students?",
+                "What services are available for mature students returning to education at Centennial College?",
+                "Can mature students get assistance with career planning at Centennial College?",
+                "Are there financial aid options specifically for mature students at Centennial College?",
+                "How does Centennial College accommodate mature students' schedules?",
+                "What age qualifies as a mature student at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers programs and support services tailored to mature students or those returning to education after a break, including flexible study options and academic advising."]
         },
-        {"tag": "mature_students_support",
-        "patterns": ["Does Centennial College offer programs for mature students or those returning to education after a break?",
-              "Support for mature students at Centennial College?"],
-        "responses": ["Yes, Centennial College offers programs and support services tailored to mature students or those returning to education after a break, including flexible study options and academic advising."]
+        {
+            "tag": "advanced_standing_credit_transfer",
+            "patterns": [
+                "Can previous education or work experience be credited at Centennial College?",
+                "What is the advanced standing policy at Centennial College?",
+                "Are there credit transfer options based on prior education or work at Centennial College?",
+                "How can I transfer credits earned elsewhere to Centennial College?",
+                "Does Centennial College recognize credits from other institutions?",
+                "What is the process for applying for advanced standing at Centennial College?",
+                "Can I receive credit for work experience at Centennial College?",
+                "What documentation is required for credit transfer at Centennial College?",
+                "Are there limits to the number of credits I can transfer to Centennial College?",
+                "Is there a fee associated with applying for advanced standing at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers advanced standing and credit transfer options for students with relevant previous education or work experience, subject to evaluation and approval."]
         },
-        {"tag": "advanced_standing_credit_transfer",
-        "patterns": ["Can I apply for advanced standing or credit transfer based on my previous education or work experience?",
-              "Advanced standing and credit transfer options at Centennial College?"],
-        "responses": ["Yes, Centennial College offers advanced standing and credit transfer options for students with relevant previous education or work experience, subject to evaluation and approval."]
+        {
+            "tag": "community_service_volunteer_work",
+            "patterns": [
+                "Are there opportunities for community service at Centennial College?",
+                "Can students engage in volunteer work at Centennial College?",
+                "How can I get involved in community service projects at Centennial College?",
+                "Does Centennial College organize volunteer opportunities?",
+                "What local organizations does Centennial College partner with for community service?",
+                "Can community service be included in my academic curriculum at Centennial College?",
+                "What are the benefits of participating in community service at Centennial College?",
+                "Is there a community service office at Centennial College?",
+                "Are there community service clubs or groups at Centennial College?",
+                "Can students receive academic credit for community service at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College encourages students to engage in community service and volunteer work through various initiatives and partnerships with local organizations."]
         },
-        {"tag": "community_service_volunteer_work",
-        "patterns": ["Are there opportunities for students to get involved in community service or volunteer work at Centennial College?",
-              "Community service and volunteer opportunities at Centennial College?"],
-        "responses": ["Yes, Centennial College encourages students to engage in community service and volunteer work through various initiatives and partnerships with local organizations."]
+        {
+            "tag": "academic_success_resources",
+            "patterns": [
+                "What academic resources are available at Centennial College?",
+                "Can students access tutoring services at Centennial College?",
+                "How can I join a study group at Centennial College?",
+                "Are there workshops available for academic success at Centennial College?",
+                "Can I access online learning resources at Centennial College?",
+                "Does Centennial College offer writing assistance for academic assignments?",
+                "What academic workshops does Centennial College offer?",
+                "Can students receive help with test preparation at Centennial College?",
+                "Are there academic advisors at Centennial College?",
+                "What is the academic support center at Centennial College?"
+            ],
+            "responses": ["Centennial College provides a range of academic support resources, including tutoring services, study groups, academic workshops, and access to online learning resources."]
         },
-        {"tag": "academic_success_resources",
-        "patterns": ["What resources does Centennial College provide for students to succeed academically?",
-              "Academic success resources at Centennial College?"],
-        "responses": ["Centennial College provides a range of academic support resources, including tutoring services, study groups, academic workshops, and access to online learning resources."]
+        {
+            "tag": "entrepreneurship_business_incubation",
+            "patterns": [
+                "Are there entrepreneurship programs at Centennial College?",
+                "Can students access business incubation resources at Centennial College?",
+                "How can I start my own business at Centennial College?",
+                "What entrepreneurship courses are offered at Centennial College?",
+                "Does Centennial College provide mentorship for aspiring entrepreneurs?",
+                "What resources are available for business startups at Centennial College?",
+                "Can I receive funding for my business idea at Centennial College?",
+                "What support does Centennial College offer for business development?",
+                "Are there entrepreneurship clubs or organizations at Centennial College?",
+                "Is there a business incubation center at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers programs and resources for aspiring entrepreneurs, including business incubation centers, entrepreneurship courses, and mentorship opportunities."]
         },
-        {"tag": "entrepreneurship_business_incubation",
-        "patterns": ["Does Centennial College offer programs in entrepreneurship or business incubation?",
-              "Entrepreneurship and business incubation programs at Centennial College?"],
-        "responses": ["Yes, Centennial College offers programs and resources for aspiring entrepreneurs, including business incubation centers, entrepreneurship courses, and mentorship opportunities."]
+        {
+            "tag": "individual_courses_workshops",
+            "patterns": [
+                "Can I take individual courses at Centennial College?",
+                "Are there standalone courses available at Centennial College?",
+                "How do I enroll in a single workshop at Centennial College?",
+                "Do I need to be in a program to take specific courses at Centennial College?",
+                "What are my options for taking one-off classes at Centennial College?",
+                "Is there a catalog of standalone courses offered by Centennial College?",
+                "Are there any short-term courses available at Centennial College?",
+                "Can I attend workshops without being enrolled in a full program at Centennial College?",
+                "Are there part-time courses offered by Centennial College?",
+                "What types of workshops can I participate in at Centennial College?"
+            ],
+            "responses": ["Yes, Centennial College offers individual courses and workshops for professional development or personal enrichment, which can be taken without enrolling in a full program."]
         },
-        {"tag": "individual_courses_workshops",
-        "patterns": ["Can I take individual courses or workshops at Centennial College without enrolling in a full program?",
-              "Individual courses and workshops at Centennial College?"],
-        "responses": ["Yes, Centennial College offers individual courses and workshops for professional development or personal enrichment, which can be taken without enrolling in a full program."]
+        {
+            "tag": "cultural_exchange_programs",
+            "patterns": [
+                "What cultural exchange programs are available for international students at Centennial College?",
+                "How can international students engage in cultural exchange programs at Centennial College?",
+                "Are there specific initiatives for international students to participate in cultural exchange at Centennial College?",
+                "Can international students learn about Canadian culture through programs at Centennial College?",
+                "What opportunities exist for international students to connect with local communities at Centennial College?",
+                "Do international students have access to cultural exchange clubs or events at Centennial College?",
+                "Are there language exchange programs for international students at Centennial College?",
+                "How can international students immerse themselves in Canadian culture at Centennial College?",
+                "Are there any benefits to participating in cultural exchange programs for international students at Centennial College?",
+                "What resources does Centennial College offer to facilitate cultural exchange for international students?"
+            ],
+            "responses": ["Yes, Centennial College offers cultural exchange programs and activities for international students to engage with Canadian culture and connect with local communities."]
         },
-        {"tag": "cultural_exchange_programs",
-        "patterns": ["Are there opportunities for international students to participate in cultural exchange programs at Centennial College?",
-              "Cultural exchange programs for international students at Centennial College?"],
-        "responses": ["Yes, Centennial College offers cultural exchange programs and activities for international students to engage with Canadian culture and connect with local communities."]
-        },
-        {"tag": "indigenous_student_support",
-        "patterns": ["What support services does Centennial College provide for Indigenous students?",
-              "Support for Indigenous students at Centennial College?"],
-        "responses": ["Centennial College offers support services for Indigenous students, including Indigenous student centers, cultural events, academic advising, and access to Indigenous education resources."]
+        {
+            "tag": "indigenous_student_support",
+            "patterns": [
+                "What support services are provided for Indigenous students at Centennial College?",
+                "How does Centennial College assist Indigenous students?",
+                "Are there dedicated resources for Indigenous students at Centennial College?",
+                "Can Indigenous students find cultural support at Centennial College?",
+                "What types of academic advising are available for Indigenous students at Centennial College?",
+                "Does Centennial College offer scholarships specifically for Indigenous students?",
+                "Are there any Indigenous student centers at Centennial College?",
+                "How can Indigenous students access cultural events at Centennial College?",
+                "What academic resources are available for Indigenous students at Centennial College?",
+                "Are there opportunities for Indigenous students to connect with peers at Centennial College?"
+            ],
+            "responses": ["Centennial College offers support services for Indigenous students, including Indigenous student centers, cultural events, academic advising, and access to Indigenous education resources."]
         }        
     ]
   }
