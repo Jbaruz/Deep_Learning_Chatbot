@@ -74,6 +74,13 @@ It's a good practice to ensure your pip is up-to-date:
 python -m pip install --upgrade pip
 
 ```
+
+Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b your-branch-name
+   ```
+
 Installation pipenv globally windows
 
 ```bash
@@ -105,7 +112,14 @@ pipenv shell
 
 ## Running the Application
 
-- Create chatbot_model.h5, words.pkl, classes.pkl running model.py
+- Create chatbot_model.h5, words.pkl, classes.pkl means running model.py
+
+- To run model.py you can do it using spyder or terminal
+
+```bash
+python chatbot/model.py
+
+```
 
 ### Flask Application
 
@@ -142,7 +156,7 @@ python -m unittest tests/test_processing.py
 
 Contributions are welcome! Here's how you can contribute:
 
-1. Create a new branch for your feature or bug fix:
+1. Create a new branch for your feature or bug fix (at the begining):
 
    ```bash
    git checkout -b your-branch-name
