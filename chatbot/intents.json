@@ -930,7 +930,231 @@
                 "Are there opportunities for Indigenous students to connect with peers at Centennial College?"
             ],
             "responses": ["Centennial College offers support services for Indigenous students, including Indigenous student centers, cultural events, academic advising, and access to Indigenous education resources."]
-        }        
+        },
+        {
+            "tag": "Program_Overview",
+            "patterns": [
+                "What is the Artificial Intelligence program about?",
+                "Tell me about the Artificial Intelligence program.",
+                "Can you provide an overview of the AI program?",
+                "Give me an introduction to the AI program.",
+                "What's covered in the Artificial Intelligence program?",
+                "I'm interested in learning about the AI program.",
+                "Please explain the Artificial Intelligence program.",
+                "What's the focus of the AI program?",
+                "Describe the Artificial Intelligence program to me.",
+                "Could you summarize the AI program for me?"
+            ],
+            "responses": ["The Artificial Intelligence program at Centennial College focuses on providing students with skills in state-of-the-art design and AI application development technologies. You can find more information on the program's webpage: [Artificial Intelligence Program](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Program_Details",
+            "patterns": [
+                "What are the details of the Artificial Intelligence program?",
+                "Can you provide details about the AI program?",
+                "Tell me more about the specifics of the Artificial Intelligence program.",
+                "I want to know the specifics of the AI program.",
+                "Please give me more information about the AI program.",
+                "What are the key points of the AI program?",
+                "I need more details about the Artificial Intelligence program.",
+                "Could you elaborate on the AI program?",
+                "Provide me with information regarding the AI program.",
+                "What can you tell me about the AI program?"
+            ],
+            "responses": ["The Artificial Intelligence program is offered by the School of Engineering Technology and Applied Science. It leads to an Ontario College Advanced Diploma and is a fast-track program delivered online. You can explore the program details on the college's official website: [Artificial Intelligence Program Details](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Program_Length",
+            "patterns": [
+                "How long is the Artificial Intelligence program?",
+                "What is the duration of the AI program?",
+                "Can you tell me the length of the Artificial Intelligence program?",
+                "What is the program length for AI?",
+                "How many years does the AI program take?",
+                "What's the duration of the AI program?",
+                "Tell me about the timeline of the Artificial Intelligence program.",
+                "How much time does the AI program require?",
+                "Is the AI program a long-term commitment?",
+                "What's the time frame for completing the AI program?"
+            ],
+            "responses": ["The Artificial Intelligence program is two years long, comprising four semesters. You can find more information about the program length on the college's official website: [AI Program Length](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Program_Courses",
+            "patterns": [
+                "What courses are included in the AI program?",
+                "Can you list the courses in the Artificial Intelligence program?",
+                "Tell me about the courses offered in the AI program.",
+                "I want to know the curriculum of the Artificial Intelligence program.",
+                "Give me information about the courses in the AI program.",
+                "What subjects will I study in the AI program?",
+                "Describe the curriculum of the AI program.",
+                "What kind of classes can I expect in the AI program?",
+                "Which topics are covered in the AI program?",
+                "Please provide a list of courses for the Artificial Intelligence program."
+            ],
+            "responses": ["The courses in the AI program cover subjects such as Java Programming, Web Application Development, Introduction to Artificial Intelligence, and more. For a detailed list, please visit the program's webpage: [AI Program Courses](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Program_Career_Outlook",
+            "patterns": [
+                "What are the career options after completing the AI program?",
+                "Can you tell me about job prospects with an AI degree?",
+                "What career opportunities are available for AI graduates?",
+                "What kind of jobs can I get with a degree in Artificial Intelligence?",
+                "Tell me about the career outlook for AI program graduates.",
+                "What are the employment prospects for AI program graduates?",
+                "What are the potential career paths for AI graduates?",
+                "Can you outline the job opportunities for AI program alumni?",
+                "How does the job market look for graduates of the AI program?",
+                "What are the employment prospects like in the field of AI?"
+            ],
+            "responses": ["AI graduates can pursue careers as AI Developers, Software Engineers, Machine Learning Engineers, Data Analysts, and more. Various industries such as finance, healthcare, and technology offer employment opportunities for AI professionals. For more information, you can visit the program's webpage: [AI Career Outlook](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Program_Admission_Requirements",
+            "patterns": [
+                "What are the admission requirements for the AI program?",
+                "Can you tell me how to get into the Artificial Intelligence program?",
+                "What do I need to apply for the AI program?",
+                "Tell me about the admission criteria for Artificial Intelligence.",
+                "What are the prerequisites for the AI program?",
+                "How can I qualify for the AI program?",
+                "What qualifications do I need to enter the AI program?",
+                "Are there any specific requirements for applying to the AI program?",
+                "Can you explain the eligibility criteria for the AI program?",
+                "What are the entry requirements for the Artificial Intelligence program?"
+            ],
+            "responses": ["To apply for the AI program, you need a degree or diploma in computer science, information technology, software engineering, or a related discipline. Additionally, there are English language proficiency requirements and a transcript review by the coordinator. More details can be found on the program's webpage: [AI Admission Requirements](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Program_Tuition_Fees",
+            "patterns": [
+                "How much does the Artificial Intelligence program cost?",
+                "What are the tuition fees for the AI program?",
+                "Can you provide information on the fees for Artificial Intelligence?",
+                "Tell me about the cost of studying AI at Centennial College.",
+                "What is the financial investment for the AI program?",
+                "What are the expenses associated with the AI program?",
+                "How expensive is the Artificial Intelligence program?",
+                "Are there any financial aids available for the AI program?",
+                "What's the price tag for the AI program?",
+                "Can you break down the costs of the Artificial Intelligence program?"
+            ],
+            "responses": ["The tuition fees for the Artificial Intelligence program are $3,474.34 for domestic students and $18,225.34 for international students for two semesters. For more detailed information regarding tuition fees and any available financial aid options, please refer to the college's official website: [AI Tuition and Fees](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Program_Accreditation",
+            "patterns": [
+                "Is the AI program accredited?",
+                "Can you tell me about the accreditation of the Artificial Intelligence program?",
+                "Is the Artificial Intelligence program nationally accredited?",
+                "Tell me about the recognition of the AI program.",
+                "What accreditation does the AI program have?",
+                "Is the AI program recognized by any professional organizations?",
+                "Has the Artificial Intelligence program received any accreditation?",
+                "Can you verify the accreditation status of the AI program?",
+                "Are there any certifications associated with the AI program?",
+                "Does the AI program meet any industry standards?"
+            ],
+            "responses": ["Yes, the Artificial Intelligence program is nationally accredited by Technology Accreditation Canada (TAC). It also meets the academic standard for certification in the Certified Engineering Technologist (C.E.T.) category by the Ontario Association of Certified Engineering Technicians and Technologists (OACETT). For more details about the program's accreditation, you can visit the college's official website: [AI Accreditation](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Coop_Option",
+            "patterns": [
+                "Does the AI program offer a co-op option?",
+                "Is there a co-op opportunity in the Artificial Intelligence program?",
+                "Can I do a co-op while studying AI?",
+                "Tell me about the co-op program for Artificial Intelligence.",
+                "Is co-op available in the AI program?",
+                "What are the options for practical experience in the AI program?",
+                "How can I gain work experience while studying AI?",
+                "Can I participate in internships as part of the AI program?",
+                "Is there a cooperative education component in the AI program?",
+                "Are there opportunities for hands-on learning in AI?"
+            ],
+            "responses": ["Yes, the AI program offers a co-op option, providing students with the opportunity to gain practical experience through two co-op work terms. These work terms allow students to apply their classroom learning in real-world settings and build valuable industry connections. For more information about the co-op program and its requirements, you can visit the college's official website: [AI Co-op Option](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Technology_Requirements",
+            "patterns": [
+                "What are the technology requirements for the AI program?",
+                "Can you tell me about the technology specifications needed for the Artificial Intelligence program?",
+                "What kind of technology do I need for the AI program?",
+                "Tell me about the hardware requirements for studying AI.",
+                "Are there any specific tech requirements for the AI program?",
+                "What equipment do I need to have for the Artificial Intelligence program?",
+                "Can you outline the technology specifications for the AI program?",
+                "What are the computer requirements for the AI program?",
+                "Is there any special software or hardware needed for studying AI?",
+                "How should I prepare my technology setup for the AI program?"
+            ],
+            "responses": ["The AI program has specific technology requirements to ensure students can effectively participate in online learning and complete course activities. Students need access to a Windows PC laptop with specifications such as a 13-inch screen with FHD resolution, 16GB RAM, 512GB SSD HD, high-end graphics card (Nvidia 1060 or better recommended), Intel core i7 (6th Gen or later) or equivalent, USB and HDMI ports, Windows 10th Ed. OS, X-64 Bases Processor, and more. Additionally, internet access, a webcam, microphone, and speakers are needed. For students with accessibility needs, accommodations can be arranged through the Centre for Accessible Learning and Counselling Services. More details can be found on the college's official website: [AI Technology Requirements](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "How_to_Apply",
+            "patterns": [
+                "How do I apply for the AI program?",
+                "What is the application process for Artificial Intelligence?",
+                "Can you guide me on how to apply for the AI program?",
+                "Tell me about the application procedure for studying AI.",
+                "What are the steps to apply for the Artificial Intelligence program?",
+                "Is there an online application for the AI program?",
+                "How can I submit my application for the AI program?",
+                "Can you explain the application requirements for AI?",
+                "Where can I find the AI program application form?",
+                "Do I need to apply through a specific platform for the AI program?"
+            ],
+            "responses": ["To apply for the AI program, domestic students can apply online through Ontariocolleges.ca, while international students can apply directly to Centennial College. The application requires a non-refundable fee of $125 for domestic applicants. The process involves submitting necessary documents, including transcripts and educational credentials. For more information on the application process and deadlines, you can visit the college's official website: [AI Program Application](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Submitting_Documents",
+            "patterns": [
+                "How do I submit documents for the AI program application?",
+                "Can you guide me on submitting documents for the Artificial Intelligence program application?",
+                "What is the process for document submission for the AI program?",
+                "Tell me about the document submission requirements for the AI program application.",
+                "Where should I send my transcripts for the Artificial Intelligence program application?",
+                "Do I need to submit any additional documents for the AI program application?",
+                "Can you provide instructions on sending transcripts for the AI program application?",
+                "How can I ensure my documents are submitted correctly for the AI program application?",
+                "Are there any specific guidelines for submitting documents for the AI program application?",
+                "What documents do I need to provide for the Artificial Intelligence program application?"
+            ],
+            "responses": ["Domestic applicants for the AI program need to ensure that their high school or post-secondary educational institutions forward their transcripts to Centennial College through Ontariocolleges.ca. International applicants must follow the guidelines outlined for international document submission. If educational credentials are obtained outside of Canada, they may need to be assessed by an independent credential assessment agency such as World Education Services (WES) or International Credential Assessment Service (ICAS). More information can be found on the college's official website: [AI Document Submission](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Confirm_Offer_of_Admission",
+            "patterns": [
+                "How do I confirm my offer of admission for the AI program?",
+                "Can you guide me on confirming my admission offer for the Artificial Intelligence program?",
+                "What are the steps to confirm my offer of admission to the AI program?",
+                "Tell me about the process for confirming admission to the AI program.",
+                "Where can I confirm my offer of admission for the Artificial Intelligence program?",
+                "Is there a deadline to confirm my admission offer for the AI program?",
+                "Can you provide instructions on accepting my offer of admission to the AI program?",
+                "How do I know if my offer of admission to the AI program has been confirmed?",
+                "What should I do after receiving an offer of admission for the AI program?",
+                "Do I need to confirm my admission offer for the Artificial Intelligence program?"
+            ],
+            "responses": ["Offers of Admission for the AI program are sent to eligible applicants by mail. Upon receiving the offer, applicants must login to their account at Ontariocolleges.ca and confirm the offer before the specified deadline. Failure to confirm the offer by the deadline may result in the seat being given to another applicant. Upon confirmation, students gain access to their myCentennial account, where they can manage various aspects of their college journey, including registration, payment, and more. For more information, please refer to the college's official website: [AI Offer of Admission Confirmation](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        },
+        {
+            "tag": "Pay_Fees",
+            "patterns": [
+                "How do I pay my fees for the AI program?",
+                "Can you guide me on paying the tuition fees for the Artificial Intelligence program?",
+                "What are the steps to pay my fees for the AI program?",
+                "Tell me about the process for fee payment for the AI program.",
+                "Where can I pay my tuition fees for the Artificial Intelligence program?",
+                "Is there a deadline for fee payment for the AI program?",
+                "Can you provide instructions on fee payment for the Artificial Intelligence program?",
+                "How do I know if my fee payment for the AI program has been successful?",
+                "What should I do after paying my fees for the Artificial Intelligence program?",
+                "Do I need to pay any fees to confirm my admission to the AI program?"
+            ],
+            "responses": ["Tuition fees for the AI program are sent to students via email to their personal and myCentennial email accounts. Students are required to make a minimum payment by the specified deadline to secure their seat in the program. Failure to pay fees by the deadline may result in the seat being given to another applicant. Fee statements are not mailed, so students need to regularly check their email accounts for fee notifications. For more information on fee payment and deadlines, please refer to the college's official website: [AI Fee Payment](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+        }
     ]
   }
   
