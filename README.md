@@ -135,9 +135,6 @@ flask run
 
 pipenv run python run.py
 
-# or
-
-pipenv run.py
 ```
 
 

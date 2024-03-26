@@ -42,6 +42,9 @@ class ChatbotProcessor:
         return return_list
 
     def get_response(self, ints):
+        if not ints:
+            return "I'm not sure I understand. Could you rephrase your ambiguos question"
+        
         tag = ints[0]['intent']
         list_of_intents = self.intents['intents']
         for i in list_of_intents:
