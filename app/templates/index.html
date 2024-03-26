@@ -193,19 +193,34 @@
  <!-- <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@3.0.0/marked.min.js"></script>
 
 <script>
   jQuery(document).ready(function() {
     // Define a function to update the chat with a new message and auto-scroll
     function updateChat(question, response) {
+      // Create a new instance of the marked renderer
+      var renderer = new marked.Renderer();
+        
+      // Customize how links are rendered
+      renderer.link = function(href, title, text) {
+      return `<a target="_blank" href="${href}" title="${title}">${text}</a>`;
+      };
+        
+      // Set marked to use your custom renderer
+      marked.setOptions({ renderer: renderer });
+
+      // Convert the response from Markdown to HTML
+      var htmlResponse = marked(response);
+      
       // Initialize an empty string to build the HTML
       var chatHtml = "";
       // Check if the question is not empty, append the user's question
       if(question !== "") {
-        chatHtml += "<div class='user-question chat-bubble'><span>Me:</span> " + question + "</div>";
+        chatHtml += "<div class='user-question chat-bubble'><span>Me:</span> " + question + "</div><br>";
       }
       // Append the bot's response
-      chatHtml += "<div class='bot-response chat-bubble'><span>CentBot: </span>" + response + "</div>";
+      chatHtml += "<div class='bot-response chat-bubble'><span>CentBot: </span>" + htmlResponse + "</div><br>";
       
       $("#response").append(chatHtml);
       // Auto-scroll to the bottom of the chat to show the latest message
