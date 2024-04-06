@@ -16,7 +16,9 @@
                 "Hi",
                 "Ekse"
             ],
-            "responses": ["Hi! I am CentBot, How can I help you?"]
+            "responses": [
+                "Hi! I am CentBot, How can I help you?"
+            ]
         },
         {
             "tag": "goodbye",
@@ -32,7 +34,11 @@
                 "I'm off, goodbye",
                 "Farewell"
             ],
-            "responses": ["See you!", "Have a nice day", "Sure Bye"]
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Sure Bye"
+            ]
         },
         {
             "tag": "thanks",
@@ -48,12 +54,21 @@
                 "Thanks a bunch",
                 "I'm grateful, thank you"
             ],
-            "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You are welcome"
+            ]
         },
         {
             "tag": "noanswer",
             "patterns": [],
-            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
         },
         {
             "tag": "programs_info",
@@ -66,10 +81,11 @@
                 "What degrees can I pursue?",
                 "Give me details on the courses offered",
                 "Information about academic programs",
-                "Tell me what I can study at Centennial",
-                "Courses and programs overview"
+                "Tell me what I can study at Centennial"
             ],
-            "responses": ["Centennial College offers almost 200 full-time and about 150 part-time programs in various fields including business, communications, community and health studies, general arts, English language studies, engineering technology, hospitality, tourism, and transportation."]
+            "responses": [
+                "Centennial College offers almost 200 full-time and about 150 part-time programs in various fields including:\n- Advertising - Creative and Digital Strategy\n- Advertising and Marketing Communications Management\n- Alignment and Brakes Technician\n- Art and Design Fundamentals\n- Aviation Technician – Aircraft Maintenance\n- Aviation Technician – Avionics Maintenance\n- Biotechnology\n- Biotechnology - Advanced\n- Bridging to University Nursing\n- Business - Accounting\n- Business Analytics and Insights - Canadian Context\n- Child and Youth Care\n- Community Services and Child Studies Foundations\n- Computer Systems Technician – Networking\n- Computer Systems Technology - Networking\n- Electrical Engineering Technician\n- Electromechanical Engineering Technician\n- Electromechanical Engineering Technology\n- Environmental Technician\n- Environmental Technology\n- Game - Development\n- Game - Programming\n- General Arts and Science – English for Academic Purposes\n- Heating, Refrigeration and Air Conditioning Technician\n- Honours Bachelor of Information Technology (Computer and Communication Networks)\n- Honours Bachelor of Public Relations Management\n- Hospitality - Hotel Operations Management\n- Hospitality and Tourism Administration\n- Interactive Media Management\n- Liberal Arts\n- Mechanical Engineering Technology - Design\n- Mechanical Engineering Technology - Industrial\n- Motive Power - Truck and Coach Technician\n- Motive Power Fundamentals\n- Motive Power Technician\n- Motive Power Techniques - Truck and Coach\n- Motorcycle And Powersports Products Repair Techniques\n- Pharmacy Technician\n- Police Foundations\n- Practical Nursing\n- Pre-business\n- Pre-Service Firefighter Education and Training\n- Recreation and Leisure Services\n- Refrigeration and Air Conditioning Systems Techniques – Apprenticeship\n- School of Communications, Media, Arts and Design\n- School of Community and Health Studies\n- School of Engineering Technology and Applied Science\n- School of English and Liberal Studies\n- School of Hospitality, Tourism and Culinary Arts\n- School of Transportation\n- Script to Screen - Advanced Television and Film\n- Software Engineering Technology - Artificial Intelligence\n- The Business School\n- Trades Foundations - Motive Power\n- Workplace Wellness and Health Promotion"
+            ]
         },
         {
             "tag": "application_deadline",
@@ -87,9 +103,11 @@
                 "Application cutoff date?",
                 "When's the last chance to apply?"
             ],
-            "responses": ["You should apply as soon as possible once you know that Centennial College is an option for you. While there is no deadline for applications, many programs fill up months before their start time, so apply early for your best chances of admission."]
+            "responses": [
+                "You should apply as soon as possible once you know that Centennial College is an option for you. While there is no deadline for applications, many programs fill up months before their start time, so apply early for your best chances of admission."
+            ]
         },
-         {
+        {
             "tag": "application_process",
             "patterns": [
                 "How do I apply?",
@@ -105,7 +123,9 @@
                 "Application submission process?",
                 "Walk me through applying"
             ],
-            "responses": ["For full-time programs (except apprenticeships), please apply online at www.ontariocolleges.ca. For part-time programs, please register by phone, fax, or online."]
+            "responses": [
+                "For full-time programs (except apprenticeships), please apply online at www.ontariocolleges.ca. For part-time programs, please register by phone, fax, or online."
+            ]
         },
         {
             "tag": "after_application",
@@ -123,7 +143,9 @@
                 "Process after submitting application?",
                 "I've sent"
             ],
-            "responses": ["Once our Admissions Department receives your application, you will receive an acknowledgment letter and further instructions if needed. Successful candidates will receive an offer of admission along with a fee statement."]
+            "responses": [
+                "Once our Admissions Department receives your application, you will receive an acknowledgment letter and further instructions if needed. Successful candidates will receive an offer of admission along with a fee statement."
+            ]
         },
         {
             "tag": "acceptance_info",
@@ -141,7 +163,9 @@
                 "Accepted to Centennial College. What now?",
                 "I got in! What's the procedure?"
             ],
-            "responses": ["After accepting your offer, you will receive a package from Centennial College containing information on assessment testing, fee payment, making your timetable, etc."]
+            "responses": [
+                "After accepting your offer, you will receive a package from Centennial College containing information on assessment testing, fee payment, making your timetable, etc."
+            ]
         },
         {
             "tag": "waitlist_process",
@@ -158,7 +182,9 @@
                 "How long is the waitlist?",
                 "Can I check my position on the waitlist?"
             ],
-            "responses": ["After May 1, if spaces become available, additional offers are sent to the highest qualified waitlisted applicants based on an average of the required subjects."]
+            "responses": [
+                "After May 1, if spaces become available, additional offers are sent to the highest qualified waitlisted applicants based on an average of the required subjects."
+            ]
         },
         {
             "tag": "last_day_apply_fall_semester",
@@ -174,7 +200,9 @@
                 "Deadline for Fall program applications?",
                 "Closing date for Fall admissions?"
             ],
-            "responses": ["Applicants are strongly encouraged to apply by February 1 for equal consideration. Applications received after this date will still be accepted if space is available."]
+            "responses": [
+                "Applicants are strongly encouraged to apply by February 1 for equal consideration. Applications received after this date will still be accepted if space is available."
+            ]
         },
         {
             "tag": "defer_application",
@@ -191,7 +219,9 @@
                 "Can I defer my acceptance to next year?",
                 "Deferment of admission to a later date?"
             ],
-            "responses": ["Centennial College does not defer admissions decisions, but you can apply for a different intake through ontariocolleges.ca."]
+            "responses": [
+                "Centennial College does not defer admissions decisions, but you can apply for a different intake through ontariocolleges.ca."
+            ]
         },
         {
             "tag": "transcript_evaluation",
@@ -208,8 +238,10 @@
                 "Do I need to provide transcripts from a private college?",
                 "Are private college diplomas accepted for admission?"
             ],
-            "responses": ["Most private college courses and credentials are not acceptable for Centennial College programs. Please contact admissions@centennialcollege.ca for more information."]
-        },      
+            "responses": [
+                "Most private college courses and credentials are not acceptable for Centennial College programs. Please contact admissions@centennialcollege.ca for more information."
+            ]
+        },
         {
             "tag": "eligibility_decision",
             "patterns": [
@@ -224,7 +256,9 @@
                 "Eligibility confirmed but no admission offer, what now?",
                 "Eligibility status says met, but no offer, what does this mean?"
             ],
-            "responses": ["If you have applied to a competitive program, it is possible that a decision has yet to be made or that you have been added to the waitlist."]
+            "responses": [
+                "If you have applied to a competitive program, it is possible that a decision has yet to be made or that you have been added to the waitlist."
+            ]
         },
         {
             "tag": "late_payment_reinstatement",
@@ -240,7 +274,9 @@
                 "What happens if I miss the deadline for acceptance payment?",
                 "I forgot to pay on time, can I still get into the program?"
             ],
-            "responses": ["If you have missed the deadline to pay, but still wish to pay and enroll, please contact admissions@centennialcollege.ca."]
+            "responses": [
+                "If you have missed the deadline to pay, but still wish to pay and enroll, please contact admissions@centennialcollege.ca."
+            ]
         },
         {
             "tag": "international_transcript_evaluation",
@@ -256,7 +292,9 @@
                 "Are foreign transcripts considered for admission?",
                 "Do I need to submit my foreign education documents?"
             ],
-            "responses": ["If you have previously attended an education institution outside of Canada, you must have the transcripts assessed by an independent credential assessment agency."]
+            "responses": [
+                "If you have previously attended an education institution outside of Canada, you must have the transcripts assessed by an independent credential assessment agency."
+            ]
         },
         {
             "tag": "high_school_transcripts_for_grad_cert",
@@ -272,7 +310,9 @@
                 "Are high school marks necessary for grad certificate admission?",
                 "Do I need to include high school transcripts for grad certificate application?"
             ],
-            "responses": ["Graduate certificate programs require a college diploma or a university degree. It is not necessary to submit your high school transcripts for admission into these programs."]
+            "responses": [
+                "Graduate certificate programs require a college diploma or a university degree. It is not necessary to submit your high school transcripts for admission into these programs."
+            ]
         },
         {
             "tag": "admission_test_for_under_19",
@@ -288,7 +328,9 @@
                 "Are there admission exams for students below 19?",
                 "Do I need to take an entrance exam if I'm not yet 19?"
             ],
-            "responses": ["Most programs permit applicants to complete an admission test."]
+            "responses": [
+                "Most programs permit applicants to complete an admission test."
+            ]
         },
         {
             "tag": "skills_assessments_for_admission",
@@ -304,7 +346,9 @@
                 "Can I meet program requirements with skills assessments?",
                 "Do I need to pass skills assessments for all admissions?"
             ],
-            "responses": ["Canadian students can take our skills assessments to meet the academic requirements for most college diploma programs."]
+            "responses": [
+                "Canadian students can take our skills assessments to meet the academic requirements for most college diploma programs."
+            ]
         },
         {
             "tag": "missed_offer_acceptance_deadline",
@@ -321,7 +365,9 @@
                 "Can I accept my offer late?",
                 "Offer acceptance period over, can I still accept?"
             ],
-            "responses": ["If you missed the deadline to accept your offer, and still wish to accept it, please contact us."]
+            "responses": [
+                "If you missed the deadline to accept your offer, and still wish to accept it, please contact us."
+            ]
         },
         {
             "tag": "timetable_with_conditional_offer",
@@ -338,7 +384,9 @@
                 "Can I select classes with a conditional admission?",
                 "Registering for courses with a conditional acceptance?"
             ],
-            "responses": ["Applicants with Conditional Offers of Admission must fulfill all conditions listed in their Offer of Admission letter before building their timetable and registering for classes."]
+            "responses": [
+                "Applicants with Conditional Offers of Admission must fulfill all conditions listed in their Offer of Admission letter before building their timetable and registering for classes."
+            ]
         },
         {
             "tag": "programs_list",
@@ -352,9 +400,12 @@
                 "I want to know about the programs available.",
                 "Can you tell me about the programs offered?",
                 "What kind of programs does Centennial College have?",
-                "Where can I find a list of Centennial College programs?"
+                "Where can I find a list of Centennial College programs?",
+                "I want to know about the courses available."
             ],
-            "responses": ["Centennial College offers a wide range of programs including business, health sciences, engineering, arts, and technology."]
+            "responses": [
+                "Centennial College offers a wide range of programs including business, health sciences, engineering, arts, and technology."
+            ]
         },
         {
             "tag": "campus_number",
@@ -372,7 +423,9 @@
                 "Centennial College campus count?",
                 "Tell me about the campus locations of Centennial College."
             ],
-            "responses": ["Centennial College has multiple campuses located across Toronto, including Progress Campus, Morningside Campus, and Ashtonbee Campus."]
+            "responses": [
+                "Centennial College has multiple campuses located across Toronto, including Progress Campus, Morningside Campus, and Ashtonbee Campus."
+            ]
         },
         {
             "tag": "part_time_study",
@@ -389,7 +442,9 @@
                 "Is there a part-time study option?",
                 "What about part-time education at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers part-time programs for students who prefer a flexible schedule."]
+            "responses": [
+                "Yes, Centennial College offers part-time programs for students who prefer a flexible schedule."
+            ]
         },
         {
             "tag": "intl_admission_requirements",
@@ -405,7 +460,9 @@
                 "Could you outline the admission standards for international students?",
                 "What are the criteria for international student admissions?"
             ],
-            "responses": ["International students must meet specific admission requirements, including English language proficiency and academic qualifications."]
+            "responses": [
+                "International students must meet specific admission requirements, including English language proficiency and academic qualifications."
+            ]
         },
         {
             "tag": "application_deadline_intl",
@@ -421,7 +478,9 @@
                 "When should international students submit their applications?",
                 "What's the last day for international students to apply?"
             ],
-            "responses": ["Yes, Centennial College has application deadlines for each intake. It's essential to check the specific deadlines for your program of interest."]
+            "responses": [
+                "Yes, Centennial College has application deadlines for each intake. It's essential to check the specific deadlines for your program of interest."
+            ]
         },
         {
             "tag": "apply_intl",
@@ -437,7 +496,9 @@
                 "What's involved in applying to Centennial College as an international student?",
                 "Do you have instructions for international students on applying to Centennial College?"
             ],
-            "responses": ["You can apply for admission online through the Centennial College website or through the Ontario Colleges application system."]
+            "responses": [
+                "You can apply for admission online through the Centennial College website or through the Ontario Colleges application system."
+            ]
         },
         {
             "tag": "intl_tuition_fees",
@@ -453,7 +514,9 @@
                 "What's the tuition rate for international students?",
                 "Do international students have to pay higher fees?"
             ],
-            "responses": ["Tuition fees for international students vary depending on the program and the number of courses taken. It's best to check the specific fees for your program of interest."]
+            "responses": [
+                "Tuition fees for international students vary depending on the program and the number of courses taken. It's best to check the specific fees for your program of interest."
+            ]
         },
         {
             "tag": "transfer_credits",
@@ -469,7 +532,9 @@
                 "Can I use my existing credits towards a program at Centennial College?",
                 "Are there limitations on transferring credits to Centennial College?"
             ],
-            "responses": ["Yes, Centennial College accepts transfer credits from other institutions, subject to evaluation and approval."]
+            "responses": [
+                "Yes, Centennial College accepts transfer credits from other institutions, subject to evaluation and approval."
+            ]
         },
         {
             "tag": "scholarships_financial_aid",
@@ -485,7 +550,9 @@
                 "Do you have any programs to help with tuition costs?",
                 "Are there opportunities for financial assistance for students?"
             ],
-            "responses": ["Yes, Centennial College offers scholarships, awards, and financial aid options to eligible students"]
+            "responses": [
+                "Yes, Centennial College offers scholarships, awards, and financial aid options to eligible students"
+            ]
         },
         {
             "tag": "student_support_services",
@@ -503,7 +570,9 @@
                 "How does Centennial College support its students?",
                 "Are there advisors available for students at Centennial College?"
             ],
-            "responses": ["Centennial College provides various support services for students, including academic advising, career services, counseling, and accessibility services."]
+            "responses": [
+                "Centennial College provides various support services for students, including academic advising, career services, counseling, and accessibility services."
+            ]
         },
         {
             "tag": "on_campus_housing",
@@ -520,7 +589,9 @@
                 "Are there apartments available for students on campus at Centennial College?",
                 "Tell me about the housing facilities at Centennial College."
             ],
-            "responses": ["Yes, Centennial College offers on-campus housing options for students, including residence halls and apartment-style accommodations."]
+            "responses": [
+                "Yes, Centennial College offers on-campus housing options for students, including residence halls and apartment-style accommodations."
+            ]
         },
         {
             "tag": "extracurricular_activities",
@@ -537,7 +608,9 @@
                 "What recreational activities are available for students at Centennial College?",
                 "Are there any sports teams for students at Centennial College?"
             ],
-            "responses": ["Centennial College offers a variety of extracurricular activities, including student clubs, sports teams, volunteer opportunities, and cultural events."]
+            "responses": [
+                "Centennial College offers a variety of extracurricular activities, including student clubs, sports teams, volunteer opportunities, and cultural events."
+            ]
         },
         {
             "tag": "campus_tour",
@@ -556,7 +629,9 @@
                 "Where do I sign up for a campus tour of Centennial College?",
                 "Can I get a tour of the facilities at Centennial College?"
             ],
-            "responses": ["You can schedule a campus tour of Centennial College through the admissions office or by visiting the college's website to see available tour dates and times."]
+            "responses": [
+                "You can schedule a campus tour of Centennial College through the admissions office or by visiting the college's website to see available tour dates and times."
+            ]
         },
         {
             "tag": "co_op_internship_opportunities",
@@ -573,7 +648,9 @@
                 "Can you provide information on work-integrated learning at Centennial College?",
                 "Are there any industry partnerships for internships at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers co-op and internship opportunities for students in various programs to gain hands-on experience in their field of study."]
+            "responses": [
+                "Yes, Centennial College offers co-op and internship opportunities for students in various programs to gain hands-on experience in their field of study."
+            ]
         },
         {
             "tag": "job_prospects",
@@ -591,7 +668,9 @@
                 "Can you provide statistics on the employment rate of Centennial College graduates?",
                 "How does Centennial College prepare students for the job market?"
             ],
-            "responses": ["Graduates of Centennial College have excellent job prospects in various industries, with many alumni securing positions in their chosen field shortly after graduation."]
+            "responses": [
+                "Graduates of Centennial College have excellent job prospects in various industries, with many alumni securing positions in their chosen field shortly after graduation."
+            ]
         },
         {
             "tag": "study_abroad",
@@ -608,7 +687,9 @@
                 "Are there scholarships available for studying abroad through Centennial College?",
                 "What countries can I study in through Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers study abroad opportunities for students in certain programs to gain international experience and broaden their cultural horizons."]
+            "responses": [
+                "Yes, Centennial College offers study abroad opportunities for students in certain programs to gain international experience and broaden their cultural horizons."
+            ]
         },
         {
             "tag": "campus_facilities",
@@ -625,7 +706,9 @@
                 "Are there dining options on campus at Centennial College?",
                 "Can students use the library and other academic resources at Centennial College?"
             ],
-            "responses": ["Centennial College has state-of-the-art facilities for students, including libraries, labs, fitness centers, dining options, and recreational spaces."]
+            "responses": [
+                "Centennial College has state-of-the-art facilities for students, including libraries, labs, fitness centers, dining options, and recreational spaces."
+            ]
         },
         {
             "tag": "research_opportunities",
@@ -641,7 +724,9 @@
                 "What resources are available for student research at Centennial College?",
                 "Are there any funding opportunities for student research at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers research opportunities and academic projects for students in various disciplines, allowing them to explore their interests and contribute to their fields."]
+            "responses": [
+                "Yes, Centennial College offers research opportunities and academic projects for students in various disciplines, allowing them to explore their interests and contribute to their fields."
+            ]
         },
         {
             "tag": "class_sizes",
@@ -657,7 +742,9 @@
                 "How does Centennial College manage class sizes?",
                 "Can students expect interactive learning environments at Centennial College?"
             ],
-            "responses": ["Class sizes at Centennial College vary depending on the program and course, but generally, they are small to facilitate interactive learning and personalized attention from instructors."]
+            "responses": [
+                "Class sizes at Centennial College vary depending on the program and course, but generally, they are small to facilitate interactive learning and personalized attention from instructors."
+            ]
         },
         {
             "tag": "resume_job_search_help",
@@ -673,7 +760,9 @@
                 "Can Centennial College help me prepare for job interviews?",
                 "What services does Centennial College offer to enhance my employability?"
             ],
-            "responses": ["Yes, Centennial College provides career services to help students with resume writing, job search strategies, interview preparation, and career exploration."]
+            "responses": [
+                "Yes, Centennial College provides career services to help students with resume writing, job search strategies, interview preparation, and career exploration."
+            ]
         },
         {
             "tag": "online_distance_learning",
@@ -689,7 +778,9 @@
                 "Is there a difference between online and on-campus programs at Centennial College?",
                 "Can I access support services as an online student at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers online and distance learning programs for students who prefer a flexible study schedule or cannot attend classes on campus."]
+            "responses": [
+                "Yes, Centennial College offers online and distance learning programs for students who prefer a flexible study schedule or cannot attend classes on campus."
+            ]
         },
         {
             "tag": "work_while_studying_intl",
@@ -705,7 +796,9 @@
                 "Can international students work off-campus while enrolled at Centennial College?",
                 "Are there any support services for international students seeking employment at Centennial College?"
             ],
-            "responses": ["Yes, international students at Centennial College may be eligible to work part-time during their studies, subject to certain conditions and regulations."]
+            "responses": [
+                "Yes, international students at Centennial College may be eligible to work part-time during their studies, subject to certain conditions and regulations."
+            ]
         },
         {
             "tag": "english_language_courses",
@@ -721,7 +814,9 @@
                 "Can I take English courses before starting my program at Centennial College?",
                 "Are English language courses included in the curriculum at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers English language proficiency courses and support services for international students to improve their language skills and succeed in their studies."]
+            "responses": [
+                "Yes, Centennial College offers English language proficiency courses and support services for international students to improve their language skills and succeed in their studies."
+            ]
         },
         {
             "tag": "contact_admissions_office",
@@ -737,7 +832,9 @@
                 "How do I make an appointment with the admissions office at Centennial College?",
                 "Is there a physical location for the admissions office at Centennial College?"
             ],
-            "responses": ["You can contact the admissions office at Centennial College by phone, email, or visiting the campus in person. Contact information is available on the college's website."]
+            "responses": [
+                "You can contact the admissions office at Centennial College by phone, email, or visiting the campus in person. Contact information is available on the college's website."
+            ]
         },
         {
             "tag": "student_visa_application",
@@ -753,7 +850,9 @@
                 "Do I need to have an acceptance letter from Centennial College before applying for a student visa?",
                 "Can Centennial College assist with the student visa application process?"
             ],
-            "responses": ["To apply for a student visa to study at Centennial College, you'll need to follow specific steps, including obtaining an acceptance letter, paying tuition fees, and applying for a study permit from the Canadian government."]
+            "responses": [
+                "To apply for a student visa to study at Centennial College, you'll need to follow specific steps, including obtaining an acceptance letter, paying tuition fees, and applying for a study permit from the Canadian government."
+            ]
         },
         {
             "tag": "transfer_between_programs",
@@ -769,7 +868,9 @@
                 "Is there a deadline for requesting a program transfer at Centennial College?",
                 "Will my credits transfer if I change programs at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College allows students to transfer between programs under certain circumstances, subject to approval and meeting specific requirements."]
+            "responses": [
+                "Yes, Centennial College allows students to transfer between programs under certain circumstances, subject to approval and meeting specific requirements."
+            ]
         },
         {
             "tag": "networking_professional_development",
@@ -785,7 +886,9 @@
                 "Can I join industry-related clubs for networking purposes at Centennial College?",
                 "Does Centennial College offer mentorship programs for professional development?"
             ],
-            "responses": ["Yes, Centennial College provides opportunities for students to network with industry professionals, attend workshops and seminars, and participate in professional development activities to enhance their skills and career prospects."]
+            "responses": [
+                "Yes, Centennial College provides opportunities for students to network with industry professionals, attend workshops and seminars, and participate in professional development activities to enhance their skills and career prospects."
+            ]
         },
         {
             "tag": "student_support_disabilities",
@@ -801,7 +904,9 @@
                 "How can students with disabilities request accommodations at Centennial College?",
                 "Is there a disability services office at Centennial College?"
             ],
-            "responses": ["Centennial College offers a range of support services for students with disabilities, including accommodations, assistive technologies, and accessibility resources to ensure equal access to education and campus facilities."]
+            "responses": [
+                "Centennial College offers a range of support services for students with disabilities, including accommodations, assistive technologies, and accessibility resources to ensure equal access to education and campus facilities."
+            ]
         },
         {
             "tag": "mature_students_support",
@@ -817,7 +922,9 @@
                 "How does Centennial College accommodate mature students' schedules?",
                 "What age qualifies as a mature student at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers programs and support services tailored to mature students or those returning to education after a break, including flexible study options and academic advising."]
+            "responses": [
+                "Yes, Centennial College offers programs and support services tailored to mature students or those returning to education after a break, including flexible study options and academic advising."
+            ]
         },
         {
             "tag": "advanced_standing_credit_transfer",
@@ -833,7 +940,9 @@
                 "Are there limits to the number of credits I can transfer to Centennial College?",
                 "Is there a fee associated with applying for advanced standing at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers advanced standing and credit transfer options for students with relevant previous education or work experience, subject to evaluation and approval."]
+            "responses": [
+                "Yes, Centennial College offers advanced standing and credit transfer options for students with relevant previous education or work experience, subject to evaluation and approval."
+            ]
         },
         {
             "tag": "community_service_volunteer_work",
@@ -849,7 +958,9 @@
                 "Are there community service clubs or groups at Centennial College?",
                 "Can students receive academic credit for community service at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College encourages students to engage in community service and volunteer work through various initiatives and partnerships with local organizations."]
+            "responses": [
+                "Yes, Centennial College encourages students to engage in community service and volunteer work through various initiatives and partnerships with local organizations."
+            ]
         },
         {
             "tag": "academic_success_resources",
@@ -865,7 +976,9 @@
                 "Are there academic advisors at Centennial College?",
                 "What is the academic support center at Centennial College?"
             ],
-            "responses": ["Centennial College provides a range of academic support resources, including tutoring services, study groups, academic workshops, and access to online learning resources."]
+            "responses": [
+                "Centennial College provides a range of academic support resources, including tutoring services, study groups, academic workshops, and access to online learning resources."
+            ]
         },
         {
             "tag": "entrepreneurship_business_incubation",
@@ -881,7 +994,9 @@
                 "Are there entrepreneurship clubs or organizations at Centennial College?",
                 "Is there a business incubation center at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers programs and resources for aspiring entrepreneurs, including business incubation centers, entrepreneurship courses, and mentorship opportunities."]
+            "responses": [
+                "Yes, Centennial College offers programs and resources for aspiring entrepreneurs, including business incubation centers, entrepreneurship courses, and mentorship opportunities."
+            ]
         },
         {
             "tag": "individual_courses_workshops",
@@ -897,7 +1012,9 @@
                 "Are there part-time courses offered by Centennial College?",
                 "What types of workshops can I participate in at Centennial College?"
             ],
-            "responses": ["Yes, Centennial College offers individual courses and workshops for professional development or personal enrichment, which can be taken without enrolling in a full program."]
+            "responses": [
+                "Yes, Centennial College offers individual courses and workshops for professional development or personal enrichment, which can be taken without enrolling in a full program."
+            ]
         },
         {
             "tag": "cultural_exchange_programs",
@@ -913,7 +1030,9 @@
                 "Are there any benefits to participating in cultural exchange programs for international students at Centennial College?",
                 "What resources does Centennial College offer to facilitate cultural exchange for international students?"
             ],
-            "responses": ["Yes, Centennial College offers cultural exchange programs and activities for international students to engage with Canadian culture and connect with local communities."]
+            "responses": [
+                "Yes, Centennial College offers cultural exchange programs and activities for international students to engage with Canadian culture and connect with local communities."
+            ]
         },
         {
             "tag": "indigenous_student_support",
@@ -929,7 +1048,9 @@
                 "What academic resources are available for Indigenous students at Centennial College?",
                 "Are there opportunities for Indigenous students to connect with peers at Centennial College?"
             ],
-            "responses": ["Centennial College offers support services for Indigenous students, including Indigenous student centers, cultural events, academic advising, and access to Indigenous education resources."]
+            "responses": [
+                "Centennial College offers support services for Indigenous students, including Indigenous student centers, cultural events, academic advising, and access to Indigenous education resources."
+            ]
         },
         {
             "tag": "Program_Overview",
@@ -945,7 +1066,9 @@
                 "Describe the Artificial Intelligence program to me.",
                 "Could you summarize the AI program for me?"
             ],
-            "responses": ["The Artificial Intelligence program at Centennial College focuses on providing students with skills in state-of-the-art design and AI application development technologies. You can find more information on the program's webpage: [Artificial Intelligence Program](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "The Artificial Intelligence program at Centennial College focuses on providing students with skills in state-of-the-art design and AI application development technologies. You can find more information on the program's webpage: [Artificial Intelligence Program](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Program_Details",
@@ -961,7 +1084,9 @@
                 "Provide me with information regarding the AI program.",
                 "What can you tell me about the AI program?"
             ],
-            "responses": ["The Artificial Intelligence program is offered by the School of Engineering Technology and Applied Science. It leads to an Ontario College Advanced Diploma and is a fast-track program delivered online. You can explore the program details on the college's official website: [Artificial Intelligence Program Details](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "The Artificial Intelligence program is offered by the School of Engineering Technology and Applied Science. It leads to an Ontario College Advanced Diploma and is a fast-track program delivered online. You can explore the program details on the college's official website: [Artificial Intelligence Program Details](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Program_Length",
@@ -977,7 +1102,9 @@
                 "Is the AI program a long-term commitment?",
                 "What's the time frame for completing the AI program?"
             ],
-            "responses": ["The Artificial Intelligence program is two years long, comprising four semesters. You can find more information about the program length on the college's official website: [AI Program Length](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "The Artificial Intelligence program is two years long, comprising four semesters. You can find more information about the program length on the college's official website: [AI Program Length](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Program_Courses",
@@ -993,7 +1120,9 @@
                 "Which topics are covered in the AI program?",
                 "Please provide a list of courses for the Artificial Intelligence program."
             ],
-            "responses": ["The courses in the AI program cover subjects such as Java Programming, Web Application Development, Introduction to Artificial Intelligence, and more. For a detailed list, please visit the program's webpage: [AI Program Courses](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "The courses in the AI program cover subjects such as Java Programming, Web Application Development, Introduction to Artificial Intelligence, and more. For a detailed list, please visit the program's webpage: [AI Program Courses](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Program_Career_Outlook",
@@ -1009,7 +1138,9 @@
                 "How does the job market look for graduates of the AI program?",
                 "What are the employment prospects like in the field of AI?"
             ],
-            "responses": ["AI graduates can pursue careers as AI Developers, Software Engineers, Machine Learning Engineers, Data Analysts, and more. Various industries such as finance, healthcare, and technology offer employment opportunities for AI professionals. For more information, you can visit the program's webpage: [AI Career Outlook](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "AI graduates can pursue careers as AI Developers, Software Engineers, Machine Learning Engineers, Data Analysts, and more. Various industries such as finance, healthcare, and technology offer employment opportunities for AI professionals. For more information, you can visit the program's webpage: [AI Career Outlook](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Program_Admission_Requirements",
@@ -1025,7 +1156,9 @@
                 "Can you explain the eligibility criteria for the AI program?",
                 "What are the entry requirements for the Artificial Intelligence program?"
             ],
-            "responses": ["To apply for the AI program, you need a degree or diploma in computer science, information technology, software engineering, or a related discipline. Additionally, there are English language proficiency requirements and a transcript review by the coordinator. More details can be found on the program's webpage: [AI Admission Requirements](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "To apply for the AI program, you need a degree or diploma in computer science, information technology, software engineering, or a related discipline. Additionally, there are English language proficiency requirements and a transcript review by the coordinator. More details can be found on the program's webpage: [AI Admission Requirements](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Program_Tuition_Fees",
@@ -1041,7 +1174,9 @@
                 "What's the price tag for the AI program?",
                 "Can you break down the costs of the Artificial Intelligence program?"
             ],
-            "responses": ["The tuition fees for the Artificial Intelligence program are $3,474.34 for domestic students and $18,225.34 for international students for two semesters. For more detailed information regarding tuition fees and any available financial aid options, please refer to the college's official website: [AI Tuition and Fees](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "The tuition fees for the Artificial Intelligence program are $3,474.34 for domestic students and $18,225.34 for international students for two semesters. For more detailed information regarding tuition fees and any available financial aid options, please refer to the college's official website: [AI Tuition and Fees](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Program_Accreditation",
@@ -1057,7 +1192,9 @@
                 "Are there any certifications associated with the AI program?",
                 "Does the AI program meet any industry standards?"
             ],
-            "responses": ["Yes, the Artificial Intelligence program is nationally accredited by Technology Accreditation Canada (TAC). It also meets the academic standard for certification in the Certified Engineering Technologist (C.E.T.) category by the Ontario Association of Certified Engineering Technicians and Technologists (OACETT). For more details about the program's accreditation, you can visit the college's official website: [AI Accreditation](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "Yes, the Artificial Intelligence program is nationally accredited by Technology Accreditation Canada (TAC). It also meets the academic standard for certification in the Certified Engineering Technologist (C.E.T.) category by the Ontario Association of Certified Engineering Technicians and Technologists (OACETT). For more details about the program's accreditation, you can visit the college's official website: [AI Accreditation](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Coop_Option",
@@ -1073,7 +1210,9 @@
                 "Is there a cooperative education component in the AI program?",
                 "Are there opportunities for hands-on learning in AI?"
             ],
-            "responses": ["Yes, the AI program offers a co-op option, providing students with the opportunity to gain practical experience through two co-op work terms. These work terms allow students to apply their classroom learning in real-world settings and build valuable industry connections. For more information about the co-op program and its requirements, you can visit the college's official website: [AI Co-op Option](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "Yes, the AI program offers a co-op option, providing students with the opportunity to gain practical experience through two co-op work terms. These work terms allow students to apply their classroom learning in real-world settings and build valuable industry connections. For more information about the co-op program and its requirements, you can visit the college's official website: [AI Co-op Option](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Technology_Requirements",
@@ -1089,7 +1228,9 @@
                 "Is there any special software or hardware needed for studying AI?",
                 "How should I prepare my technology setup for the AI program?"
             ],
-            "responses": ["The AI program has specific technology requirements to ensure students can effectively participate in online learning and complete course activities. Students need access to a Windows PC laptop with specifications such as a 13-inch screen with FHD resolution, 16GB RAM, 512GB SSD HD, high-end graphics card (Nvidia 1060 or better recommended), Intel core i7 (6th Gen or later) or equivalent, USB and HDMI ports, Windows 10th Ed. OS, X-64 Bases Processor, and more. Additionally, internet access, a webcam, microphone, and speakers are needed. For students with accessibility needs, accommodations can be arranged through the Centre for Accessible Learning and Counselling Services. More details can be found on the college's official website: [AI Technology Requirements](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "The AI program has specific technology requirements to ensure students can effectively participate in online learning and complete course activities. Students need access to a Windows PC laptop with specifications such as a 13-inch screen with FHD resolution, 16GB RAM, 512GB SSD HD, high-end graphics card (Nvidia 1060 or better recommended), Intel core i7 (6th Gen or later) or equivalent, USB and HDMI ports, Windows 10th Ed. OS, X-64 Bases Processor, and more. Additionally, internet access, a webcam, microphone, and speakers are needed. For students with accessibility needs, accommodations can be arranged through the Centre for Accessible Learning and Counselling Services. More details can be found on the college's official website: [AI Technology Requirements](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "How_to_Apply",
@@ -1105,7 +1246,9 @@
                 "Where can I find the AI program application form?",
                 "Do I need to apply through a specific platform for the AI program?"
             ],
-            "responses": ["To apply for the AI program, domestic students can apply online through Ontariocolleges.ca, while international students can apply directly to Centennial College. The application requires a non-refundable fee of $125 for domestic applicants. The process involves submitting necessary documents, including transcripts and educational credentials. For more information on the application process and deadlines, you can visit the college's official website: [AI Program Application](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "To apply for the AI program, domestic students can apply online through Ontariocolleges.ca, while international students can apply directly to Centennial College. The application requires a non-refundable fee of $125 for domestic applicants. The process involves submitting necessary documents, including transcripts and educational credentials. For more information on the application process and deadlines, you can visit the college's official website: [AI Program Application](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Submitting_Documents",
@@ -1121,7 +1264,9 @@
                 "Are there any specific guidelines for submitting documents for the AI program application?",
                 "What documents do I need to provide for the Artificial Intelligence program application?"
             ],
-            "responses": ["Domestic applicants for the AI program need to ensure that their high school or post-secondary educational institutions forward their transcripts to Centennial College through Ontariocolleges.ca. International applicants must follow the guidelines outlined for international document submission. If educational credentials are obtained outside of Canada, they may need to be assessed by an independent credential assessment agency such as World Education Services (WES) or International Credential Assessment Service (ICAS). More information can be found on the college's official website: [AI Document Submission](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "Domestic applicants for the AI program need to ensure that their high school or post-secondary educational institutions forward their transcripts to Centennial College through Ontariocolleges.ca. International applicants must follow the guidelines outlined for international document submission. If educational credentials are obtained outside of Canada, they may need to be assessed by an independent credential assessment agency such as World Education Services (WES) or International Credential Assessment Service (ICAS). More information can be found on the college's official website: [AI Document Submission](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Confirm_Offer_of_Admission",
@@ -1137,7 +1282,9 @@
                 "What should I do after receiving an offer of admission for the AI program?",
                 "Do I need to confirm my admission offer for the Artificial Intelligence program?"
             ],
-            "responses": ["Offers of Admission for the AI program are sent to eligible applicants by mail. Upon receiving the offer, applicants must login to their account at Ontariocolleges.ca and confirm the offer before the specified deadline. Failure to confirm the offer by the deadline may result in the seat being given to another applicant. Upon confirmation, students gain access to their myCentennial account, where they can manage various aspects of their college journey, including registration, payment, and more. For more information, please refer to the college's official website: [AI Offer of Admission Confirmation](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "Offers of Admission for the AI program are sent to eligible applicants by mail. Upon receiving the offer, applicants must login to their account at Ontariocolleges.ca and confirm the offer before the specified deadline. Failure to confirm the offer by the deadline may result in the seat being given to another applicant. Upon confirmation, students gain access to their myCentennial account, where they can manage various aspects of their college journey, including registration, payment, and more. For more information, please refer to the college's official website: [AI Offer of Admission Confirmation](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
         },
         {
             "tag": "Pay_Fees",
@@ -1153,8 +1300,2171 @@
                 "What should I do after paying my fees for the Artificial Intelligence program?",
                 "Do I need to pay any fees to confirm my admission to the AI program?"
             ],
-            "responses": ["Tuition fees for the AI program are sent to students via email to their personal and myCentennial email accounts. Students are required to make a minimum payment by the specified deadline to secure their seat in the program. Failure to pay fees by the deadline may result in the seat being given to another applicant. Fee statements are not mailed, so students need to regularly check their email accounts for fee notifications. For more information on fee payment and deadlines, please refer to the college's official website: [AI Fee Payment](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"]
+            "responses": [
+                "Tuition fees for the AI program are sent to students via email to their personal and myCentennial email accounts. Students are required to make a minimum payment by the specified deadline to secure their seat in the program. Failure to pay fees by the deadline may result in the seat being given to another applicant. Fee statements are not mailed, so students need to regularly check their email accounts for fee notifications. For more information on fee payment and deadlines, please refer to the college's official website: [AI Fee Payment](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-software-engineering-technology-fast-track-optional-co-op-online/)"
+            ]
+        },
+        {
+            "tag": "advertising_courses",
+            "patterns": [
+                "What courses are offered in Advertising - Creative and Digital Strategy?",
+                "List courses for Advertising - Creative and Digital Strategy.",
+                "Can you provide details of courses in Advertising - Creative and Digital Strategy?",
+                "I want to know about courses in Advertising - Creative and Digital Strategy."
+            ],
+            "responses": [
+                "The courses offered in the Advertising program is Creative and Digital Strategy."
+            ]
+        },
+        {
+            "tag": "alignment_brakes_technician_courses",
+            "patterns": [
+                "What courses are offered in Alignment and Brakes Technician?",
+                "List courses for Alignment and Brakes Technician.",
+                "Can you provide details of courses in Alignment and Brakes Technician?",
+                "I want to know about courses in Alignment and Brakes Technician."
+            ],
+            "responses": [
+                "The courses offered in the Alignment and Brakes Technician program include various courses."
+            ]
+        },
+        {
+            "tag": "art_design_fundamentals_courses",
+            "patterns": [
+                "What courses are offered in Art and Design Fundamentals?",
+                "List courses for Art and Design Fundamentals.",
+                "Can you provide details of courses in Art and Design Fundamentals?",
+                "I want to know about courses in Art and Design Fundamentals."
+            ],
+            "responses": [
+                "The courses offered in the Art and Design Fundamentals program include 'Art and Design Fundamentals' and 'Art and Design Fundamentals (Online).'"
+            ]
+        },
+        {
+            "tag": "aviation_technician_courses",
+            "patterns": [
+                "What courses are offered in Aviation Technician – Aircraft Maintenance?",
+                "List courses for Aviation Technician – Aircraft Maintenance.",
+                "Can you provide details of courses in Aviation Technician – Aircraft Maintenance?",
+                "I want to know about courses in Aviation Technician – Aircraft Maintenance."
+            ],
+            "responses": [
+                "The courses offered in the Aviation Technician – Aircraft Maintenance program include 'Aircraft Maintenance - Aviation Technician.'"
+            ]
+        },
+        {
+            "tag": "avionics_maintenance_courses",
+            "patterns": [
+                "What courses are offered in Aviation Technician – Avionics Maintenance?",
+                "List courses for Aviation Technician – Avionics Maintenance.",
+                "Can you provide details of courses in Aviation Technician – Avionics Maintenance?",
+                "I want to know about courses in Aviation Technician – Avionics Maintenance."
+            ],
+            "responses": [
+                "The courses offered in the Aviation Technician – Avionics Maintenance program include 'Avionics Maintenance - Aviation Technician.'"
+            ]
+        },
+        {
+            "tag": "aviation_avionics_courses",
+            "patterns": [
+                "What courses are offered in Aviation Technology - Avionics Maintenance and Management?",
+                "List courses for Aviation Technology - Avionics Maintenance and Management.",
+                "Can you provide details of courses in Aviation Technology - Avionics Maintenance and Management?",
+                "I want to know about courses in Aviation Technology - Avionics Maintenance and Management."
+            ],
+            "responses": [
+                "The Aviation Technology - Avionics Maintenance and Management program offers the following course: AVIONICS MAINTENANCE AND MANAGEMENT - AVIATION TECHNOLOGY."
+            ]
+        },
+        {
+            "tag": "biotechnology_courses",
+            "patterns": [
+                "What courses are offered in Biotechnology?",
+                "List courses for Biotechnology.",
+                "Can you provide details of courses in Biotechnology?",
+                "I want to know about courses in Biotechnology."
+            ],
+            "responses": [
+                "The Biotechnology program offers the course 'BIOTECHNOLOGY.'"
+            ]
+        },
+        {
+            "tag": "biotechnology_advanced_courses",
+            "patterns": [
+                "What courses are offered in Biotechnology - Advanced program?",
+                "List courses for Biotechnology - Advanced.",
+                "Can you provide details of courses in Biotechnology - Advanced?",
+                "I want to know about courses in Biotechnology - Advanced."
+            ],
+            "responses": [
+                "The Biotechnology - Advanced program offers the following courses: BIOTECHNOLOGY - ADVANCED (FAST-TRACK) (OPTIONAL CO-OP) and BIOTECHNOLOGY - ADVANCED (OPTIONAL CO-OP)."
+            ]
+        },
+        {
+            "tag": "bridging_nursing_ien_courses",
+            "patterns": [
+                "What courses are offered in Bridging to University Nursing for Internationally Educated Nurses (IEN)?",
+                "List courses for Bridging to University Nursing for Internationally Educated Nurses (IEN).",
+                "Can you provide details of courses in Bridging to University Nursing for Internationally Educated Nurses (IEN)?",
+                "I want to know about courses in Bridging to University Nursing for Internationally Educated Nurses (IEN)."
+            ],
+            "responses": [
+                "The Bridging to University Nursing for Internationally Educated Nurses (IEN) program offers the following courses: BRIDGING TO UNIVERSITY NURSING FOR INTERNATIONALLY EDUCATED NURSES (IEN), BRIDGING TO UNIVERSITY NURSING FOR REGISTERED PRACTICAL NURSES (RPNS), BRIDGING TO UNIVERSITY NURSING FOR REGISTERED PRACTICAL NURSES (RPNS) - FLEXIBLE, RPN TO BSCN BRIDGING TO UNIVERSITY PROGRAM HYBRID (ONLINE)."
+            ]
+        },
+        {
+            "tag": "business_accounting_online_courses",
+            "patterns": [
+                "What courses are offered in Business - Accounting (Online) program?",
+                "List courses for Business - Accounting (Online).",
+                "Can you provide details of courses in Business - Accounting (Online)?",
+                "I want to know about courses in Business - Accounting (Online)."
+            ],
+            "responses": [
+                "The Business - Accounting (Online) program offers the following course: BUSINESS - ACCOUNTING (ONLINE)."
+            ]
+        },
+        {
+            "tag": "business_analytics_insights_courses",
+            "patterns": [
+                "What courses are offered in Business Analytics and Insights - Canadian Context program?",
+                "List courses for Business Analytics and Insights - Canadian Context.",
+                "Can you provide details of courses in Business Analytics and Insights - Canadian Context?",
+                "I want to know about courses in Business Analytics and Insights - Canadian Context."
+            ],
+            "responses": [
+                "The Business Analytics and Insights - Canadian Context program offers the following course: BUSINESS ANALYTICS AND INSIGHTS - CANADIAN CONTEXT."
+            ]
+        },
+        {
+            "tag": "child_youth_care_courses",
+            "patterns": [
+                "What courses are offered in Child and Youth Care program?",
+                "List courses for Child and Youth Care.",
+                "Can you provide details of courses in Child and Youth Care?",
+                "I want to know about courses in Child and Youth Care."
+            ],
+            "responses": [
+                "The Child and Youth Care program offers the following course: CHILD AND YOUTH CARE (ONLINE)."
+            ]
+        },
+        {
+            "tag": "community_child_studies_foundations_courses",
+            "patterns": [
+                "What courses are offered in Community and Child Studies Foundations program?",
+                "List courses for Community and Child Studies Foundations.",
+                "Can you provide details of courses in Community and Child Studies Foundations?",
+                "I want to know about courses in Community and Child Studies Foundations."
+            ],
+            "responses": [
+                "The Community and Child Studies Foundations program offers the following course: COMMUNITY AND CHILD STUDIES FOUNDATIONS."
+            ]
+        },
+        {
+            "tag": "computer_systems_technician_networking_courses",
+            "patterns": [
+                "What courses are offered in Computer Systems Technician – Networking program?",
+                "List courses for Computer Systems Technician – Networking.",
+                "Can you provide details of courses in Computer Systems Technician – Networking?",
+                "I want to know about courses in Computer Systems Technician – Networking."
+            ],
+            "responses": [
+                "The Computer Systems Technician – Networking program offers the following courses:\n- COMPUTER SYSTEMS TECHNICIAN - NETWORKING (FAST-TRACK)\n- COMPUTER SYSTEMS TECHNOLOGY - NETWORKING (FAST TRACK) (OPTIONAL CO-OP)\n- COMPUTER SYSTEMS TECHNOLOGY - NETWORKING (OPTIONAL CO-OP)."
+            ]
+        },
+        {
+            "tag": "electrical_engineering_technician_courses",
+            "patterns": [
+                "What courses are offered in Electrical Engineering Technician program?",
+                "List courses for Electrical Engineering Technician.",
+                "Can you provide details of courses in Electrical Engineering Technician?",
+                "I want to know about courses in Electrical Engineering Technician."
+            ],
+            "responses": [
+                "The Electrical Engineering Technician program offers the following course:\n- ELECTRICIAN: CONSTRUCTION AND MAINTENANCE - ELECTRICAL ENGINEERING TECHNICIAN (CO-OP)."
+            ]
+        },
+        {
+            "tag": "electromechanical_engineering_technician_courses",
+            "patterns": [
+                "What courses are offered in Electromechanical Engineering Technician program?",
+                "List courses for Electromechanical Engineering Technician.",
+                "Can you provide details of courses in Electromechanical Engineering Technician?",
+                "I want to know about courses in Electromechanical Engineering Technician."
+            ],
+            "responses": [
+                "The Electromechanical Engineering Technician program offers the following courses:\n- AUTOMATION AND ROBOTICS - ELECTRO-MECHANICAL ENGINEERING TECHNICIAN\n- AUTOMATION AND ROBOTICS - ELECTRO-MECHANICAL ENGINEERING TECHNICIAN (FAST-TRACK)\n- AUTOMATION AND ROBOTICS - ELECTRO-MECHANICAL ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)\n- AUTOMATION AND ROBOTICS - ELECTRO-MECHANICAL ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)."
+            ]
+        },
+        {
+            "tag": "environmental_technician_courses",
+            "patterns": [
+                "What courses are offered in Environmental Technician program?",
+                "List courses for Environmental Technician.",
+                "Can you provide details of courses in Environmental Technician?",
+                "I want to know about courses in Environmental Technician."
+            ],
+            "responses": [
+                "The Environmental Technician program offers the following courses:\n- ENVIRONMENTAL TECHNICIAN\n- ENVIRONMENTAL TECHNICIAN (FAST-TRACK)\n- ENVIRONMENTAL TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)\n- ENVIRONMENTAL TECHNOLOGY (OPTIONAL CO-OP)."
+            ]
+        },
+        {
+            "tag": "game_development_courses",
+            "patterns": [
+                "What courses are offered in Game Development program?",
+                "List courses for Game Development.",
+                "Can you provide details of courses in Game Development?",
+                "I want to know about courses in Game Development."
+            ],
+            "responses": [
+                "The Game Development program offers the following course:\n- GAME - DEVELOPMENT (ONLINE)."
+            ]
+        },
+        {
+            "tag": "game_programming_courses",
+            "patterns": [
+                "What courses are offered in Game Programming program?",
+                "List courses for Game Programming.",
+                "Can you provide details of courses in Game Programming?",
+                "I want to know about courses in Game Programming."
+            ],
+            "responses": [
+                "The Game Programming program offers the following courses:\n- GAME - PROGRAMMING (OPTIONAL CO-OP)\n- GAME - PROGRAMMING (OPTIONAL CO-OP) (ONLINE)."
+            ]
+        },
+        {
+            "tag": "english_for_academic_purposes_courses",
+            "patterns": [
+                "What courses are offered in General Arts and Science – English for Academic Purposes program?",
+                "List courses for General Arts and Science – English for Academic Purposes.",
+                "Can you provide details of courses in General Arts and Science – English for Academic Purposes?",
+                "I want to know about courses in General Arts and Science – English for Academic Purposes."
+            ],
+            "responses": [
+                "The General Arts and Science – English for Academic Purposes program offers the following course:\n- ENGLISH FOR ACADEMIC PURPOSES (EAP) - GENERAL ARTS AND SCIENCE."
+            ]
+        },
+        {
+            "tag": "heating_refrigeration_air_conditioning_technician_courses",
+            "patterns": [
+                "What courses are offered in Heating, Refrigeration and Air Conditioning Technician program?",
+                "List courses for Heating, Refrigeration and Air Conditioning Technician.",
+                "Can you provide details of courses in Heating, Refrigeration and Air Conditioning Technician?",
+                "I want to know about courses in Heating, Refrigeration and Air Conditioning Technician."
+            ],
+            "responses": [
+                "The Heating, Refrigeration and Air Conditioning Technician program offers the following course:\n- REFRIGERATION AND AIR CONDITIONING MECHANIC (CO-OP)."
+            ]
+        },
+        {
+            "tag": "honours_bachelor_information_technology_courses",
+            "patterns": [
+                "What courses are included in the Honours Bachelor of Information Technology (Computer and Communication Networks) program?",
+                "List courses for Honours Bachelor of Information Technology (Computer and Communication Networks).",
+                "Can you provide details of courses in Honours Bachelor of Information Technology (Computer and Communication Networks)?",
+                "I want to know about courses in Honours Bachelor of Information Technology (Computer and Communication Networks)."
+            ],
+            "responses": [
+                "The Honours Bachelor of Information Technology (Computer and Communication Networks) program includes the following courses:\n- BACHELOR OF INFORMATION TECHNOLOGY (COMPUTER AND COMMUNICATION NETWORKS), HONOURS."
+            ]
+        },
+        {
+            "tag": "honours_bachelor_public_relations_management_courses",
+            "patterns": [
+                "What courses are offered in the Honours Bachelor of Public Relations Management program?",
+                "List courses for Honours Bachelor of Public Relations Management.",
+                "Can you provide details of courses in Honours Bachelor of Public Relations Management?",
+                "I want to know about courses in Honours Bachelor of Public Relations Management."
+            ],
+            "responses": [
+                "The Honours Bachelor of Public Relations Management program includes the following courses:\n- BACHELOR OF PUBLIC RELATIONS MANAGEMENT, HONOURS."
+            ]
+        },
+        {
+            "tag": "hospitality_hotel_operations_management_courses",
+            "patterns": [
+                "What courses are included in the Hospitality - Hotel Operations Management program?",
+                "List courses for Hospitality - Hotel Operations Management.",
+                "Can you provide details of courses in Hospitality - Hotel Operations Management?",
+                "I want to know about courses in Hospitality - Hotel Operations Management."
+            ],
+            "responses": [
+                "The Hospitality - Hotel Operations Management program includes the following courses:\n- HOSPITALITY - HOTEL OPERATIONS MANAGEMENT\n- HOSPITALITY - HOTEL OPERATIONS MANAGEMENT - COMPRESSED\n- HOSPITALITY - HOTEL OPERATIONS MANAGEMENT (ONLINE)"
+            ]
+        },
+        {
+            "tag": "hospitality_tourism_administration_courses",
+            "patterns": [
+                "What courses are included in the Hospitality and Tourism Administration program?",
+                "List courses for Hospitality and Tourism Administration.",
+                "Can you provide details of courses in Hospitality and Tourism Administration?",
+                "I want to know about courses in Hospitality and Tourism Administration."
+            ],
+            "responses": [
+                "The Hospitality and Tourism Administration program includes the following courses:\n- HOSPITALITY AND TOURISM ADMINISTRATION."
+            ]
+        },
+        {
+            "tag": "interactive_media_management_courses",
+            "patterns": [
+                "What courses are included in the Interactive Media Management program?",
+                "List courses for Interactive Media Management.",
+                "Can you provide details of courses in Interactive Media Management?",
+                "I want to know about courses in Interactive Media Management."
+            ],
+            "responses": [
+                "The Interactive Media Management program includes the following courses:\n- INTERACTIVE MEDIA MANAGEMENT",
+                "- INTERACTIVE MEDIA MANAGEMENT (ONLINE)"
+            ]
+        },
+        {
+            "tag": "liberal_arts_courses",
+            "patterns": [
+                "What courses are included in the Liberal Arts program?",
+                "List courses for Liberal Arts.",
+                "Can you provide details of courses in Liberal Arts?",
+                "I want to know about courses in Liberal Arts."
+            ],
+            "responses": [
+                "The Liberal Arts program includes the following courses:\n- LIBERAL ARTS\n- LIBERAL ARTS TO TRENT UNIVERSITY (DURHAM GTA AND PETERBOROUGH CAMPUSES)\n- LIBERAL ARTS TO UNIVERSITY OF TORONTO SCARBOROUGH\n- LIBERAL ARTS TO YORK UNIVERSITY"
+            ]
+        },
+        {
+            "tag": "mech_eng_tech_design_courses",
+            "patterns": [
+                "What courses are offered in Mechanical Engineering Technology - Design?",
+                "List courses for Mechanical Engineering Technology - Design.",
+                "Can you provide details of courses in Mechanical Engineering Technology - Design?",
+                "I want to know about courses in Mechanical Engineering Technology - Design."
+            ],
+            "responses": [
+                "The Mechanical Engineering Technology - Design program includes the following courses:\n- MECHANICAL ENGINEERING TECHNOLOGY - DESIGN (FAST TRACK) (OPTIONAL CO-OP)\n- MECHANICAL ENGINEERING TECHNOLOGY - DESIGN (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "truck_coach_tech_courses",
+            "patterns": [
+                "What courses are offered in Motive Power - Truck and Coach Technician?",
+                "List courses for Motive Power - Truck and Coach Technician.",
+                "Can you provide details of courses in Motive Power - Truck and Coach Technician?",
+                "I want to know about courses in Motive Power - Truck and Coach Technician."
+            ],
+            "responses": [
+                "The Motive Power - Truck and Coach Technician program includes the following courses:\n- TRUCK AND COACH TECHNICIAN (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "motive_power_fundamentals_courses",
+            "patterns": [
+                "Motive Power Fundamentals courses",
+                "List courses for Motive Power Fundamentals",
+                "What courses are available for Motive Power Fundamentals?",
+                "Motive Power Fundamentals program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Motive Power Fundamentals program:\n- AUTOMOTIVE FUNDAMENTALS\n- AUTOMOTIVE SERVICE TECHNICIAN - TOYOTA\n- AUTOMOTIVE SERVICE TECHNICIAN CANADIAN TIRE\n- AUTOMOTIVE SERVICE TECHNICIAN FORD ASSET\n- AUTOMOTIVE SERVICE TECHNICIAN GENERAL MOTORS OF CANADA ASEP\n- AUTOMOTIVE SERVICE TECHNICIAN HONDA AHAP"
+            ]
+        },
+        {
+            "tag": "truck_coach_technician_courses",
+            "patterns": [
+                "Truck and Coach Technician courses",
+                "List courses for Truck and Coach Technician",
+                "What courses are available for Truck and Coach Technician?",
+                "Truck and Coach Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Truck and Coach Technician program:\n- TRUCK AND COACH TECHNICIAN – VOLVO/MACK\n- TRUCK AND COACH TECHNICIAN ATS"
+            ]
+        },
+        {
+            "tag": "motorcycle_repair_techniques_courses",
+            "patterns": [
+                "Motorcycle Repair Techniques courses",
+                "List courses for Motorcycle Repair Techniques",
+                "What courses are available for Motorcycle Repair Techniques?",
+                "Motorcycle Repair Techniques program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Motorcycle Repair Techniques program:\n- MOTORCYCLE AND POWERSPORTS PRODUCT REPAIR TECHNIQUES"
+            ]
+        },
+        {
+            "tag": "pharmacy_technician_courses",
+            "patterns": [
+                "Pharmacy Technician courses",
+                "List courses for Pharmacy Technician",
+                "What courses are available for Pharmacy Technician?",
+                "Pharmacy Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Pharmacy Technician program:\n- PHARMACY TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "police_foundations_courses",
+            "patterns": [
+                "Police Foundations courses",
+                "List courses for Police Foundations",
+                "What courses are available for Police Foundations?",
+                "Police Foundations program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Police Foundations program:\n- POLICE FOUNDATIONS"
+            ]
+        },
+        {
+            "tag": "practical_nursing_courses",
+            "patterns": [
+                "Practical Nursing courses",
+                "List courses for Practical Nursing",
+                "What courses are available for Practical Nursing?",
+                "Practical Nursing program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Practical Nursing program:\n- PRACTICAL NURSING (FLEXIBLE)\n- PRACTICAL NURSING FOR INTERNATIONALLY EDUCATED NURSES (IEN) (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "pre_business_courses",
+            "patterns": [
+                "Pre-business courses",
+                "List courses for Pre-business",
+                "What courses are available for Pre-business?",
+                "Pre-business program details",
+                "PRE-BUSINESS (BUSINESS STUDIES) program"
+            ],
+            "responses": [
+                "Here is the course available for the Pre-business program:\n- PRE-BUSINESS (BUSINESS STUDIES)"
+            ]
+        },
+        {
+            "tag": "pre_service_firefighter_education_training_courses",
+            "patterns": [
+                "Pre-Service Firefighter Education and Training courses",
+                "List courses for Pre-Service Firefighter Education and Training",
+                "What courses are available for Pre-Service Firefighter Education and Training?",
+                "Pre-Service Firefighter Education and Training program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Pre-Service Firefighter Education and Training program:\n- PRE-SERVICE FIREFIGHTER EDUCATION AND TRAINING"
+            ]
+        },
+        {
+            "tag": "recreation_and_leisure_services_courses",
+            "patterns": [
+                "Recreation and Leisure Services courses",
+                "List courses for Recreation and Leisure Services",
+                "What courses are available for Recreation and Leisure Services?",
+                "Recreation and Leisure Services program details"
+            ],
+            "responses": [
+                "Here is the course available for the Recreation and Leisure Services program:\n- RECREATION AND LEISURE SERVICES"
+            ]
+        },
+        {
+            "tag": "refrigeration_and_air_conditioning_systems_techniques_apprenticeship_courses",
+            "patterns": [
+                "Refrigeration and Air Conditioning Systems Techniques – Apprenticeship courses",
+                "List courses for Refrigeration and Air Conditioning Systems Techniques – Apprenticeship",
+                "What courses are available for Refrigeration and Air Conditioning Systems Techniques – Apprenticeship?",
+                "Refrigeration and Air Conditioning Systems Techniques – Apprenticeship program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Refrigeration and Air Conditioning Systems Techniques – Apprenticeship program:\n- REFRIGERATION AND AIR CONDITIONING SYSTEMS TECHNIQUES"
+            ]
+        },
+        {
+            "tag": "advertising_media_management_courses",
+            "patterns": [
+                "Advertising - Media Management courses",
+                "List courses for Advertising - Media Management",
+                "What courses are available for Advertising - Media Management?",
+                "Advertising - Media Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Advertising - Media Management program:\n- ADVERTISING – MEDIA MANAGEMENT"
+            ]
+        },
+        {
+            "tag": "animation_3d_courses",
+            "patterns": [
+                "Animation - 3D courses",
+                "List courses for Animation - 3D",
+                "What courses are available for Animation - 3D?",
+                "Animation - 3D program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Animation - 3D program:\n- ANIMATION - 3D"
+            ]
+        },
+        {
+            "tag": "arts_education_and_community_engagement_courses",
+            "patterns": [
+                "Arts Education and Community Engagement courses",
+                "List courses for Arts Education and Community Engagement",
+                "What courses are available for Arts Education and Community Engagement?",
+                "Arts Education and Community Engagement program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Arts Education and Community Engagement program:\n- ARTS EDUCATION AND COMMUNITY ENGAGEMENT"
+            ]
+        },
+        {
+            "tag": "arts_management_courses",
+            "patterns": [
+                "Arts Management courses",
+                "List courses for Arts Management",
+                "What courses are available for Arts Management?",
+                "Arts Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Arts Management program:\n- ARTS MANAGEMENT"
+            ]
+        },
+        {
+            "tag": "broadcasting_film_television_digital_media_and_radio_courses",
+            "patterns": [
+                "Broadcasting - Film, Television, Digital Media and Radio courses",
+                "List courses for Broadcasting - Film, Television, Digital Media and Radio",
+                "What courses are available for Broadcasting - Film, Television, Digital Media and Radio?",
+                "Broadcasting - Film, Television, Digital Media and Radio program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Broadcasting - Film, Television, Digital Media and Radio program:\n- BROADCASTING - FILM, TELEVISION, DIGITAL MEDIA AND RADIO"
+            ]
+        },
+        {
+            "tag": "childrens_media_courses",
+            "patterns": [
+                "Children's Media courses",
+                "List courses for Children's Media",
+                "What courses are available for Children's Media?",
+                "Children's Media program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Children's Media program:\n- CHILDREN'S MEDIA"
+            ]
+        },
+        {
+            "tag": "communications_and_media_fundamentals_courses",
+            "patterns": [
+                "Communications and Media Fundamentals courses",
+                "List courses for Communications and Media Fundamentals",
+                "What courses are available for Communications and Media Fundamentals?",
+                "Communications and Media Fundamentals program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Communications and Media Fundamentals program:\n- COMMUNICATIONS AND MEDIA FUNDAMENTALS"
+            ]
+        },
+        {
+            "tag": "contemporary_journalism_courses",
+            "patterns": [
+                "Contemporary Journalism courses",
+                "List courses for Contemporary Journalism",
+                "What courses are available for Contemporary Journalism?",
+                "Contemporary Journalism program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Contemporary Journalism program:\n- CONTEMPORARY JOURNALISM"
+            ]
+        },
+        {
+            "tag": "dance_performance_courses",
+            "patterns": [
+                "Dance Performance courses",
+                "List courses for Dance Performance",
+                "What courses are available for Dance Performance?",
+                "Dance Performance program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Dance Performance program:\n- DANCE PERFORMANCE"
+            ]
+        },
+        {
+            "tag": "digital_visual_effects_courses",
+            "patterns": [
+                "Digital Visual Effects courses",
+                "List courses for Digital Visual Effects",
+                "What courses are available for Digital Visual Effects?",
+                "Digital Visual Effects program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Digital Visual Effects program:\n- DIGITAL VISUAL EFFECTS"
+            ]
+        },
+        {
+            "tag": "film_and_television_business_courses",
+            "patterns": [
+                "Film and Television - Business courses",
+                "List courses for Film and Television - Business",
+                "What courses are available for Film and Television - Business?",
+                "Film and Television - Business program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Film and Television - Business program:\n- FILM AND TELEVISION - BUSINESS"
+            ]
+        },
+        {
+            "tag": "fine_arts_studio_courses",
+            "patterns": [
+                "Fine Arts Studio courses",
+                "List courses for Fine Arts Studio",
+                "What courses are available for Fine Arts Studio?",
+                "Fine Arts Studio program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Fine Arts Studio program:\n- FINE ARTS STUDIO"
+            ]
+        },
+        {
+            "tag": "game_art_courses",
+            "patterns": [
+                "Game - Art courses",
+                "List courses for Game - Art",
+                "What courses are available for Game - Art?",
+                "Game - Art program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Game - Art program:\n- GAME – ART"
+            ]
+        },
+        {
+            "tag": "game_development_courses",
+            "patterns": [
+                "Game - Development courses",
+                "List courses for Game - Development",
+                "What courses are available for Game - Development?",
+                "Game - Development program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Game - Development program:\n- GAME – DEVELOPMENT"
+            ]
+        },
+        {
+            "tag": "graphic_design_courses",
+            "patterns": [
+                "Graphic Design courses",
+                "List courses for Graphic Design",
+                "What courses are available for Graphic Design?",
+                "Graphic Design program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Graphic Design program:\n- GRAPHIC DESIGN"
+            ]
+        },
+        {
+            "tag": "graphic_design_online_courses",
+            "patterns": [
+                "Graphic Design (Online) courses",
+                "List courses for Graphic Design (Online)",
+                "What courses are available for Graphic Design (Online)?",
+                "Graphic Design (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Graphic Design (Online) program:\n- GRAPHIC DESIGN (ONLINE)"
+            ]
+        },
+        {
+            "tag": "journalism_courses",
+            "patterns": [
+                "Journalism courses",
+                "List courses for Journalism",
+                "What courses are available for Journalism?",
+                "Journalism program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Journalism program:\n- JOURNALISM"
+            ]
+        },
+        {
+            "tag": "lifestyle_media_courses",
+            "patterns": [
+                "Lifestyle Media courses",
+                "List courses for Lifestyle Media",
+                "What courses are available for Lifestyle Media?",
+                "Lifestyle Media program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Lifestyle Media program:\n- LIFESTYLE MEDIA"
+            ]
+        },
+        {
+            "tag": "museum_and_cultural_management_courses",
+            "patterns": [
+                "Museum and Cultural Management courses",
+                "List courses for Museum and Cultural Management",
+                "What courses are available for Museum and Cultural Management?",
+                "Museum and Cultural Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Museum and Cultural Management program:\n- MUSEUM AND CULTURAL MANAGEMENT"
+            ]
+        },
+        {
+            "tag": "music_industry_arts_and_performance_courses",
+            "patterns": [
+                "Music Industry Arts and Performance courses",
+                "List courses for Music Industry Arts and Performance",
+                "What courses are available for Music Industry Arts and Performance?",
+                "Music Industry Arts and Performance program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Music Industry Arts and Performance program:\n- MUSIC INDUSTRY ARTS AND PERFORMANCE"
+            ]
+        },
+        {
+            "tag": "performing_arts_fundamentals_courses",
+            "patterns": [
+                "Performing Arts Fundamentals courses",
+                "List courses for Performing Arts Fundamentals",
+                "What courses are available for Performing Arts Fundamentals?",
+                "Performing Arts Fundamentals program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Performing Arts Fundamentals program:\n- PERFORMING ARTS FUNDAMENTALS"
+            ]
+        },
+        {
+            "tag": "photography_courses",
+            "patterns": [
+                "Photography courses",
+                "List courses for Photography",
+                "What courses are available for Photography?",
+                "Photography program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Photography program:\n- PHOTOGRAPHY"
+            ]
+        },
+        {
+            "tag": "product_design_and_development_industrial_design_courses",
+            "patterns": [
+                "Product Design and Development (Industrial Design) courses",
+                "List courses for Product Design and Development (Industrial Design)",
+                "What courses are available for Product Design and Development (Industrial Design)?",
+                "Product Design and Development (Industrial Design) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Product Design and Development (Industrial Design) program:\n- PRODUCT DESIGN AND DEVELOPMENT (INDUSTRIAL DESIGN)"
+            ]
+        },
+        {
+            "tag": "professional_writing_communications_courses",
+            "patterns": [
+                "Professional Writing - Communications courses",
+                "List courses for Professional Writing - Communications",
+                "What courses are available for Professional Writing - Communications?",
+                "Professional Writing - Communications program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Professional Writing - Communications program:\n- PROFESSIONAL WRITING - COMMUNICATIONS"
+            ]
+        },
+        {
+            "tag": "professional_writing_communications_online_courses",
+            "patterns": [
+                "Professional Writing - Communications (Online) courses",
+                "List courses for Professional Writing - Communications (Online)",
+                "What courses are available for Professional Writing - Communications (Online)?",
+                "Professional Writing - Communications (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Professional Writing - Communications (Online) program:\n- PROFESSIONAL WRITING - COMMUNICATIONS (ONLINE)"
+            ]
+        },
+        {
+            "tag": "public_relations_corporate_communications_courses",
+            "patterns": [
+                "Public Relations - Corporate Communications courses",
+                "List courses for Public Relations - Corporate Communications",
+                "What courses are available for Public Relations - Corporate Communications?",
+                "Public Relations - Corporate Communications program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Public Relations - Corporate Communications program:\n- PUBLIC RELATIONS – CORPORATE COMMUNICATIONS"
+            ]
+        },
+        {
+            "tag": "publishing_book_magazine_and_electronic_courses",
+            "patterns": [
+                "Publishing - Book, Magazine and Electronic courses",
+                "List courses for Publishing - Book, Magazine and Electronic",
+                "What courses are available for Publishing - Book, Magazine and Electronic?",
+                "Publishing - Book, Magazine and Electronic program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Publishing - Book, Magazine and Electronic program:\n- PUBLISHING - BOOK, MAGAZINE AND ELECTRONIC"
+            ]
+        },
+        {
+            "tag": "publishing_book_magazine_and_electronic_online_courses",
+            "patterns": [
+                "Publishing - Book, Magazine and Electronic (Online) courses",
+                "List courses for Publishing - Book, Magazine and Electronic (Online)",
+                "What courses are available for Publishing - Book, Magazine and Electronic (Online)?",
+                "Publishing - Book, Magazine and Electronic (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Publishing - Book, Magazine and Electronic (Online) program:\n- PUBLISHING - BOOK, MAGAZINE AND ELECTRONIC (ONLINE)"
+            ]
+        },
+        {
+            "tag": "sports_journalism_courses",
+            "patterns": [
+                "Sports Journalism courses",
+                "List courses for Sports Journalism",
+                "What courses are available for Sports Journalism?",
+                "Sports Journalism program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Sports Journalism program:\n- SPORTS JOURNALISM"
+            ]
+        },
+        {
+            "tag": "theatre_arts_and_performance_courses",
+            "patterns": [
+                "Theatre Arts and Performance courses",
+                "List courses for Theatre Arts and Performance",
+                "What courses are available for Theatre Arts and Performance?",
+                "Theatre Arts and Performance program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Theatre Arts and Performance program:\n- THEATRE ARTS AND PERFORMANCE"
+            ]
+        },
+        {
+            "tag": "addiction_and_mental_health_worker_courses",
+            "patterns": [
+                "Addiction and Mental Health Worker courses",
+                "List courses for Addiction and Mental Health Worker",
+                "What courses are available for Addiction and Mental Health Worker?",
+                "Addiction and Mental Health Worker program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Addiction and Mental Health Worker program:\n- ADDICTION AND MENTAL HEALTH WORKER"
+            ]
+        },
+        {
+            "tag": "bachelor_of_science_in_nursing_bscn_collaborative_nursing_degree_fall_courses",
+            "patterns": [
+                "Bachelor of Science in Nursing (BScN) Collaborative Nursing Degree Fall courses",
+                "List courses for Bachelor of Science in Nursing (BScN) Collaborative Nursing Degree Fall",
+                "What courses are available for Bachelor of Science in Nursing (BScN) Collaborative Nursing Degree Fall?",
+                "Bachelor of Science in Nursing (BScN) Collaborative Nursing Degree Fall program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Bachelor of Science in Nursing (BScN) Collaborative Nursing Degree Fall program:\n- BACHELOR OF SCIENCE IN NURSING (BSCN) COLLABORATIVE NURSING DEGREE FALL"
+            ]
+        },
+        {
+            "tag": "child_and_youth_care_courses",
+            "patterns": [
+                "Child and Youth Care courses",
+                "List courses for Child and Youth Care",
+                "What courses are available for Child and Youth Care?",
+                "Child and Youth Care program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Child and Youth Care program:\n- CHILD AND YOUTH CARE"
+            ]
+        },
+        {
+            "tag": "community_and_justice_services_courses",
+            "patterns": [
+                "Community and Justice Services courses",
+                "List courses for Community and Justice Services",
+                "What courses are available for Community and Justice Services?",
+                "Community and Justice Services program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Community and Justice Services program:\n- COMMUNITY AND JUSTICE SERVICES"
+            ]
+        },
+        {
+            "tag": "community_development_work_courses",
+            "patterns": [
+                "Community Development Work courses",
+                "List courses for Community Development Work",
+                "What courses are available for Community Development Work?",
+                "Community Development Work program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Community Development Work program:\n- COMMUNITY DEVELOPMENT WORK"
+            ]
+        },
+        {
+            "tag": "developmental_services_worker_courses",
+            "patterns": [
+                "Developmental Services Worker courses",
+                "List courses for Developmental Services Worker",
+                "What courses are available for Developmental Services Worker?",
+                "Developmental Services Worker program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Developmental Services Worker program:\n- DEVELOPMENTAL SERVICES WORKER"
+            ]
+        },
+        {
+            "tag": "early_childhood_education_tropicana_fast_track_courses",
+            "patterns": [
+                "Early Childhood Education - Tropicana (Fast-Track) courses",
+                "List courses for Early Childhood Education - Tropicana (Fast-Track)",
+                "What courses are available for Early Childhood Education - Tropicana (Fast-Track)?",
+                "Early Childhood Education - Tropicana (Fast-Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Early Childhood Education - Tropicana (Fast-Track) program:\n- EARLY CHILDHOOD EDUCATION - TROPICANA (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "early_childhood_education_ashtonbee_campus_courses",
+            "patterns": [
+                "Early Childhood Education (Ashtonbee Campus) courses",
+                "List courses for Early Childhood Education (Ashtonbee Campus)",
+                "What courses are available for Early Childhood Education (Ashtonbee Campus)?",
+                "Early Childhood Education (Ashtonbee Campus) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Early Childhood Education (Ashtonbee Campus) program:\n- EARLY CHILDHOOD EDUCATION (ASHTONBEE CAMPUS)"
+            ]
+        },
+        {
+            "tag": "early_childhood_education_progress_campus_courses",
+            "patterns": [
+                "Early Childhood Education (Progress Campus) courses",
+                "List courses for Early Childhood Education (Progress Campus)",
+                "What courses are available for Early Childhood Education (Progress Campus)?",
+                "Early Childhood Education (Progress Campus) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Early Childhood Education (Progress Campus) program:\n- EARLY CHILDHOOD EDUCATION (PROGRESS CAMPUS)"
+            ]
+        },
+        {
+            "tag": "esthetician_courses",
+            "patterns": [
+                "Esthetician courses",
+                "List courses for Esthetician",
+                "What courses are available for Esthetician?",
+                "Esthetician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Esthetician program:\n- ESTHETICIAN"
+            ]
+        },
+        {
+            "tag": "fitness_and_health_promotion_courses",
+            "patterns": [
+                "Fitness and Health Promotion courses",
+                "List courses for Fitness and Health Promotion",
+                "What courses are available for Fitness and Health Promotion?",
+                "Fitness and Health Promotion program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Fitness and Health Promotion program:\n- FITNESS AND HEALTH PROMOTION"
+            ]
+        },
+        {
+            "tag": "food_service_worker_courses",
+            "patterns": [
+                "Food Service Worker courses",
+                "List courses for Food Service Worker",
+                "What courses are available for Food Service Worker?",
+                "Food Service Worker program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Food Service Worker program:\n- FOOD SERVICE WORKER"
+            ]
+        },
+        {
+            "tag": "health_studies_and_communications_skills_courses",
+            "patterns": [
+                "Health Studies and Communications Skills courses",
+                "List courses for Health Studies and Communications Skills",
+                "What courses are available for Health Studies and Communications Skills?",
+                "Health Studies and Communications Skills program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Health Studies and Communications Skills program:\n- HEALTH STUDIES AND COMMUNICATIONS SKILLS"
+            ]
+        },
+        {
+            "tag": "healthcare_environmental_services_management_courses",
+            "patterns": [
+                "Healthcare Environmental Services Management courses",
+                "List courses for Healthcare Environmental Services Management",
+                "What courses are available for Healthcare Environmental Services Management?",
+                "Healthcare Environmental Services Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Healthcare Environmental Services Management program:\n- HEALTHCARE ENVIRONMENTAL SERVICES MANAGEMENT"
+            ]
+        },
+        {
+            "tag": "massage_therapy_courses",
+            "patterns": [
+                "Massage Therapy courses",
+                "List courses for Massage Therapy",
+                "What courses are available for Massage Therapy?",
+                "Massage Therapy program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Massage Therapy program:\n- MASSAGE THERAPY"
+            ]
+        },
+        {
+            "tag": "massage_therapy_compressed_delivery_courses",
+            "patterns": [
+                "Massage Therapy (Compressed Delivery) courses",
+                "List courses for Massage Therapy (Compressed Delivery)",
+                "What courses are available for Massage Therapy (Compressed Delivery)?",
+                "Massage Therapy (Compressed Delivery) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Massage Therapy (Compressed Delivery) program:\n- MASSAGE THERAPY (COMPRESSED DELIVERY)"
+            ]
+        },
+        {
+            "tag": "nutrition_and_food_service_management_courses",
+            "patterns": [
+                "Nutrition and Food Service Management courses",
+                "List courses for Nutrition and Food Service Management",
+                "What courses are available for Nutrition and Food Service Management?",
+                "Nutrition and Food Service Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Nutrition and Food Service Management program:\n- NUTRITION AND FOOD SERVICE MANAGEMENT"
+            ]
+        },
+        {
+            "tag": "occupational_therapist_assistant_physiotherapist_assistant_courses",
+            "patterns": [
+                "Occupational Therapist Assistant & Physiotherapist Assistant courses",
+                "List courses for Occupational Therapist Assistant & Physiotherapist Assistant",
+                "What courses are available for Occupational Therapist Assistant & Physiotherapist Assistant?",
+                "Occupational Therapist Assistant & Physiotherapist Assistant program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Occupational Therapist Assistant & Physiotherapist Assistant program:\n- OCCUPATIONAL THERAPIST ASSISTANT & PHYSIOTHERAPIST ASSISTANT"
+            ]
+        },
+        {
+            "tag": "paramedic_courses",
+            "patterns": [
+                "Paramedic courses",
+                "List courses for Paramedic",
+                "What courses are available for Paramedic?",
+                "Paramedic program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Paramedic program:\n- PARAMEDIC"
+            ]
+        },
+        {
+            "tag": "personal_support_worker_courses",
+            "patterns": [
+                "Personal Support Worker courses",
+                "List courses for Personal Support Worker",
+                "What courses are available for Personal Support Worker?",
+                "Personal Support Worker program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Personal Support Worker program:\n- PERSONAL SUPPORT WORKER"
+            ]
+        },
+        {
+            "tag": "practical_nursing_courses",
+            "patterns": [
+                "Practical Nursing courses",
+                "List courses for Practical Nursing",
+                "What courses are available for Practical Nursing?",
+                "Practical Nursing program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Practical Nursing program:\n- PRACTICAL NURSING"
+            ]
+        },
+        {
+            "tag": "social_service_worker_courses",
+            "patterns": [
+                "Social Service Worker courses",
+                "List courses for Social Service Worker",
+                "What courses are available for Social Service Worker?",
+                "Social Service Worker program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Social Service Worker program:\n- SOCIAL SERVICE WORKER"
+            ]
+        },
+        {
+            "tag": "aerospace_manufacturing_engineering_technician_courses",
+            "patterns": [
+                "Aerospace Manufacturing Engineering Technician courses",
+                "List courses for Aerospace Manufacturing Engineering Technician",
+                "What courses are available for Aerospace Manufacturing Engineering Technician?",
+                "Aerospace Manufacturing Engineering Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Aerospace Manufacturing Engineering Technician program:\n- AEROSPACE MANUFACTURING ENGINEERING TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "aerospace_manufacturing_engineering_technology_optional_coop_courses",
+            "patterns": [
+                "Aerospace Manufacturing Engineering Technology (Optional Co-op) courses",
+                "List courses for Aerospace Manufacturing Engineering Technology (Optional Co-op)",
+                "What courses are available for Aerospace Manufacturing Engineering Technology (Optional Co-op)?",
+                "Aerospace Manufacturing Engineering Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Aerospace Manufacturing Engineering Technology (Optional Co-op) program:\n- AEROSPACE MANUFACTURING ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "architectural_technician_courses",
+            "patterns": [
+                "Architectural Technician courses",
+                "List courses for Architectural Technician",
+                "What courses are available for Architectural Technician?",
+                "Architectural Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Architectural Technician program:\n- ARCHITECTURAL TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "architectural_technician_online_courses",
+            "patterns": [
+                "Architectural Technician (Online) courses",
+                "List courses for Architectural Technician (Online)",
+                "What courses are available for Architectural Technician (Online)?",
+                "Architectural Technician (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Architectural Technician (Online) program:\n- ARCHITECTURAL TECHNICIAN (ONLINE)"
+            ]
+        },
+        {
+            "tag": "architectural_technology_fast_track_optional_coop_online_courses",
+            "patterns": [
+                "Architectural Technology (Fast-Track) (Optional Co-op) (Online) courses",
+                "List courses for Architectural Technology (Fast-Track) (Optional Co-op) (Online)",
+                "What courses are available for Architectural Technology (Fast-Track) (Optional Co-op) (Online)?",
+                "Architectural Technology (Fast-Track) (Optional Co-op) (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Architectural Technology (Fast-Track) (Optional Co-op) (Online) program:\n- ARCHITECTURAL TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "architectural_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Architectural Technology (Fast-Track) (Optional Co-op) courses",
+                "List courses for Architectural Technology (Fast-Track) (Optional Co-op)",
+                "What courses are available for Architectural Technology (Fast-Track) (Optional Co-op)?",
+                "Architectural Technology (Fast-Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Architectural Technology (Fast-Track) (Optional Co-op) program:\n- ARCHITECTURAL TECHNOLOGY (FAST-TRACK)(OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "architectural_technology_optional_coop_online_courses",
+            "patterns": [
+                "Architectural Technology (Optional Co-op) (Online) courses",
+                "List courses for Architectural Technology (Optional Co-op) (Online)",
+                "What courses are available for Architectural Technology (Optional Co-op) (Online)?",
+                "Architectural Technology (Optional Co-op) (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Architectural Technology (Optional Co-op) (Online) program:\n- ARCHITECTURAL TECHNOLOGY (OPTIONAL CO-OP) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "biomedical_engineering_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Biomedical Engineering Technology (Fast-Track) (Optional Co-op) courses",
+                "List courses for Biomedical Engineering Technology (Fast-Track) (Optional Co-op)",
+                "What courses are available for Biomedical Engineering Technology (Fast-Track) (Optional Co-op)?",
+                "Biomedical Engineering Technology (Fast-Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Biomedical Engineering Technology (Fast-Track) (Optional Co-op) program:\n- BIOMEDICAL ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "biomedical_engineering_technology_optional_coop_courses",
+            "patterns": [
+                "Biomedical Engineering Technology (Optional Co-op) courses",
+                "List courses for Biomedical Engineering Technology (Optional Co-op)",
+                "What courses are available for Biomedical Engineering Technology (Optional Co-op)?",
+                "Biomedical Engineering Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Biomedical Engineering Technology (Optional Co-op) program:\n- BIOMEDICAL ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "biotechnology_fast_track_courses",
+            "patterns": [
+                "Biotechnology (Fast-Track) courses",
+                "List courses for Biotechnology (Fast-Track)",
+                "What courses are available for Biotechnology (Fast-Track)?",
+                "Biotechnology (Fast-Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Biotechnology (Fast-Track) program:\n- BIOTECHNOLOGY (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "computer_repair_and_maintenance_courses",
+            "patterns": [
+                "Computer Repair and Maintenance courses",
+                "List courses for Computer Repair and Maintenance",
+                "What courses are available for Computer Repair and Maintenance?",
+                "Computer Repair and Maintenance program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Computer Repair and Maintenance program:\n- COMPUTER REPAIR AND MAINTENANCE"
+            ]
+        },
+        {
+            "tag": "computer_systems_technician_networking_courses",
+            "patterns": [
+                "Computer Systems Technician - Networking courses",
+                "List courses for Computer Systems Technician - Networking",
+                "What courses are available for Computer Systems Technician - Networking?",
+                "Computer Systems Technician - Networking program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Computer Systems Technician - Networking program:\n- COMPUTER SYSTEMS TECHNICIAN - NETWORKING"
+            ]
+        },
+        {
+            "tag": "construction_project_management_courses",
+            "patterns": [
+                "Construction Project Management courses",
+                "List courses for Construction Project Management",
+                "What courses are available for Construction Project Management?",
+                "Construction Project Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Construction Project Management program:\n- CONSTRUCTION PROJECT MANAGEMENT"
+            ]
+        },
+        {
+            "tag": "construction_project_management_online_courses",
+            "patterns": [
+                "Construction Project Management (Online) courses",
+                "List courses for Construction Project Management (Online)",
+                "What courses are available for Construction Project Management (Online)?",
+                "Construction Project Management (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Construction Project Management (Online) program:\n- CONSTRUCTION PROJECT MANAGEMENT (ONLINE)"
+            ]
+        },
+        {
+            "tag": "cybersecurity_courses",
+            "patterns": [
+                "Cybersecurity courses",
+                "List courses for Cybersecurity",
+                "What courses are available for Cybersecurity?",
+                "Cybersecurity program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Cybersecurity program:\n- CYBERSECURITY"
+            ]
+        },
+        {
+            "tag": "cybersecurity_online_courses",
+            "patterns": [
+                "Cybersecurity (Online) courses",
+                "List courses for Cybersecurity (Online)",
+                "What courses are available for Cybersecurity (Online)?",
+                "Cybersecurity (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Cybersecurity (Online) program:\n- CYBERSECURITY (ONLINE)"
+            ]
+        },
+        {
+            "tag": "electrical_engineering_technician_courses",
+            "patterns": [
+                "Electrical Engineering Technician courses",
+                "List courses for Electrical Engineering Technician",
+                "What courses are available for Electrical Engineering Technician?",
+                "Electrical Engineering Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electrical Engineering Technician program:\n- ELECTRICAL ENGINEERING TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "electrical_engineering_technician_fast_track_courses",
+            "patterns": [
+                "Electrical Engineering Technician (Fast-Track) courses",
+                "List courses for Electrical Engineering Technician (Fast-Track)",
+                "What courses are available for Electrical Engineering Technician (Fast-Track)?",
+                "Electrical Engineering Technician (Fast-Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electrical Engineering Technician (Fast-Track) program:\n- ELECTRICAL ENGINEERING TECHNICIAN (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "electrical_engineering_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Electrical Engineering Technology (Fast-Track) (Optional Co-op) courses",
+                "List courses for Electrical Engineering Technology (Fast-Track) (Optional Co-op)",
+                "What courses are available for Electrical Engineering Technology (Fast-Track) (Optional Co-op)?",
+                "Electrical Engineering Technology (Fast-Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electrical Engineering Technology (Fast-Track) (Optional Co-op) program:\n- ELECTRICAL ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "electrical_engineering_technology_optional_coop_courses",
+            "patterns": [
+                "Electrical Engineering Technology (Optional Co-op) courses",
+                "List courses for Electrical Engineering Technology (Optional Co-op)",
+                "What courses are available for Electrical Engineering Technology (Optional Co-op)?",
+                "Electrical Engineering Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electrical Engineering Technology (Optional Co-op) program:\n- ELECTRICAL ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "electrical_techniques_courses",
+            "patterns": [
+                "Electrical Techniques courses",
+                "List courses for Electrical Techniques",
+                "What courses are available for Electrical Techniques?",
+                "Electrical Techniques program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electrical Techniques program:\n- ELECTRICAL TECHNIQUES"
+            ]
+        },
+        {
+            "tag": "electrician_construction_maintenance_courses",
+            "patterns": [
+                "Electrician, Construction Maintenance courses",
+                "List courses for Electrician, Construction Maintenance",
+                "What courses are available for Electrician, Construction Maintenance?",
+                "Electrician, Construction Maintenance program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electrician, Construction Maintenance program:\n- ELECTRICIAN, CONSTRUCTION MAINTENANCE"
+            ]
+        },
+        {
+            "tag": "electronics_engineering_technician_courses",
+            "patterns": [
+                "Electronics Engineering Technician courses",
+                "List courses for Electronics Engineering Technician",
+                "What courses are available for Electronics Engineering Technician?",
+                "Electronics Engineering Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electronics Engineering Technician program:\n- ELECTRONICS ENGINEERING TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "electronics_engineering_technician_fast_track_courses",
+            "patterns": [
+                "Electronics Engineering Technician (Fast-Track) courses",
+                "List courses for Electronics Engineering Technician (Fast-Track)",
+                "What courses are available for Electronics Engineering Technician (Fast-Track)?",
+                "Electronics Engineering Technician (Fast-Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electronics Engineering Technician (Fast-Track) program:\n- ELECTRONICS ENGINEERING TECHNICIAN (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "electronics_engineering_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Electronics Engineering Technology (Fast-Track) (Optional Co-op) courses",
+                "List courses for Electronics Engineering Technology (Fast-Track) (Optional Co-op)",
+                "What courses are available for Electronics Engineering Technology (Fast-Track) (Optional Co-op)?",
+                "Electronics Engineering Technology (Fast-Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electronics Engineering Technology (Fast-Track) (Optional Co-op) program:\n- ELECTRONICS ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "electronics_engineering_technology_optional_coop_courses",
+            "patterns": [
+                "Electronics Engineering Technology (Optional Co-op) courses",
+                "List courses for Electronics Engineering Technology (Optional Co-op)",
+                "What courses are available for Electronics Engineering Technology (Optional Co-op)?",
+                "Electronics Engineering Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Electronics Engineering Technology (Optional Co-op) program:\n- ELECTRONICS ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "energy_systems_engineering_technician_courses",
+            "patterns": [
+                "Energy Systems Engineering Technician courses",
+                "List courses for Energy Systems Engineering Technician",
+                "What courses are available for Energy Systems Engineering Technician?",
+                "Energy Systems Engineering Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Energy Systems Engineering Technician program:\n- ENERGY SYSTEMS ENGINEERING TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "energy_systems_engineering_technician_fast_track_courses",
+            "patterns": [
+                "Energy Systems Engineering Technician (Fast-Track) courses",
+                "List courses for Energy Systems Engineering Technician (Fast-Track)",
+                "What courses are available for Energy Systems Engineering Technician (Fast-Track)?",
+                "Energy Systems Engineering Technician (Fast-Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Energy Systems Engineering Technician (Fast-Track) program:\n- ENERGY SYSTEMS ENGINEERING TECHNICIAN (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "energy_systems_engineering_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Energy Systems Engineering Technology (Fast Track) (Optional Co-op) courses",
+                "List courses for Energy Systems Engineering Technology (Fast Track) (Optional Co-op)",
+                "What courses are available for Energy Systems Engineering Technology (Fast Track) (Optional Co-op)?",
+                "Energy Systems Engineering Technology (Fast Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Energy Systems Engineering Technology (Fast Track) (Optional Co-op) program:\n- ENERGY SYSTEMS ENGINEERING TECHNOLOGY (FAST TRACK) (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "energy_systems_engineering_technology_optional_coop_courses",
+            "patterns": [
+                "Energy Systems Engineering Technology (Optional Co-op) courses",
+                "List courses for Energy Systems Engineering Technology (Optional Co-op)",
+                "What courses are available for Energy Systems Engineering Technology (Optional Co-op)?",
+                "Energy Systems Engineering Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Energy Systems Engineering Technology (Optional Co-op) program:\n- ENERGY SYSTEMS ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "food_science_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Food Science Technology (Fast Track) (Optional Co-op) courses",
+                "List courses for Food Science Technology (Fast Track) (Optional Co-op)",
+                "What courses are available for Food Science Technology (Fast Track) (Optional Co-op)?",
+                "Food Science Technology (Fast Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Food Science Technology (Fast Track) (Optional Co-op) program:\n- FOOD SCIENCE TECHNOLOGY (FAST TRACK) (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "food_science_technology_optional_coop_courses",
+            "patterns": [
+                "Food Science Technology (Optional Co-op) courses",
+                "List courses for Food Science Technology (Optional Co-op)",
+                "What courses are available for Food Science Technology (Optional Co-op)?",
+                "Food Science Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Food Science Technology (Optional Co-op) program:\n- FOOD SCIENCE TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "game_programming_optional_coop_fast_track_courses",
+            "patterns": [
+                "Game Programming (Optional Co-op) (Fast Track) courses",
+                "List courses for Game Programming (Optional Co-op) (Fast Track)",
+                "What courses are available for Game Programming (Optional Co-op) (Fast Track)?",
+                "Game Programming (Optional Co-op) (Fast Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Game Programming (Optional Co-op) (Fast Track) program:\n- GAME – PROGRAMMING (OPTIONAL CO-OP) (FAST TRACK)"
+            ]
+        },
+        {
+            "tag": "game_programming_fast_track_optional_coop_online_courses",
+            "patterns": [
+                "Game Programming (Fast Track) (Optional Co-op) (Online) courses",
+                "List courses for Game Programming (Fast Track) (Optional Co-op) (Online)",
+                "What courses are available for Game Programming (Fast Track) (Optional Co-op) (Online)?",
+                "Game Programming (Fast Track) (Optional Co-op) (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Game Programming (Fast Track) (Optional Co-op) (Online) program:\n- GAME – PROGRAMMING (FAST TRACK) (OPTIONAL CO-OP) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "health_informatics_technology_fast_track_online_courses",
+            "patterns": [
+                "Health Informatics Technology (Fast-Track) (Online) courses",
+                "List courses for Health Informatics Technology (Fast-Track) (Online)",
+                "What courses are available for Health Informatics Technology (Fast-Track) (Online)?",
+                "Health Informatics Technology (Fast-Track) (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Health Informatics Technology (Fast-Track) (Online) program:\n- HEALTH INFORMATICS TECHNOLOGY (FAST-TRACK) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "health_informatics_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Health Informatics Technology (Fast-Track) (Optional Co-op) courses",
+                "List courses for Health Informatics Technology (Fast-Track) (Optional Co-op)",
+                "What courses are available for Health Informatics Technology (Fast-Track) (Optional Co-op)?",
+                "Health Informatics Technology (Fast-Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Health Informatics Technology (Fast-Track) (Optional Co-op) program:\n- HEALTH INFORMATICS TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "health_informatics_technology_online_courses",
+            "patterns": [
+                "Health Informatics Technology (Online) courses",
+                "List courses for Health Informatics Technology (Online)",
+                "What courses are available for Health Informatics Technology (Online)?",
+                "Health Informatics Technology (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Health Informatics Technology (Online) program:\n- HEALTH INFORMATICS TECHNOLOGY (ONLINE)"
+            ]
+        },
+        {
+            "tag": "health_informatics_technology_optional_coop_courses",
+            "patterns": [
+                "Health Informatics Technology (Optional Co-op) courses",
+                "List courses for Health Informatics Technology (Optional Co-op)",
+                "What courses are available for Health Informatics Technology (Optional Co-op)?",
+                "Health Informatics Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Health Informatics Technology (Optional Co-op) program:\n- HEALTH INFORMATICS TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "heating_refrigeration_and_air_conditioning_technician_courses",
+            "patterns": [
+                "Heating, Refrigeration and Air Conditioning Technician courses",
+                "List courses for Heating, Refrigeration and Air Conditioning Technician",
+                "What courses are available for Heating, Refrigeration and Air Conditioning Technician?",
+                "Heating, Refrigeration and Air Conditioning Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Heating, Refrigeration and Air Conditioning Technician program:\n- HEATING, REFRIGERATION AND AIR CONDITIONING TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "internet_of_things_system_architecture_and_integration_online_courses",
+            "patterns": [
+                "Internet of Things - System Architecture and Integration (Online) courses",
+                "List courses for Internet of Things - System Architecture and Integration (Online)",
+                "What courses are available for Internet of Things - System Architecture and Integration (Online)?",
+                "Internet of Things - System Architecture and Integration (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Internet of Things - System Architecture and Integration (Online) program:\n- INTERNET OF THINGS - SYSTEM ARCHITECTURE AND INTEGRATION (ONLINE)"
+            ]
+        },
+        {
+            "tag": "internet_of_things_system_architecture_and_integration_courses",
+            "patterns": [
+                "Internet of Things - System Architecture and Integration courses",
+                "List courses for Internet of Things - System Architecture and Integration",
+                "What courses are available for Internet of Things - System Architecture and Integration?",
+                "Internet of Things - System Architecture and Integration program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Internet of Things - System Architecture and Integration program:\n- INTERNET OF THINGS - SYSTEM ARCHITECTURE AND INTEGRATION"
+            ]
+        },
+        {
+            "tag": "mechanical_engineering_technician_design_courses",
+            "patterns": [
+                "Mechanical Engineering Technician – Design courses",
+                "List courses for Mechanical Engineering Technician – Design",
+                "What courses are available for Mechanical Engineering Technician – Design?",
+                "Mechanical Engineering Technician – Design program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Mechanical Engineering Technician – Design program:\n- MECHANICAL ENGINEERING TECHNICIAN – DESIGN"
+            ]
+        },
+        {
+            "tag": "mechanical_engineering_technician_design_fast_track_courses",
+            "patterns": [
+                "Mechanical Engineering Technician – Design (Fast-Track) courses",
+                "List courses for Mechanical Engineering Technician – Design (Fast-Track)",
+                "What courses are available for Mechanical Engineering Technician – Design (Fast-Track)?",
+                "Mechanical Engineering Technician – Design (Fast-Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Mechanical Engineering Technician – Design (Fast-Track) program:\n- MECHANICAL ENGINEERING TECHNICIAN – DESIGN (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "medical_laboratory_technician_courses",
+            "patterns": [
+                "Medical Laboratory Technician courses",
+                "List courses for Medical Laboratory Technician",
+                "What courses are available for Medical Laboratory Technician?",
+                "Medical Laboratory Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Medical Laboratory Technician program:\n- MEDICAL LABORATORY TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "mobile_applications_development_courses",
+            "patterns": [
+                "Mobile Applications Development courses",
+                "List courses for Mobile Applications Development",
+                "What courses are available for Mobile Applications Development?",
+                "Mobile Applications Development program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Mobile Applications Development program:\n- MOBILE APPLICATIONS DEVELOPMENT"
+            ]
+        },
+        {
+            "tag": "mobile_applications_development_online_courses",
+            "patterns": [
+                "Mobile Applications Development (Online) courses",
+                "List courses for Mobile Applications Development (Online)",
+                "What courses are available for Mobile Applications Development (Online)?",
+                "Mobile Applications Development (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Mobile Applications Development (Online) program:\n- MOBILE APPLICATIONS DEVELOPMENT (ONLINE)"
+            ]
+        },
+        {
+            "tag": "software_engineering_technician_courses",
+            "patterns": [
+                "Software Engineering Technician courses",
+                "List courses for Software Engineering Technician",
+                "What courses are available for Software Engineering Technician?",
+                "Software Engineering Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technician program:\n- SOFTWARE ENGINEERING TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "software_engineering_technician_fast_track_courses",
+            "patterns": [
+                "Software Engineering Technician (Fast-Track) courses",
+                "List courses for Software Engineering Technician (Fast-Track)",
+                "What courses are available for Software Engineering Technician (Fast-Track)?",
+                "Software Engineering Technician (Fast-Track) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technician (Fast-Track) program:\n- SOFTWARE ENGINEERING TECHNICIAN (FAST-TRACK)"
+            ]
+        },
+        {
+            "tag": "software_engineering_technician_fast_track_online_courses",
+            "patterns": [
+                "Software Engineering Technician (Fast-Track) (Online) courses",
+                "List courses for Software Engineering Technician (Fast-Track) (Online)",
+                "What courses are available for Software Engineering Technician (Fast-Track) (Online)?",
+                "Software Engineering Technician (Fast-Track) (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technician (Fast-Track) (Online) program:\n- SOFTWARE ENGINEERING TECHNICIAN (FAST-TRACK) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "software_engineering_technician_online_courses",
+            "patterns": [
+                "Software Engineering Technician (Online) courses",
+                "List courses for Software Engineering Technician (Online)",
+                "What courses are available for Software Engineering Technician (Online)?",
+                "Software Engineering Technician (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technician (Online) program:\n- SOFTWARE ENGINEERING TECHNICIAN (ONLINE)"
+            ]
+        },
+        {
+            "tag": "software_engineering_technology_fast_track_optional_coop_courses",
+            "patterns": [
+                "Software Engineering Technology (Fast-Track) (Optional Co-op) courses",
+                "List courses for Software Engineering Technology (Fast-Track) (Optional Co-op)",
+                "What courses are available for Software Engineering Technology (Fast-Track) (Optional Co-op)?",
+                "Software Engineering Technology (Fast-Track) (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technology (Fast-Track) (Optional Co-op) program:\n- SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "software_engineering_technology_fast_track_optional_coop_online_courses",
+            "patterns": [
+                "Software Engineering Technology (Fast-Track) (Optional Co-op) (Online) courses",
+                "List courses for Software Engineering Technology (Fast-Track) (Optional Co-op) (Online)",
+                "What courses are available for Software Engineering Technology (Fast-Track) (Optional Co-op) (Online)?",
+                "Software Engineering Technology (Fast-Track) (Optional Co-op) (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technology (Fast-Track) (Optional Co-op) (Online) program:\n- SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "software_engineering_technology_optional_coop_courses",
+            "patterns": [
+                "Software Engineering Technology (Optional Co-op) courses",
+                "List courses for Software Engineering Technology (Optional Co-op)",
+                "What courses are available for Software Engineering Technology (Optional Co-op)?",
+                "Software Engineering Technology (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technology (Optional Co-op) program:\n- SOFTWARE ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "software_engineering_technology_optional_coop_online_courses",
+            "patterns": [
+                "Software Engineering Technology (Optional Co-op) (Online) courses",
+                "List courses for Software Engineering Technology (Optional Co-op) (Online)",
+                "What courses are available for Software Engineering Technology (Optional Co-op) (Online)?",
+                "Software Engineering Technology (Optional Co-op) (Online) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technology (Optional Co-op) (Online) program:\n- SOFTWARE ENGINEERING TECHNOLOGY (OPTIONAL CO-OP) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "technology_foundations_icet_courses",
+            "patterns": [
+                "Technology Foundations (ICET) courses",
+                "List courses for Technology Foundations (ICET)",
+                "What courses are available for Technology Foundations (ICET)?",
+                "Technology Foundations (ICET) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Technology Foundations (ICET) program:\n- TECHNOLOGY FOUNDATIONS (ICET)"
+            ]
+        },
+        {
+            "tag": "academic_and_career_entrance_ace_certificate_courses",
+            "patterns": [
+                "Academic and Career Entrance (ACE) – Certificate courses",
+                "List courses for Academic and Career Entrance (ACE) – Certificate",
+                "What courses are available for Academic and Career Entrance (ACE) – Certificate?",
+                "Academic and Career Entrance (ACE) – Certificate program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Academic and Career Entrance (ACE) – Certificate program:\n- ACADEMIC AND CAREER ENTRANCE (ACE) – CERTIFICATE"
+            ]
+        },
+        {
+            "tag": "career_and_college_transition_courses",
+            "patterns": [
+                "Career and College Transition courses",
+                "List courses for Career and College Transition",
+                "What courses are available for Career and College Transition?",
+                "Career and College Transition program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Career and College Transition program:\n- CAREER AND COLLEGE TRANSITION"
+            ]
+        },
+        {
+            "tag": "english_language_learning_ell_courses",
+            "patterns": [
+                "English Language Learning (ELL) courses",
+                "List courses for English Language Learning (ELL)",
+                "What courses are available for English Language Learning (ELL)?",
+                "English Language Learning (ELL) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the English Language Learning (ELL) program:\n- ENGLISH LANGUAGE LEARNING (ELL)"
+            ]
+        },
+        {
+            "tag": "general_arts_courses",
+            "patterns": [
+                "General Arts courses",
+                "List courses for General Arts",
+                "What courses are available for General Arts?",
+                "General Arts program details"
+            ],
+            "responses": [
+                "Here are the courses available for the General Arts program:\n- GENERAL ARTS"
+            ]
+        },
+        {
+            "tag": "liberal_arts_courses",
+            "patterns": [
+                "Liberal Arts courses",
+                "List courses for Liberal Arts",
+                "What courses are available for Liberal Arts?",
+                "Liberal Arts program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Liberal Arts program:\n- LIBERAL ARTS"
+            ]
+        },
+        {
+            "tag": "pre_health_sciences_pathway_to_certificates_and_diplomas_courses",
+            "patterns": [
+                "Pre-Health Sciences Pathway to Certificates and Diplomas courses",
+                "List courses for Pre-Health Sciences Pathway to Certificates and Diplomas",
+                "What courses are available for Pre-Health Sciences Pathway to Certificates and Diplomas?",
+                "Pre-Health Sciences Pathway to Certificates and Diplomas program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Pre-Health Sciences Pathway to Certificates and Diplomas program:\n- PRE-HEALTH SCIENCES PATHWAY TO CERTIFICATES AND DIPLOMAS"
+            ]
+        },
+        {
+            "tag": "baking_and_pastry_arts_management_courses",
+            "patterns": [
+                "Baking and Pastry Arts Management courses",
+                "List courses for Baking and Pastry Arts Management",
+                "What courses are available for Baking and Pastry Arts Management?",
+                "Baking and Pastry Arts Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Baking and Pastry Arts Management program:\n- BAKING AND PASTRY ARTS MANAGEMENT\n- BAKING AND PASTRY ARTS MANAGEMENT - COMPRESSED\n- BAKING AND PASTRY ARTS MANAGEMENT (ONLINE)"
+            ]
+        },
+        {
+            "tag": "baking_skills_courses",
+            "patterns": [
+                "Baking Skills courses",
+                "List courses for Baking Skills",
+                "What courses are available for Baking Skills?",
+                "Baking Skills program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Baking Skills program:\n- BAKING SKILLS\n- BAKING SKILLS (ONLINE)"
+            ]
+        },
+        {
+            "tag": "culinary_management_courses",
+            "patterns": [
+                "Culinary Management courses",
+                "List courses for Culinary Management",
+                "What courses are available for Culinary Management?",
+                "Culinary Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Culinary Management program:\n- CULINARY MANAGEMENT\n- CULINARY MANAGEMENT - COMPRESSED\n- CULINARY MANAGEMENT (ONLINE)"
+            ]
+        },
+        {
+            "tag": "culinary_skills_courses",
+            "patterns": [
+                "Culinary Skills courses",
+                "List courses for Culinary Skills",
+                "What courses are available for Culinary Skills?",
+                "Culinary Skills program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Culinary Skills program:\n- CULINARY SKILLS\n- CULINARY SKILLS (ONLINE)"
+            ]
+        },
+        {
+            "tag": "event_management_courses",
+            "patterns": [
+                "Event Management courses",
+                "List courses for Event Management",
+                "What courses are available for Event Management?",
+                "Event Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Event Management program:\n- EVENT MANAGEMENT\n- EVENT MANAGEMENT (ONLINE)"
+            ]
+        },
+        {
+            "tag": "event_planning_courses",
+            "patterns": [
+                "Event Planning courses",
+                "List courses for Event Planning",
+                "What courses are available for Event Planning?",
+                "Event Planning program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Event Planning program:\n- EVENT PLANNING\n- EVENT PLANNING (ONLINE)"
+            ]
+        },
+        {
+            "tag": "food_and_beverage_management_restaurant_operations_courses",
+            "patterns": [
+                "Food and Beverage Management - Restaurant Operations courses",
+                "List courses for Food and Beverage Management - Restaurant Operations",
+                "What courses are available for Food and Beverage Management - Restaurant Operations?",
+                "Food and Beverage Management - Restaurant Operations program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Food and Beverage Management - Restaurant Operations program:\n- FOOD AND BEVERAGE MANAGEMENT - RESTAURANT OPERATIONS"
+            ]
+        },
+        {
+            "tag": "food_media_courses",
+            "patterns": [
+                "Food Media courses",
+                "List courses for Food Media",
+                "What courses are available for Food Media?",
+                "Food Media program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Food Media program:\n- FOOD MEDIA"
+            ]
+        },
+        {
+            "tag": "food_tourism_courses",
+            "patterns": [
+                "Food Tourism courses",
+                "List courses for Food Tourism",
+                "What courses are available for Food Tourism?",
+                "Food Tourism program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Food Tourism program:\n- FOOD TOURISM"
+            ]
+        },
+        {
+            "tag": "hospitality_foundations_courses",
+            "patterns": [
+                "Hospitality Foundations courses",
+                "List courses for Hospitality Foundations",
+                "What courses are available for Hospitality Foundations?",
+                "Hospitality Foundations program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Hospitality Foundations program:\n- HOSPITALITY FOUNDATIONS"
+            ]
+        },
+        {
+            "tag": "hospitality_skills_courses",
+            "patterns": [
+                "Hospitality Skills courses",
+                "List courses for Hospitality Skills",
+                "What courses are available for Hospitality Skills?",
+                "Hospitality Skills program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Hospitality Skills program:\n- HOSPITALITY SKILLS"
+            ]
+        },
+        {
+            "tag": "hotel_resort_and_restaurant_management_courses",
+            "patterns": [
+                "Hotel, Resort and Restaurant Management courses",
+                "List courses for Hotel, Resort and Restaurant Management",
+                "What courses are available for Hotel, Resort and Restaurant Management?",
+                "Hotel, Resort and Restaurant Management program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Hotel, Resort and Restaurant Management program:\n- HOTEL, RESORT AND RESTAURANT MANAGEMENT"
+            ]
+        },
+        {
+            "tag": "tourism_courses",
+            "patterns": [
+                "Tourism courses",
+                "List courses for Tourism",
+                "What courses are available for Tourism?",
+                "Tourism program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Tourism program:\n- TOURISM"
+            ]
+        },
+        {
+            "tag": "aircraft_maintenance_and_management_aviation_technology_courses",
+            "patterns": [
+                "Aircraft Maintenance and Management - Aviation Technology courses",
+                "List courses for Aircraft Maintenance and Management - Aviation Technology",
+                "What courses are available for Aircraft Maintenance and Management - Aviation Technology?",
+                "Aircraft Maintenance and Management - Aviation Technology program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Aircraft Maintenance and Management - Aviation Technology program:\n- AIRCRAFT MAINTENANCE AND MANAGEMENT - AVIATION TECHNOLOGY"
+            ]
+        },
+        {
+            "tag": "airframe_assembly_courses",
+            "patterns": [
+                "Airframe Assembly courses",
+                "List courses for Airframe Assembly",
+                "What courses are available for Airframe Assembly?",
+                "Airframe Assembly program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Airframe Assembly program:\n- AIRFRAME ASSEMBLY"
+            ]
+        },
+        {
+            "tag": "auto_body_and_collision_damage_repairer_apprenticeship_training_courses",
+            "patterns": [
+                "Auto Body and Collision Damage Repairer - Apprenticeship Training courses",
+                "List courses for Auto Body and Collision Damage Repairer - Apprenticeship Training",
+                "What courses are available for Auto Body and Collision Damage Repairer - Apprenticeship Training?",
+                "Auto Body and Collision Damage Repairer - Apprenticeship Training program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Auto Body and Collision Damage Repairer - Apprenticeship Training program:\n- AUTO BODY AND COLLISION DAMAGE REPAIRER - APPRENTICESHIP TRAINING"
+            ]
+        },
+        {
+            "tag": "auto_body_repair_technician_courses",
+            "patterns": [
+                "Auto Body Repair Technician courses",
+                "List courses for Auto Body Repair Technician",
+                "What courses are available for Auto Body Repair Technician?",
+                "Auto Body Repair Technician program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Auto Body Repair Technician program:\n- AUTO BODY REPAIR TECHNICIAN"
+            ]
+        },
+        {
+            "tag": "auto_body_repair_techniques_courses",
+            "patterns": [
+                "Auto Body Repair Techniques courses",
+                "List courses for Auto Body Repair Techniques",
+                "What courses are available for Auto Body Repair Techniques?",
+                "Auto Body Repair Techniques program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Auto Body Repair Techniques program:\n- AUTO BODY REPAIR TECHNIQUES"
+            ]
+        },
+        {
+            "tag": "automotive_parts_and_service_operations_optional_coop_courses",
+            "patterns": [
+                "Automotive Parts and Service Operations (Optional Co-op) courses",
+                "List courses for Automotive Parts and Service Operations (Optional Co-op)",
+                "What courses are available for Automotive Parts and Service Operations (Optional Co-op)?",
+                "Automotive Parts and Service Operations (Optional Co-op) program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Automotive Parts and Service Operations (Optional Co-op) program:\n- AUTOMOTIVE PARTS AND SERVICE OPERATIONS (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "automotive_service_technician_apprenticeship_training_courses",
+            "patterns": [
+                "Automotive Service Technician - Apprenticeship Training courses",
+                "List courses for Automotive Service Technician - Apprenticeship Training",
+                "What courses are available for Automotive Service Technician - Apprenticeship Training?",
+                "Automotive Service Technician - Apprenticeship Training program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Automotive Service Technician - Apprenticeship Training program:\n- AUTOMOTIVE SERVICE TECHNICIAN - APPRENTICESHIP TRAINING"
+            ]
+        },
+        {
+            "tag": "automotive_service_technician_pre_apprenticeship_courses",
+            "patterns": [
+                "Automotive Service Technician Pre-Apprenticeship courses",
+                "List courses for Automotive Service Technician Pre-Apprenticeship",
+                "What courses are available for Automotive Service Technician Pre-Apprenticeship?",
+                "Automotive Service Technician Pre-Apprenticeship program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Automotive Service Technician Pre-Apprenticeship program:\n- AUTOMOTIVE SERVICE TECHNICIAN PRE-APPRENTICESHIP"
+            ]
+        },
+        {
+            "tag": "motorcycle_technician_apprenticeship_training_courses",
+            "patterns": [
+                "Motorcycle Technician - Apprenticeship Training courses",
+                "List courses for Motorcycle Technician - Apprenticeship Training",
+                "What courses are available for Motorcycle Technician - Apprenticeship Training?",
+                "Motorcycle Technician - Apprenticeship Training program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Motorcycle Technician - Apprenticeship Training program:\n- MOTORCYCLE TECHNICIAN - APPRENTICESHIP TRAINING"
+            ]
+        },
+        {
+            "tag": "truck_and_coach_pre_apprenticeship_courses",
+            "patterns": [
+                "Truck and Coach Pre-Apprenticeship courses",
+                "List courses for Truck and Coach Pre-Apprenticeship",
+                "What courses are available for Truck and Coach Pre-Apprenticeship?",
+                "Truck and Coach Pre-Apprenticeship program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Truck and Coach Pre-Apprenticeship program:\n- TRUCK AND COACH PRE-APPRENTICESHIP"
+            ]
+        },
+        {
+            "tag": "script_to_screen_advanced_television_and_film_courses",
+            "patterns": [
+                "Script to Screen - Advanced Television and Film courses",
+                "List courses for Script to Screen - Advanced Television and Film",
+                "What courses are available for Script to Screen - Advanced Television and Film?",
+                "Script to Screen - Advanced Television and Film program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Script to Screen - Advanced Television and Film program:\n- SCRIPT TO SCREEN - ADVANCED TELEVISION AND FILM"
+            ]
+        },
+        {
+            "tag": "software_engineering_technology_ai_courses",
+            "patterns": [
+                "Software Engineering Technology - Artificial Intelligence courses",
+                "List courses for Software Engineering Technology - Artificial Intelligence",
+                "What courses are available for Software Engineering Technology - Artificial Intelligence?",
+                "Software Engineering Technology - Artificial Intelligence program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Software Engineering Technology - Artificial Intelligence program:\n- ARTIFICIAL INTELLIGENCE - SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)\n- ARTIFICIAL INTELLIGENCE - SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP) (ONLINE)\n- ARTIFICIAL INTELLIGENCE - SOFTWARE ENGINEERING TECHNOLOGY (OPTIONAL CO-OP)\n- ARTIFICIAL INTELLIGENCE - SOFTWARE ENGINEERING TECHNOLOGY (OPTIONAL CO-OP) (ONLINE)"
+            ]
+        },
+        {
+            "tag": "business_school_courses",
+            "patterns": [
+                "The Business School courses",
+                "List courses for The Business School",
+                "What courses are available for The Business School?",
+                "The Business School program details"
+            ],
+            "responses": [
+                "Here are the courses available for The Business School program:\n- BOOKKEEPING\n- BUSINESS\n- BUSINESS – HUMAN RESOURCES (OPTIONAL CO-OP)\n- BUSINESS - INTERNATIONAL BUSINESS\n- BUSINESS – MARKETING\n- BUSINESS – MARKETING (ONLINE)\n- BUSINESS - SUPPLY CHAIN AND OPERATIONS\n- BUSINESS (ONLINE)\n- BUSINESS ACCOUNTING\n- BUSINESS ADMINISTRATION – ACCOUNTING (FAST-TRACK)\n- BUSINESS ADMINISTRATION – ACCOUNTING (OPTIONAL CO-OP)\n- BUSINESS ADMINISTRATION – FINANCE (OPTIONAL CO-OP)\n- BUSINESS ADMINISTRATION – HUMAN RESOURCES (OPTIONAL CO-OP)\n- BUSINESS ADMINISTRATION – INTERNATIONAL BUSINESS (OPTIONAL CO-OP)\n- BUSINESS ADMINISTRATION - LEADERSHIP AND MANAGEMENT (OPTIONAL CO-OP)\n- BUSINESS ADMINISTRATION – MARKETING (OPTIONAL CO-OP)\n- BUSINESS ADMINISTRATION - SUPPLY CHAIN AND OPERATIONS MANAGEMENT (OPTIONAL CO-OP)\n- BUSINESS ANALYTICS AND INSIGHTS\n- BUSINESS FOUNDATIONS\n- CONTACT CENTRE OPERATIONS\n- COURT SUPPORT SERVICES\n- FASHION BUSINESS AND MANAGEMENT\n- FINANCIAL PLANNING\n- FINANCIAL SERVICES\n- FINANCIAL SERVICES (ONLINE)\n- GLOBAL BUSINESS MANAGEMENT\n- GLOBAL BUSINESS MANAGEMENT - FALL (ONLINE)\n- GLOBAL BUSINESS MANAGEMENT - SUMMER\n- GLOBAL BUSINESS MANAGEMENT - SUMMER (ONLINE)\n- GLOBAL BUSINESS MANAGEMENT - WINTER\n- GLOBAL BUSINESS MANAGEMENT - WINTER (ONLINE)\n- HUMAN RESOURCES MANAGEMENT (ONLINE)\n- HUMAN RESOURCES MANAGEMENT (OPTIONAL CO-OP)\n- INSURANCE MANAGEMENT\n- INTERNATIONAL BUSINESS MANAGEMENT\n- INTERNATIONAL BUSINESS MANAGEMENT (ONLINE)\n- INTERNATIONAL DEVELOPMENT (OPTIONAL CO-OP)\n- LAW CLERK\n- MARKETING - CORPORATE ACCOUNT MANAGEMENT (ONLINE)\n- MARKETING - CORPORATE ACCOUNT MANAGEMENT (OPTIONAL CO-OP)\n- MARKETING - DIGITAL ENGAGEMENT STRATEGY (OPTIONAL CO-OP)\n- MARKETING – RESEARCH AND ANALYTICS (OPTIONAL CO-OP)\n- MARKETING MANAGEMENT\n- MARKETING MANAGEMENT (ONLINE)\n- OCCUPATIONAL HEALTH AND SAFETY MANAGEMENT\n- OFFICE ADMINISTRATION – EXECUTIVE\n- OFFICE ADMINISTRATION – EXECUTIVE (ONLINE)\n- OFFICE ADMINISTRATION – GENERAL\n- OFFICE ADMINISTRATION – GENERAL (ONLINE)\n- OFFICE ADMINISTRATION – HEALTH SERVICES\n- OFFICE ADMINISTRATION – HEALTH SERVICES (ONLINE)\n- OFFICE ADMINISTRATION – LEGAL\n- OFFICE ADMINISTRATION – LEGAL (ONLINE)\n- PARALEGAL\n- PARALEGAL - COURT AND TRIBUNAL AGENT\n- PROJECT MANAGEMENT – ORGANIZATIONAL STRATEGY\n- PROJECT MANAGEMENT (ONLINE)\n- STRATEGIC MANAGEMENT\n- STRATEGIC MANAGEMENT – ACCOUNTING SPECIALIZATION\n- STRATEGIC MANAGEMENT – ACCOUNTING SPECIALIZATION (ONLINE)\n- SUPPLY CHAIN MANAGEMENT - LOGISTICS (OPTIONAL CO-OP)"
+            ]
+        },
+        {
+            "tag": "trades_foundations_motive_power_courses",
+            "patterns": [
+                "Trades Foundations - Motive Power courses",
+                "List courses for Trades Foundations - Motive Power",
+                "What courses are available for Trades Foundations - Motive Power?",
+                "Trades Foundations - Motive Power program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Trades Foundations - Motive Power program:\n- AUTOMOTIVE FOUNDATIONS"
+            ]
+        },
+        {
+            "tag": "workplace_wellness_health_promotion_courses",
+            "patterns": [
+                "Workplace Wellness and Health Promotion courses",
+                "List courses for Workplace Wellness and Health Promotion",
+                "What courses are available for Workplace Wellness and Health Promotion?",
+                "Workplace Wellness and Health Promotion program details"
+            ],
+            "responses": [
+                "Here are the courses available for the Workplace Wellness and Health Promotion program:\n- WORKPLACE WELLNESS AND HEALTH PROMOTION (MORNINGSIDE CAMPUS)"
+            ]
         }
     ]
-  }
-  
+}
