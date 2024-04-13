@@ -25,6 +25,28 @@
       overflow: hidden;
       transition: all 0.5s ease;
     }
+    ::-webkit-scrollbar {
+      width: 5px; /* Width of the scrollbar */
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; /* Background color of the track */
+      border-radius: 10px;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; /* Background color of the handle */
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; /* Hover color handle */
+      border-radius: 10px;
+    }
+
     #logo {
       display: none;
       position: absolute;
@@ -43,14 +65,14 @@
       padding: 15px;
       width: 250px;
       overflow: auto;
-      min-height: 20vh;
+      min-height: 50vh;
       border-radius: 20px; //before 10
     }
     #chatbot-container:not(.expanded) #logo {
       display: block;
    }
     #response {
-      height: 100px;
+      height: 70vh;
       overflow-y: auto;
       margin: 12px; 
     }
@@ -108,11 +130,12 @@
         
     .input-row .form-control {
       flex-grow: 1; /* Input field takes up the maximum width */
-      border-radius: 15px; /* Rounded corners */
+      border-radius: 5px; /* Rounded corners */
       padding: 6px 18px; /* Padding inside the input field */
       margin-right: 10px; /* Space between input field and button */
       border: 1px solid #ced4da; /* Similar to Bootstrap's default border color */
       border: none;
+      height: 100%;
       font-size: 9px;
       box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     }
@@ -131,8 +154,8 @@
       font-size: 9px;
     }
     .chat-bubble {
-      padding: 5px 20px 5px;
-      border-radius: 25px;
+      padding: 5px 10px 5px;
+      border-radius: 10px;
       max-width: calc(100% - 40px);
       word-wrap: break-word;
       margin-bottom: 10px;
@@ -170,19 +193,34 @@
  <!-- <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@3.0.0/marked.min.js"></script>
 
 <script>
   jQuery(document).ready(function() {
     // Define a function to update the chat with a new message and auto-scroll
     function updateChat(question, response) {
+      // Create a new instance of the marked renderer
+      var renderer = new marked.Renderer();
+        
+      // Customize how links are rendered
+      renderer.link = function(href, title, text) {
+      return `<a target="_blank" href="${href}" title="${title}">${text}</a>`;
+      };
+        
+      // Set marked to use your custom renderer
+      marked.setOptions({ renderer: renderer });
+
+      // Convert the response from Markdown to HTML
+      var htmlResponse = marked(response);
+      
       // Initialize an empty string to build the HTML
       var chatHtml = "";
       // Check if the question is not empty, append the user's question
       if(question !== "") {
-        chatHtml += "<div class='user-question chat-bubble'><span>Me:</span> " + question + "</div>";
+        chatHtml += "<div class='user-question chat-bubble'><span>Me:</span> " + question + "</div><br>";
       }
       // Append the bot's response
-      chatHtml += "<div class='bot-response chat-bubble'><span>CentBot: </span>" + response + "</div>";
+      chatHtml += "<div class='bot-response chat-bubble'><span>CentBot: </span>" + htmlResponse + "</div><br>";
       
       $("#response").append(chatHtml);
       // Auto-scroll to the bottom of the chat to show the latest message

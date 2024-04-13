@@ -169,6 +169,18 @@ Contributions are welcome! Here's how you can contribute:
 
 3. Create a pull request against the main branch.
 
+```bash
+git reset --hard // if there are changes and move to master
+git pull // from master to current the code
+```
+
+4. Got to your branch to keep working there and so on (git status/ git add . / git commit -m "..."/ git push origin your-branch-name) sames as point 2.
+
+```bash
+git checkout your-branch-name
+
+```
+
 ### Deleting a Local Branch
 
 To delete the local branch:
@@ -176,10 +188,10 @@ To delete the local branch:
 1. First, switch to a different branch (e.g., `main` or `master`). You cannot delete the branch you are currently on.
 
 ```bash
-git checkout main # or, if your main branch is called master: git checkout master
+git checkout master 
 ```
 
-2. Then, delete the local branch by using:
+2. Then, delete the local branch by using (if you wont be working ):
 
 ```bash
 git branch -d your-branch-name
