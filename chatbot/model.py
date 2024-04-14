@@ -1,15 +1,21 @@
+
 import nltk
 from nltk.stem import WordNetLemmatizer
 import numpy as np
 import json
 import pickle
-import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 from keras.optimizers.schedules import ExponentialDecay
+import matplotlib.pyplot as plt
 import random
 import os
+from scipy.stats import sem, t
+from numpy import mean
+from keras.models import load_model
 
 print("Current Working Directory:", os.getcwd())
 
@@ -72,11 +78,11 @@ class ChatbotModel:
         sgd = SGD(learning_rate=lr_schedule, momentum=0.9, nesterov=True)
         self.model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
-    def train(self, train_x, train_y, epochs=200, batch_size=5):
-        history = self.model.fit(np.array(train_x), np.array(train_y), epochs=epochs, batch_size=batch_size, verbose=1, validation_split=0.2)
+    def train(self, train_x, train_y, test_x, test_y, epochs=200, batch_size=5):
+        history = self.model.fit(np.array(train_x), np.array(train_y), epochs=epochs, batch_size=batch_size, verbose=1, validation_data=(np.array(test_x), np.array(test_y)))
         
         # Save model
-        self.model.save('chatbot_model.h5')
+        self.model.save('chatbot_model.h5', save_format='h5')
 
         # Plotting training history
         plt.plot(history.history['accuracy'])
@@ -84,7 +90,7 @@ class ChatbotModel:
         plt.title('Model Accuracy')
         plt.ylabel('Accuracy')
         plt.xlabel('Epoch')
-        plt.legend(['Train', 'Validation'], loc='upper left')
+        plt.legend(['Train', 'Test'], loc='upper left')
         plt.show()
 
         plt.plot(history.history['loss'])
@@ -92,14 +98,43 @@ class ChatbotModel:
         plt.title('Model Loss')
         plt.ylabel('Loss')
         plt.xlabel('Epoch')
-        plt.legend(['Train', 'Validation'], loc='upper left')
+        plt.legend(['Train', 'Test'], loc='upper left')
         plt.show()
+
+        # Evaluate the model on the test set
+        test_loss, test_accuracy = self.model.evaluate(np.array(test_x), np.array(test_y), verbose=0)
+        print(f'Test set accuracy: {test_accuracy}')
+
+        # Make predictions on the test set
+        y_pred = self.model.predict(np.array(test_x))
+        y_pred_classes = np.argmax(y_pred, axis=1)
+        y_true_classes = np.argmax(np.array(test_y), axis=1)
+        
+        # Get the list of labels present in the test set
+        test_labels = np.unique(y_true_classes)
+
+        # Generate classification report only for labels that are in test set
+        print(classification_report(y_true_classes, y_pred_classes, target_names=[self.classes[i] for i in test_labels], labels=test_labels))
+
+        # Calculate confidence intervals
+        accuracy = accuracy_score(y_true_classes, y_pred_classes)
+        accuracies = [accuracy_score(np.random.choice(y_true_classes, len(y_true_classes), replace=True), 
+                                     np.random.choice(y_pred_classes, len(y_pred_classes), replace=True)) for _ in range(1000)]
+        confidence = 0.95
+        # Replace st.t.interval with the correct import of t from scipy.stats
+
+        confidence_interval = t.interval(confidence, len(accuracies)-1, loc=mean(accuracies), scale=sem(accuracies))
+        print(f'95% confidence interval for the accuracy: {confidence_interval}')
 
     def run(self):
         self.load_data()
         train_x, train_y = self.prepare_training_data()
-        self.build_model(train_x, train_y)
-        self.train(train_x, train_y)
+
+        # Split data into training, validation, and test sets
+        X_train, X_test, Y_train, Y_test = train_test_split(train_x, train_y, test_size=0.1, random_state=42)
+        
+        self.build_model(X_train, Y_train)
+        self.train(X_train, Y_train, X_test, Y_test)
 
 if __name__ == "__main__":
     chatbot_model = ChatbotModel(intents_path='intents.json')
