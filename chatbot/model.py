@@ -1,4 +1,14 @@
 
+
+# model.py
+# -----------------------------------------------------------------------------------
+# Original Author: Juan, Mariela, Samantha, Shu Jin, Abhinav, Rem, Kuga, Pravalika
+# Purpose: This module defines the neural network architecture and training procedures for a chatbot system.
+# Last Modified Date:  13/04/2024
+# -----------------------------------------------------------------------------------
+
+
+
 import nltk
 from nltk.stem import WordNetLemmatizer
 import numpy as np
