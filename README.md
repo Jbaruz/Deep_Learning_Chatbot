@@ -1,6 +1,16 @@
 # Chatbot Project - Installation and Contribution Guide
 Welcome to the Chatbot Project! This guide covers everything you need to know about setting up the project on your machine, contributing to the codebase, and using pipenv for dependency management.
 
+## Developers Members / github
+- **Kuga** / Kuga-yoha
+- **Samantha Ortiz de Foronda** /SamanthaPam
+- **Pravalika Reddy** /Pravalikareddy.chada@gmail.com
+- **Mariela Ramos** / Maricrv
+- **Abhinav Vinod Nair** / abhinavvinod11@gmail.com
+- **Indrajith** / indrajithcool@yahoo.com
+- **Shu jin** / sjin32@my.centennialcollege.ca
+- **Juan Arevalo**/ Jbaruz
+
 ## Project Structure Overview
 The project is structured as follows:
 
